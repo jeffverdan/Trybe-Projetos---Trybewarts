@@ -39,3 +39,8 @@ main {
 #input-lastname {
   width: 50%;
 }
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
