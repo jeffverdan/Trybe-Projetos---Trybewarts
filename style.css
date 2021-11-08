@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+main {
+  display: flex;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -16,4 +20,9 @@
 .trybewarts-login {
   display: flex;
   order: 2;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
