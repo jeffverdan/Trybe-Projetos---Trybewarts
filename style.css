@@ -43,3 +43,7 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#div {
+    flex-direction: row;
+}
