@@ -121,9 +121,7 @@ body {
 }
 
 .container-textarea {
-  position: absolute;
   margin-top: 120px;
-  left: 7%;
   width: 100%;
 }
 

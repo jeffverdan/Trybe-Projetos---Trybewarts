@@ -20,7 +20,7 @@ check.addEventListener('click', () => {
     document.getElementById('submit-btn').disabled = true;
   }
 });
-const maxText = document.getElementById('text-area');
+const maxText = document.getElementById('textarea');
 const par = document.getElementById('counter');
 const count = 500;
 maxText.addEventListener('input', () => {
