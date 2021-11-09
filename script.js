@@ -1,11 +1,13 @@
-document.getElementById("submit-btn").disabled = true;
+const submitBtn = document.getElementById('submit-btn');
 
-var checkbox = document.getElementById("agreement");
+submitBtn.disabled = true;
 
-checkbox.addEventListener("change", function () {
+const checkbox = document.getElementById('agreement');
+
+checkbox.addEventListener('change', function checked() {
   if (this.checked) {
-    document.getElementById("submit-btn").disabled = false;
+    submitBtn.disabled = false;
   } else {
-    document.getElementById("submit-btn").disabled = true;
+    submitBtn.disabled = true;
   }
 });
