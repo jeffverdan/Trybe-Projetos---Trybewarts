@@ -6,6 +6,9 @@
 
 main {
   display: flex;
+  justify-content: space-around;
+  height: 766px;
+  background: rgb(241, 239, 239);
 }
 
 .header {
@@ -42,18 +45,11 @@ main {
   justify-content: right;
 }
 
-.form-nome input, .form-email input {
-  border:none;
+.form-nome input , .form-email input {
+  border: none;
   height: 45px;
   border-radius: 9px;
   margin-right: 5px;
   margin-bottom: 12px;
   width: 316px;
-}
-
-main {
-  display: flex;
-  justify-content: space-around;
-  height: 766px;
-  background: rgb(241, 239, 239);
 }
