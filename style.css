@@ -43,3 +43,8 @@ main {
 #input-name, #input-lastname, #input-email, #house {
   width: 50%;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
