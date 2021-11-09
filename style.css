@@ -1,20 +1,92 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(219, 219, 219);
+}
+
+main {
+  padding: 0 30px;
+  display: flex;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  height: 100px;
+}
+
+.trybewarts-header-logo {
+  margin: 10px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.trybewarts-login input {
+  height: 30px;
+  width: 30%;
+  align-self: center;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.trybewarts-login button {
+  height: 40px;
+  width: 20%;
+  align-self: center;
+  margin: 10px 25px 10px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(73, 48, 130);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .trybewarts-login {
   display: flex;
 }
 
-#trybewarts-header-title {
-  display: flex;
-  align-items: center;
+#input-name {
+  border: none;
+  padding: 10px;
+  margin: 10px 1px;
+  border-radius: 5px;
+  width: 40%;
 }
 
-main {
-  display: flex;
+#input-lastname {
+  border: none;
+  padding: 10px;
+  margin: 10px 1px;
+  border-radius: 5px;
+  width: 40%;
+}
+
+#input-email {
+  border: none;
+  padding: 10px;
+  margin: 10px 1px;
+  border-radius: 5px;
+  width: 40%;
+}
+
+#house {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 1px;
+  border-radius: 5px;
+  width: 37%;
 }
 
 #evaluation-form {
@@ -23,6 +95,39 @@ main {
   flex-direction: column;
 }
 
+#evaluation-form h1 {
+  align-self: center;
+  padding: 10px;
+  align-items: center;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
+  align-self: center;
+  margin-left: 100px;
 }
+
+#submit-btn {
+  background-color: rgb(73, 48, 130);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(60, 64, 74);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 650;
+}
+
+hr {
+  width: 100%;
+}
+
