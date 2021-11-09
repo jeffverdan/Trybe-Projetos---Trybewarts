@@ -5,7 +5,7 @@ const emailTryber = 'tryber@teste.com';
 const passwordTryber = '123456';
 
 function loginAlert() {
-  if(emailLogin.value === emailTryber && passwordLogin.value === passwordTryber) {
+  if (emailLogin.value === emailTryber && passwordLogin.value === passwordTryber) {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
@@ -14,4 +14,4 @@ function loginAlert() {
 
 loginBtn.addEventListener('click', () => {
   loginAlert();
-})
+});
