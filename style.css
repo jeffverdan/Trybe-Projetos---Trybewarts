@@ -1,10 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+
+body {
+	background-color: #EFEFEF;
+}
+
 main {
 	display: flex;
+	width: 90%;
+	margin: 40px auto 0 auto;
+	font-weight: 600;
 }
 
 form {
 	display: flex;
   width: 675px;
+}
+
+hr {
+	margin: 20px 0;
 }
 
 #evaluation-form {
@@ -29,7 +46,98 @@ form {
 	flex-direction: column;
 }
 
+#input-family label {
+	padding: 5px;
+}
+
 #input-checkbox-content {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+#title-form {
+	text-align: center;
+}
+
+.input-container input{
+	width: 40%;
+	height: 30px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.input-container  select{
+	width: 38%;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#input-family-content {
+	display: flex;
+}
+
+#input-content {
+	width: 60%;
+	margin-left: 110px;
+}
+
+#label-content {
+	line-height: 30px;
+}
+
+#input-checkbox-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 3px;
+	height: 50%;
+}
+
+#input-checkbox-content label{
+	width: 33%;
+}
+
+#container-input-rate {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#input-rate {
+	display: flex;
+	flex-grow: 2;
+	margin-left: 5px;
+}
+
+#input-rate label {
+	flex-grow: 1;
+}
+
+#container-textarea {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+#container-textarea textarea{
+	border-radius: 5px;
+	margin: 5px 0;
+	height: 100px;
+}
+
+#container-agreement-submit {
+	margin-top: 10px;
+}
+
+#container-agreement-submit button {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #4E2C83;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	border: none;
 }
