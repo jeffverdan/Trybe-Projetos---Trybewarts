@@ -1,7 +1,8 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -20,7 +21,13 @@
 }
 main {
   display: flex;
+  margin: 5%;
 }
+
+main h1 {
+  margin-bottom: 10%;
+}
+
 #evaluation-form {
   display: flex;
   width: 675px;
@@ -29,4 +36,13 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
   justify-content: end;
+}
+
+hr {
+  margin: 2% 0;
+}
+
+#divlabel-family {
+  display: flex;
+  flex-direction: column;
 }
