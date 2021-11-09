@@ -17,7 +17,7 @@ function login() {
 }
 
 function ativaBtnEnviar() {
-  if (checkBox.checked === false) {
+  if (checkBox.disbaled === false) {
     btnEnviar.disbaled = true;
     btnEnviar.style.backgroundColor = 'grey';
   } else {
