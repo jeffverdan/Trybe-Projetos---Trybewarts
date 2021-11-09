@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #efefef;
+  background-color: gainsboro;
 }
 
 .header {
@@ -45,7 +45,7 @@ h1 {
 }
 
 .btn-login:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .flex {
