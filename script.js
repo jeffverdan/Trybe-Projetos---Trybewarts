@@ -10,3 +10,10 @@ button.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const button2 = document.getElementById('submit-btn');
+const checked = document.querySelector('#agreement');
+checked.addEventListener('click', () => {
+  button2.disabled = false; 
+})
+

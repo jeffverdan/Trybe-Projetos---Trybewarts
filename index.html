@@ -25,18 +25,20 @@
     <main>
 
       <form id="evaluation-form">
+        <label for="">
         <input type="text" id="input-name" placeholder="Nome">
         <input type="text" id="input-lastname" placeholder="Sobrenome">
+        </label>
+        <label for="">
         <input type="text" id="input-email" placeholder="Email">
-        <select name="" id="house">
-            <option>Gitnória</option>
-            <option>Reactpuff</option>
-            <option>Corvinode</option>
-            <option>Pytherina</option>
-        </select>
-        
+        <select name="houses" id="house">
+        </label>
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+        </select> 
       </form>
-
     </main>
 
 
@@ -53,7 +55,11 @@
         alt=""
         id="trybewarts-forms-logo"/>
     </label>
-
+    <label for="" id="label-infos">
+      Você concorda com o uso das informações acima?
+      <input type="checkbox" name="" id="agreement">
+    </label>
+    <button type="submit" id="submit-btn" disabled = 'true'>Enviar</button>
     <script src="script.js"></script>
   </body>
 </html>
