@@ -7,32 +7,20 @@
   align-items: center;
 }
 
-<<<<<<< HEAD
 .img-container {
-=======
-.header img {
->>>>>>> 7cd84d8ac509f3b50cf39372bd2eb77e3e9f48e3
   width: 80px;
 }
 
 .header h1 {
   color: white;
-<<<<<<< HEAD
 };
 
 .forms-container {
   display: flex;
 };
-=======
-}
->>>>>>> 7cd84d8ac509f3b50cf39372bd2eb77e3e9f48e3
 
 .trybewarts-login {
   display: flex;
-<<<<<<< HEAD
-  border: 1px solid black;
-};
-=======
 }
 
 main {
@@ -45,7 +33,6 @@ main {
   flex-direction: column;
 }
 
-/* tentativa pull */
 
 
 
@@ -54,4 +41,3 @@ main {
 
 
 
->>>>>>> 921f95541abe692517fbde462c4991cb9d151c55
