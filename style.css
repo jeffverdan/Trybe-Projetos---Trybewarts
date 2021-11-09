@@ -66,3 +66,8 @@ input {
   display: flex;
   margin: 2px;
 }
+
+.py {
+  display: flex;
+  flex-direction: row;
+}
