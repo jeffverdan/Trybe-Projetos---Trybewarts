@@ -54,7 +54,7 @@ function verificaConteudos() {
   infosDoAluno += `Matérias: ${conteudos.substr('', conteudos.length - 2)} <br>`;
   return infosDoAluno;
 }
-
+// testando erro lint
 function verificaNota() {
   for (let k = 0; k < nota.length; k += 1) {
     if (nota[k].checked) {
