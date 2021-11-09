@@ -12,3 +12,16 @@ function validar() {
   }
 }
 botao.addEventListener('click', validar);
+
+const btnSubmit = document.querySelector('#submit-btn');
+const agreementCheckbox = document.querySelector('#agreement');
+
+function enableButton() {
+  if (agreementCheckbox.checked) {
+    btnSubmit.disabled = false;
+  } else {
+    btnSubmit.disabled = true;
+  }
+}
+
+agreementCheckbox.addEventListener('click', enableButton);

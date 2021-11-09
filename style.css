@@ -57,3 +57,16 @@ main {
 #divvvv {
   display: flex;
 }
+
+footer {
+  background-color: dimgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+
+footer p {
+  color: white;
+  font-weight: 600;
+}
