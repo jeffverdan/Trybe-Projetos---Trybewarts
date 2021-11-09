@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Trybewarts</title>
 </head>
+
 <body>
+  <header class="header">
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="trybeLogo" />
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <form class="trybewarts-login" action="">
+      <input type="text" name="email" placeholder="Email" />
+      <input type="password" name="password" placeholder="Senha" />
+      <input type="submit" value="Entrar" />
+    </form>
+  </header>
+  <main class="main">
+    <form id='evaluation-form' action="">
+    <div class="name-lastname">
+    <input id="input-name" type="text" placeholder="Nome">
+    <input id="input-lastname" type="text" placeholder="Sobrenome">
+    
+    <input id="input-email" type="text" placeholder="Email">
+    <label for="Casa">Casa:</label>
+    <select name="Casa" id="house">
+      <option id='gitnoria-house' value="Gitnória">Gitnória</option>
+      <option id='reactpuff-house' value="Reactpuff">Reactpuff</option>
+      <option id='corvinode-house' value="Corvinode">Corvinode</option>
+      <option id='pytherina-house' value="Pytherina">Pytherina</option>
+    </select>
+    </div>
+    <form action="" method="get">
+      <p id="label-family">Qual sua família?</p>
+      <input type="radio" name="family" value="Frontend"/>Família Frontend
+      <input type="radio" name="family" value="Backend"/>Família Backend
+      <input type="radio" name="family" value="FullStack"/>Familia FullStack
+      </form>
+  </form>
+  <div><img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="imagem trybewarts">
+    <script src="script.js"></script></div>
+  </main>
+  
   
 </body>
+
 </html>
