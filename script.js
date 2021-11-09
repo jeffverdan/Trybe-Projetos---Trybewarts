@@ -1,4 +1,4 @@
-document.getElementById('login').addEventListener('click', function () {
+const lg = function login() {
   if (
     document.getElementById('email').value.includes('@', '.com')
     && document.getElementById('password').value.length > 4
@@ -11,4 +11,5 @@ document.getElementById('login').addEventListener('click', function () {
     document.getElementById('password').value = '';
     window.alert('Email ou senha inválidos.');
   }
-});
+};
+document.getElementById('login').addEventListener('click', lg);
