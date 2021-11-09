@@ -21,6 +21,13 @@
 
 .main-content {
   display: flex;
+  border: 1px black dotted;
+}
+
+#inputs-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 #evaluation-form {
@@ -59,4 +66,16 @@ footer {
   color: aliceblue;
   display: flex;
   justify-content: center;
+}
+
+#full-name {
+  display: flex;
+}
+
+#em-hs {
+  display: flex;
+}
+
+#imgform-container{
+  display: flex;
 }
