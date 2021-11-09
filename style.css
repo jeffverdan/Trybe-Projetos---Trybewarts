@@ -30,16 +30,16 @@ main {
   font-size: 40px;
 }
 
-.header:nth-child( 0 ) {
-  order: 1;
-}
-
 .header:nth-child( 1 ) {
-  order: 2;
+  order: 1;
 }
 
 .header:nth-child( 2 ) {
   order: 3;
+}
+
+.header:nth-child( 3 ) {
+  order: 2;
 }
 
 #evaluation-form {
