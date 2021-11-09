@@ -38,11 +38,11 @@ form {
   flex-direction: column;
 }
 
-#label-content{
+#label-content {
   display: flex;
   flex-direction: column;
 }
 
-#fam-cont{
+#fam-cont {
   display: flex;
 }
