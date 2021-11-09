@@ -11,3 +11,14 @@ headerButton.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const sendbtn = document.querySelector('#submit-btn');
+const checker = document.querySelector('#agreement');
+
+checker.onchange = () => {
+  if (this.checked) {
+    sendbtn.disabled = false;
+  } else {
+    sendbtn.disabled = true;
+  }
+};
