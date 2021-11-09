@@ -11,12 +11,16 @@
   background-color: rgb(50, 167, 145);
 }
 
+h1 {
+  color: white;
+}
+
 .flex {
   display: flex;
 }
 
 .trybewarts-header-logo {
-  width: 10vw;
+  width: 7vw;
 }
 
 .main-container {
@@ -35,4 +39,15 @@
 
 .trybewarts-forms-logo {
   height: 500px;
+}
+
+button {
+  background-color: rgb(80 62 131);
+  color: white;
+}
+
+footer {
+  justify-content: center;
+  background-color: rgb(60 64 74);
+  color: white;
 }
