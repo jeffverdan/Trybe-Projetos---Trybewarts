@@ -17,6 +17,11 @@ main {
   justify-content: space-between;
 }
 
+.header img {
+  height: 90px;
+  padding: 12px;
+}
+
 .trybewarts-header-logo {
   display: flex;
 }
