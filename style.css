@@ -8,5 +8,16 @@ body {
   justify-content: space-between;
 }
 
-.trybewarts-header-logo{
+.trybewarts-header-logo {
+  width: 70px;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-login {
+  align-items: center;
+  height: 20px;
+
 }
