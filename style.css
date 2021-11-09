@@ -69,3 +69,10 @@ main {
   display: flex;
   flex-direction: row;
 }
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
