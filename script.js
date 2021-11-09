@@ -1,8 +1,8 @@
 const submitLogin = document.querySelector('#submitLogin');
 const emailLogin = document.querySelector('#emailLogin');
 const senhaLogin = document.querySelector('#senhaLogin');
-const btnEnviar = document.querySelector('#submit-btn').disabled = true;
 const checkAgreement = document.querySelector('#agreement');
+const btnSubmit = document.querySelector('#submit-btn');
 
 function login() {
   if (
@@ -17,12 +17,14 @@ function login() {
 
 submitLogin.addEventListener('click', login);
 
+btnSubmit.disabled = true;
+
 checkAgreement.addEventListener('input', () => {
   const verifyCheck = checkAgreement.value;
 
-  if (verifyCheck != null && verifyCheck != '') {
-    document.querySelector('#submit-btn').disabled = false;
+  if (verifyCheck !== null && verifyCheck !== '') {
+    btnSubmit.disabled = false;
   } else {
-    document.querySelector('#submit-btn').disabled = true;
+    btnSubmit.disabled = true;
   }
 });
