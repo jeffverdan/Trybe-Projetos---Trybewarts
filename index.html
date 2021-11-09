@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Projeto Trybewarts</title>
-</head>
-<body>
-  <header class="header">
-    <img src="/images/trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
-    <h1 id="trybewarts-header-title">Trybewarts</h1>
-    <form action="" class="trybewarts-login">
-      <input type="email" name="email" id="inputEmail" placeholder="Email">
-      <input type="password" name="password" id="inputPassword" placeholder="Senha">
-      <button type="submit" id="loginBtn">Entrar</button>
-    </form>
-  </header>
-  <main id="main-content">
-    <form action="" id="evaluation-form">
-      <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
-      <input type="text" placeholder="Nome" id="input-name">
-      <input type="text" placeholder="Sobrenome" id="input-lastname">
-      <input type="text" placeholder="Email" id="input-email">
-    </form>
-  </main>
-  <footer>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Projeto Trybewarts</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="/images/trybewarts-header-logo.svg"
+        alt=""
+        class="trybewarts-header-logo"
+      />
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form action="" class="trybewarts-login">
+        <input type="email" name="email" id="inputEmail" placeholder="Email" />
+        <input
+          type="password"
+          name="password"
+          id="inputPassword"
+          placeholder="Senha"
+        />
+        <button type="submit" id="loginBtn">Entrar</button>
+      </form>
+    </header>
+    <main id="main-content">
+      <form action="" id="evaluation-form">
+        <img
+          src="images/trybewarts-colored.svg"
+          alt=""
+          id="trybewarts-forms-logo"
+        />
+        <input type="text" placeholder="Nome" id="input-name" />
+        <input type="text" placeholder="Sobrenome" id="input-lastname" />
+        <input type="text" placeholder="Email" id="input-email" />
 
-  </footer>
+        <label id="label-family">Qual sua família?</label>
 
-  <script src="script.js"></script>
-</body>
+        <input type="radio" name="family" id="frontend" value="Frontend" />
+        <label for="frontend">Frontend</label>
+
+        <input type="radio" name="family" id="backend" value="Backend" />
+        <label for="backend">BackBend</label>
+
+        <input type="radio" name="family" id="fullstack" value="FullStack" />
+        <label for="fullstack">FullStack</label>
+      </form>
+    </main>
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
