@@ -34,3 +34,8 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.alinhamento-evalution-form{
+  width: 100%;
+  display: flex;
+}
