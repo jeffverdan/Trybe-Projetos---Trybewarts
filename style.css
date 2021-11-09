@@ -1,43 +1,27 @@
 .header {
-  /* top: 0; */
+  top: 0;
   display: flex;
   background-color: rgb(50, 167, 145);
-  /* flex-grow: 1; */
+  flex-grow: 1;
   justify-content: space-between;
   align-items: center;
 }
-
-.img-container {
+.header img {
   width: 80px;
 }
-
 .header h1 {
   color: white;
-};
-
-.forms-container {
-  display: flex;
-};
-
+}
 .trybewarts-login {
   display: flex;
 }
-
 main {
   display: flex;
 }
-
 .evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
 }
-
-
-
-
-
-
-
-
-
+/* tentativa pull */
+/* tentativa pull 2 */
