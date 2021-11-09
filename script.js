@@ -9,3 +9,12 @@ btnEntrar.addEventListener('click', (event) => {
   }
   return alert('Email ou senha inválidos.');
 });
+const btnTextarea = document.getElementById('textarea');
+// Resposta encontrada neste site: https://pt.stackoverflow.com/questions/25753/como-fazer-um-contador-de-caracteres-de-uma-textarea
+btnTextarea.addEventListener('keyup', () => {
+  const texto = document.querySelector('#textarea').value;
+  const quant = 500;
+  const total = texto.length;
+  const resto = quant - total;
+  document.getElementById('contador').innerHTML = resto;
+});
