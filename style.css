@@ -45,7 +45,7 @@ main {
   justify-content: right;
 }
 
-.form-nome input , .form-email input {
+.form-nome input , .form-email input , .form-email select {
   border: none;
   height: 45px;
   border-radius: 9px;

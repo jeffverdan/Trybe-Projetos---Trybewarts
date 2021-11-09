@@ -31,15 +31,16 @@
       </div>
       <div class="form-email">
         <input type="email" name="input-email" id="input-email" placeholder="Email" />
+        <select id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
       </div>
-      <select id="house">
-        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-        <option value="Corvinode" id="corvinode-house">Corvinode</option>
-        <option value="Pytherina" id="pytherina-house">Pytherina</option>
-      </select>
 
-      <div class="family"><p id="label-family">Qual sua família?</p><br>
+      <div class="family">
+        <p id="label-family">Qual sua família?</p><br>
         <input type="radio" id="frontend" name="family" value="Frontend">
         <label for="frontend"> Frontend</label><br>
         <input type="radio" id="backend" name="family" value="Backend">
@@ -47,6 +48,15 @@
         <input type="radio" id="vehicle3" name="family" value="FullStack">
         <label for="fullstack"> Fullstack</label><br>
       </div>
+      <section>
+        <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
+        <input type="checkbox" value="HoFs" class="subject"><label for="HoFs">HoFs</label>
+        <input type="checkbox" value="Jest" class="subject"><label for="Jest">Jest</label>
+        <input type="checkbox" value="Promises" class="subject"><label for="Promises">Promises</label>
+        <input type="checkbox" value="React" class="subject"><label for="React">React</label>
+        <input type="checkbox" value="SQL" class="subject"><label for="SQL">SQL</label>
+        <input type="checkbox" value="Python" class="subject"><label for="Python">Python</label>
+      </section>
 
     </form>
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
