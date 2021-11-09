@@ -34,3 +34,11 @@ main , #evaluation-form {
 #input-name , #input-lastname , #input-email , #house {
   width: 50%;
 }
+
+#counter {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: -30px;
+  right: 20px;
+}

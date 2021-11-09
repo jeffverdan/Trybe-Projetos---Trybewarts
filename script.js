@@ -3,6 +3,8 @@ const senha = document.getElementById('senha');
 const btnLogin = document.getElementById('btn-login');
 const btnSubmit = document.getElementById('submit-btn');
 const checkAgreement = document.getElementById('agreement');
+const textArea = document.getElementById('textarea');
+const cont = document.getElementById('counter');
 
 btnSubmit.disabled = true;
 
@@ -21,4 +23,11 @@ checkAgreement.addEventListener('click', () => {
   } else {
     btnSubmit.disabled = true;
   }
+});
+
+cont.innerHTML = 500;
+
+textArea.addEventListener('keyup', () => {
+  cont.innerHTML = 500;
+  cont.innerHTML -= textArea.textLength;
 });
