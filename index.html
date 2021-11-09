@@ -42,15 +42,15 @@
         <label for="" id="label-family">Qual sua família?</label>
         <div>
           <input type="radio" name="family" id="frontend" value="Frontend" />
-          <label for="frontend" class="family">Frontend</label>
+          <label for="frontend">Frontend</label>
         </div>
         <div>
           <input type="radio" name="family" id="backend" value="Backend" />
-          <label for="backend" class="family">Backend</label>
+          <label for="backend">Backend</label>
         </div>
         <div>
           <input type="radio" name="family" id="fullstack" value="FullStack" />
-          <label for="fullstack" class="family">FullStack</label>
+          <label for="fullstack">FullStack</label>
         </div>
 
         <section id="contents-section">
@@ -70,7 +70,7 @@
 
           <section id="Promises">
             <input type="checkbox" value="Promises" id="Promises" />
-            <label for="Promises">Promises</label>
+            <label for="Promises"> Promises</label>
           </section>
 
           <section id="React">
@@ -111,6 +111,14 @@
           rows="10"
           maxlength="500"
         ></textarea>
+        <span id="counter">500</span>
+        <section>
+          <input type="checkbox" name="" id="agreement" />
+          <label for="agreement" id="label-infos"
+            >Você concorda com o uso das informações acima?</label
+          >
+        </section>
+        <button type="submit" id="submit-btn" disabled>Enviar</button>
       </form>
       <img
         src="images/trybewarts-colored.svg"
@@ -118,6 +126,7 @@
         id="trybewarts-forms-logo"
       />
     </main>
+    <footer>Direitos reservados à Trybewarts©</footer>
   </body>
   <script src="script.js"></script>
 </html>
