@@ -7,7 +7,7 @@ form {
   width: 675px;
 }
 
-.evaluation-form {
+#evaluation-form {
 	flex-direction: column;
 }
 
@@ -24,4 +24,7 @@ form {
 	height: 500px;
 }
 
-
+#input-family {
+	display: flex;
+	flex-direction: column;
+}
