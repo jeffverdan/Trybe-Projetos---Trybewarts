@@ -3,6 +3,12 @@
   background-color: rgb(50, 167, 145)
 }
 
+.trybewarts-header-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
 main{
   display: flex;
 }
