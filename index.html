@@ -22,7 +22,7 @@
 
         <input type="text" name="password" placeholder="Senha" />
 
-        <button type="submit">Entrar</button>
+        <button type="submit" class="btn-enter">Entrar</button>
       </form>
     </header>
 
@@ -86,7 +86,7 @@
         <label for=""> <input type="checkbox" value="React" />React </label>
         <label for=""> <input type="checkbox" value="SQL" />SQL </label>
         <label for=""> <input type="checkbox" value="Python" />Python </label>
-        <div class="radio-l">
+        <div>
           <label id="label-rate" for="">Como você avalia a Trybewarts?</label>
           <input type="radio" name="rate" value="1" />1
           <input type="radio" name="rate" value="2" />2
@@ -109,10 +109,14 @@
           maxlength="500"
         ></textarea>
 
-        
-        <label id="label-infos" for=""><input type="checkbox" id="agreement">Você concorda com o uso das informações acima?</label>
+        <label id="label-infos" for=""
+          ><input type="checkbox" id="agreement" />Você concorda com o uso das
+          informações acima?</label
+        >
 
         <button type="submit" id="submit-btn">Enviar</button>
+
+
       </form>
     </main>
     <script src="script.js"></script>
