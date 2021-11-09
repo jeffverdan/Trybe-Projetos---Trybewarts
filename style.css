@@ -31,3 +31,10 @@
   height: 500px;
 }
 
+#full-name{
+  display: flex;
+}
+
+#em-hs {
+  display: flex;
+}
