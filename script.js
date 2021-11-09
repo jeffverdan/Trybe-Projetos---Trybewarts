@@ -10,3 +10,15 @@ function btnSignUp() {
 
 const btnClick = document.getElementById('btn-login');
 btnClick.addEventListener('click', btnSignUp);
+
+function validateSubmit(event) {
+  const btnSubmit = document.getElementById('submit-btn');
+  if (event.target.checked === true) {
+    btnSubmit.removeAttribute('disabled');
+  } else {
+    btnSubmit.setAttribute('disabled', 'disabled');
+  }
+}
+
+const inputAgreement = document.getElementById('agreement');
+inputAgreement.addEventListener('click', validateSubmit);
