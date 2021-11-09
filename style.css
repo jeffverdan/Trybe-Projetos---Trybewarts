@@ -8,7 +8,7 @@
 .trybewarts-login {
   display: flex;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-left: 100px;
   width: 120%;
   max-width: 120%;
@@ -42,6 +42,7 @@ main {
 
 #div {
   flex-direction: row;
+  margin-top: 2%;
 }
 
 #divvv {
@@ -65,4 +66,14 @@ footer {
 footer p {
   color: white;
   font-weight: 600;
+}
+
+#email {
+  width: 120px;
+  border-radius: 4px;
+}
+
+#senha {
+  width: 120px;
+  border-radius: 4px;
 }

@@ -25,3 +25,13 @@ function enableButton() {
 }
 
 agreementCheckbox.addEventListener('click', enableButton);
+const counter = document.getElementById('counter');
+counter.innerHTML = 500;
+const textarea = document.getElementById('textarea');
+function contar() {
+  counter.innerHTML = 500 - textarea.value.length;
+  console.log(counter);
+  return counter;
+}
+
+textarea.addEventListener('keyup', contar);
