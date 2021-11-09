@@ -75,31 +75,30 @@ main {
 }
 
 #input-name {
-  width: 250px;
+  width: 350px;
   height: 40px;
   border-radius: 7px;
-  margin-right: 7px;
   font-size: 15px;
+  margin-right: 20px;
 }
 
 #input-lastname {
-  width: 250px;
+  width: 350px;
   height: 40px;
   border-radius: 7px;
   font-size: 15px;
 }
 
 #input-email {
-  width: 250px;
+  width: 350px;
   height: 40px;
   border-radius: 7px;
-  margin-right: 7px;
-  margin-top: 15px;
   font-size: 15px;
+  margin-right: 20px;
 }
 
 #house {
-  width: 210px;
+  width: 230px;
   height: 40px;
   border-radius: 7px;
   font-size: 15px;
@@ -116,7 +115,8 @@ footer {
 .familia {
   display: flex;
   flex-direction: column;
-  margin-right: 70px;
+  margin-right: 60px;
+  width: 250px;
 }
 
 .vontade {
@@ -124,27 +124,82 @@ footer {
   flex-direction: column;
 }
 
+.option {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.opcoes {
+  display: flex;
+  flex-flow: row wrap;
+  width: 300px;
+}
+
+#label-content , #label-family {
+  margin-bottom: 10px;
+}
+
 #second {
   display: flex;
   padding: 15px;
+  width: 675px;
+  justify-content: center;
+  margin: 5px;
 }
 
-#third div label {
-  display: block;
-  margin: 8px 0;
+.satisfaction {
+  width: 675px;
+  font-size: 19px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 15px;
+  margin-left: 10px;
 }
 
-#third div textarea {
-  width: 100%;
-  margin-bottom: 5px;
+.first {
+  width: 675px;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-content: space-around;
+}
+
+#second div {
+  padding: 5px;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+#comentario {
+  font-size: 19px;
+  margin-bottom: 10px;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+#textarea {
+  margin-top: 10px;
+  border: 1px solid purple;
+  border-radius: 10px;
+  max-width: 675px;
+  max-height: 180px;
 }
 
 #submit-btn {
   display: block;
-  background-color: rgb(233, 86, 34);
+  background-color: rgb(81, 5, 110);
+  width: 675px;
+  height: 40px;
+  border-radius: 8px;
   padding: 4px 8px;
   cursor: pointer;
   color: white;
-  margin: 8px auto;
+  margin: 10px auto 2px;
   font-size: 17px;
+}
+
+#label-infos {
+  font-size: 19px;
+  margin: 10px 5px 10px 25px;
 }
