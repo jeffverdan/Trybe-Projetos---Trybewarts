@@ -34,3 +34,9 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.container-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
