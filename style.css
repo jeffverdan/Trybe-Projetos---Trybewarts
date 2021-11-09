@@ -33,7 +33,16 @@ form {
   height: 500px;
 }
 
-#align {
+.align {
   display: flex;
   flex-direction: column;
+}
+
+#label-content{
+  display: flex;
+  flex-direction: column;
+}
+
+#fam-cont{
+  display: flex;
 }
