@@ -19,10 +19,11 @@
   </header>
   <main>
     <form action="" method="get" id="evaluation-form">
-      <div class="container-ns"> 
+      <div class="eh-container"> 
       <input type="text" id="input-name" placeholder="Nome">
       <input type="text" id="input-lastname" placeholder="Sobrenome">
       </div>
+      <div class="eh-container">
       <input type="text" id="input-email" placeholder="Email">
       <select name="" id="house">
         <option value="Gitnória" id="gitnoria-house">Gitnória</option>
@@ -30,6 +31,19 @@
         <option value="Corvinode" id="corvinode-house">Corvinode</option>
         <option value="Pytherina" id="pytherina-house">Pytherina</option>
       </select>
+    </div>
+    <label for="familia" id="label-family">Qual sua família?</label>
+    <p><input type="radio" name="family" value="Frontend">Frontend</p>
+    <p><input type="radio" name="family" value="Backend">Backend</p>
+    <p><input type="radio" name="family" value="FullStack">FullStack</p>
+    <label for="conteudo" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+    <p><input type="checkbox" name="conteudo" value="HoFs">HoFs</p>
+    <p><input type="checkbox" name="conteudo" value="Jest">Jest</p>
+    <p><input type="checkbox" name="conteudo" value="Promises">Promises</p>
+    <p><input type="checkbox" name="conteudo" value="React">React</p>
+    <p><input type="checkbox" name="conteudo" value="SQL">SQL</p>
+    <p><input type="checkbox" name="conteudo" value="Python">Python</p>
+  </div>
       <div class="avaliacao">
         <label for="rate" id="label-rate">Como você avalia a Trybewarts?</label>
           <input type="radio" name="rate" value="1">1
@@ -45,9 +59,13 @@
       </div>
       <label for="textao" class="textarea">Deixe seu comentário:</label>
       <textarea name="textao" cols="30" rows="10" maxlength="500"></textarea>
+      <div class="eh-container" >
+        <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
+        <input type="checkbox" name="" id="agreement">
+      </div>
+      <button type="submit" id="submit-btn">Enviar</button>
      </form>
     <img src="images/trybewarts-colored.svg" alt="logo trybewarts" id="trybewarts-forms-logo">
-
   </main>
 </body>
 <script src="script.js"></script>
