@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Trybewarts</title>
 </head>
+
 <body>
   <header class="header">
     <img src="images/trybewarts-header-logo.svg" alt="Logo trybewarts" class="trybewarts-header-logo">
@@ -17,11 +19,30 @@
     </form>
   </header>
 
-<main>
+  <main>
+    <form action="#" id="evaluation-form">
+      <h1>Formulário de Avaliação</h1>
+      <section class="nome-sobrenome-email-container">
+        <input id="input-name" placeholder="Nome" type="text">
+        <input id="input-lastname" placeholder="Sobrenome" type="text">
+      </section>
 
-</main>
-<footer>
+      <section class="casas-container">
+        <input id="input-email" placeholder="Email" type="text">
+        <label for="house">Casa: </label>
+        <select name="select" id="house">
+          <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+      </section>
+      <hr>
+    </form>
+  </main>
+  <footer>
 
-</footer>
+  </footer>
 </body>
+
 </html>
