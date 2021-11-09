@@ -3,15 +3,13 @@
     background-color: rgb(50, 167, 145);
     border-style: solid;
     border-color: red;
+    align-items: center;
 }
 
 .trybewarts-login {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     border-style: solid;
     border-color: black;
     width: 80%;
     align-content: center;
-    
 }
