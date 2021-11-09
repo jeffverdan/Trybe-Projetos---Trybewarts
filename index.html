@@ -13,7 +13,7 @@
 <body>
   <header class="header">
     <img src="./images/trybewarts-header-logo.svg" alt="TrybeWarts Logo" class="trybewarts-header-logo">
-    <h1 class="trybewarts-header-title">Trybewarts</h1>
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form action="" method="get" class="trybewarts-login">
       <input type="email" name="email" id="email" placeholder="Email">
       <input type="password" name="password" id="password" placeholder="Senha">
@@ -24,22 +24,44 @@
     <form action="" method="get" id="evaluation-form">
       <div>
         <input type="text" name="name" id="input-name" placeholder="Nome" class="name-lastname">
-      <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome" class="name-lastname">
+        <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome" class="name-lastname">
       </div>
-      <div>
+      <div class="email-house">
         <input type="text" name="email" id="input-email" placeholder="Email">
-      <select name="" id="house">
-        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-        <option value="Corvinode" id="corvinode-house">Corvinode</option>
-        <option value="Pytherina" id="pytherina-house">Pytherina</option>
-      </select>
+        <p>Casa:</p>
+        <select name="" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
       </div>
-      
-        <label for="family">Qual sua familía?</label>
-        <input type="radio" name="family" value="Frontend">
-        <input type="radio" name="family" value="Backend">
-        <input type="radio" name="family" value="FullStack">
+      <div class="family-lessontolearn">
+        <div class="family">
+          <p id="label-family">Qual sua familía?</p>
+        <label for="frontend">
+          <input type="radio" name="family" id="frontend" value="Frontend">
+          Frontend
+        </label>
+        <label for="backend">
+          <input type="radio" name="family" id="backend" value="Backend">
+          Backend
+        </label>
+        <label for="full-stack">
+          <input type="radio" name="family" id="full-stack" value="FullStack">
+          FullStack
+        </label>
+        </div>
+        <div>
+          <p id="label content">Qual conteúdo você está com mais vontade de aprender?</p>
+          <input type="checkbox" name="lesson" value="Hofs">HoFs
+          <input type="checkbox" name="lesson" value="Jest">Jest
+          <input type="checkbox" name="lesson" value="Promises">Promises
+          <input type="checkbox" name="lesson" value="React">React
+          <input type="checkbox" name="lesson" value="SQL">SQL
+          <input type="checkbox" name="lesson" value="Python">Python
+        </div>
+      </div>
     </form>
     <img src="./images/trybewarts-colored.svg" alt="TrybeWarts" id="trybewarts-forms-logo">
   </main>
