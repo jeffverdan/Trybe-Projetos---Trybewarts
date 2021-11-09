@@ -22,9 +22,38 @@
       </form>
     </header>
     <main>
-      <form id='evaluation-form'>
-
+      <form id="evaluation-form">
+        <div id="first-div">
+          <div id="first-part">
+            <input type="text" id="input-name" placeholder="Nome" />
+            <input type="text" id="input-lastname" placeholder="Sobrenome" />
+          </div>
+          <div id="second-part">
+            <input type="text" id="input-email" placeholder="Email" />
+            <select id="house">
+              <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+              <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+              <option id="corvinode-house" value="Corvinode">Corvinode</option>
+              <option id="pytherina-house" value="Pytherina">Pytherina</option>
+            </select>
+          </div>
+        </div>
+        <label id="label-family">Qual sua família?</label>
+        <div>
+          <input type="radio" id="" name="family" value="Frontend" />
+          <label for="Frontend">Frontend</label>
+        </div>
+        <div>
+          <input type="radio" id="" name="family" value="Backend" />
+          <label for="Backend">Backend</label>
+        </div>
+        <div>
+          <input type="radio" id="huey" name="family" value="FullStack" />
+          <label for="FullStack">FullStack</label>
+        </div>
       </form>
+
+      <img src="images/trybewarts-colored.svg" alt="Logo-TryberWarts" id="trybewarts-forms-logo"/>
     </main>
   </body>
   <script src="script.js"></script>
