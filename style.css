@@ -1,16 +1,12 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  border-style: solid;
-  border-color: red;
   align-items: center;
   justify-content: space-between;
 }
 
 .trybewarts-login {
   display: flex;
-  border-style: solid;
-  border-color: black;
   align-content: center;
   justify-content: space-between;
   margin-left: 100px;
