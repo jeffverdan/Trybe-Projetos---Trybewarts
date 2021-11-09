@@ -34,6 +34,7 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+  order: 2;
 }
 
 .bloco1 {
@@ -75,5 +76,3 @@ main {
   bottom: 0;
   left: 0;
 }
-
-
