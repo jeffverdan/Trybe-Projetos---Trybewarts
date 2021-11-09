@@ -3,7 +3,9 @@ const password = document.querySelector("#password");
 const buttonLoginEnter = document.querySelector("#button-login-enter");
 
 function verify(valueA, valueB) {
-  valueA && valueB ? alert("Olá, Tryber!") : alert("Email ou senha inválidos.");
+  return valueA && valueB
+    ? alert("Olá, Tryber!")
+    : alert("Email ou senha inválidos.");
 }
 
 buttonLoginEnter.addEventListener("click", () => {

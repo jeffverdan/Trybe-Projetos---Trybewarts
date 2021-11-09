@@ -11,10 +11,14 @@
   background-color: rgb(50, 167, 145);
 }
 
-.trybewarts-login {
+.flex {
   display: flex;
 }
 
 .trybewarts-header-logo {
   width: 10vw;
+}
+
+.evaluation-form {
+  width: 675px;
 }
