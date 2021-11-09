@@ -22,3 +22,17 @@ function validateSubmit(event) {
 
 const inputAgreement = document.getElementById('agreement');
 inputAgreement.addEventListener('click', validateSubmit);
+
+// Requisito 20 resolvido com a ajuda de https://pt.stackoverflow.com/questions/113089/contador-de-caracteres-digitados-em-um-textarea
+
+const textArea = document.querySelector('textarea');
+const count = document.getElementById('counter');
+const limite = 500;
+
+function verificar() {
+  const caracteres = this.value.length;
+  const rest = limite - caracteres;
+  count.innerText = rest;
+}
+
+textArea.addEventListener('input', verificar);
