@@ -20,9 +20,61 @@
         
     </header>
     <main>
+      
         <form id="evaluation-form">
-            formularios aqui
+          <section class="form-name-email-house">
+            <h1>Formulário de Avaliaçao</h1>
+            <section class="align-same-line">
+              <input type="text" id="input-name" placeholder="Nome">
+              <input type="text" id="input-lastname" placeholder="Sobrenome">
+            </section>
+      
+            <section>
+              <input type="email" id="input-email" placeholder="Email">
+              <select name="house" id="house" form="houseform">
+                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                <option value="Pytherina" id="pytherina-house">Pytherina</option>
+              </select>
+            </section>
+          </section>
+        
+          <section class="family-subject">
+            <section class="family">
+              <label for="" id="label-family">Qual sua família?</label>
+              <label for="frontend">Família Frontend</label>
+              <input type="radio" id="frontend" name="family" value="Frontend">
+              <label for="backend">Família Backend</label>
+              <input type="radio" id="backend" name="family" value="Backend">
+              <label for="fullstack">Família FullStack</label>
+              <input type="radio" id="fullstack" name="family" value="FullStack">
+            </section>
+          
+              <section class="subject">
+                
+                <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                <div class="group-subject1">
+                  <label for="HoFs">HoFs</label><br>
+                  <input type="checkbox" id="HoFs" name="HoFs" value="HoFs" class="subject">
+                  <label for="Jest">Jest</label><br>
+                  <input type="checkbox" id="Jest" name="Jest" value="Jest" class="subject">
+                  <label for="Promises">Promises</label><br>
+                  <input type="checkbox" id="Promises" name="Promises" value="Promises" class="subject">
+                </div>
+
+                <div class="group-subject2">
+                  <label for="React">React</label><br>
+                  <input type="checkbox" id="React" name="React" value="React" class="subject">
+                  <label for="SQL">SQL</label><br>
+                  <input type="checkbox" id="SQL" name="SQL" value="SQL" class="subject">
+                  <label for="Python">Python</label><br>
+                  <input type="checkbox" id="Python" name="Python" value="Python" class="subject">
+                </div>
+                </section>
+              </section>
         </form>
+  
         <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
     </main>
     <footer>
