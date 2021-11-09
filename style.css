@@ -1,14 +1,12 @@
 .header {
-  display: flex;
-  height: 70px;
-  justify-content: space-between;
-  background-color: rgb(50, 167, 145);
+    display: flex;
+    background-color: rgb(50, 167,145);
 }
 
 .trybewarts-login {
-  display: flex;
+    display: flex;
 }
 
-nav {
-  align-self: center;
+main {
+    width: 675px;
 }
