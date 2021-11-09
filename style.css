@@ -35,7 +35,7 @@ main {
   height: 500px;
 }
 
-.alinhamento-evalution-form{
+.alinhamento-evalution-form {
   width: 100%;
   display: flex;
 }
@@ -43,4 +43,8 @@ main {
 .wich-family {
   display: inline;
   color: black;
+}
+
+#submit-btn {
+  width: fit-content;
 }
