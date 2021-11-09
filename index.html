@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Trybewarts</title>
 </head>
-
 <body>
   <header class="header">
     <img src="images/trybewarts-header-logo.svg" alt="Logo trybewarts" class="trybewarts-header-logo">
@@ -15,34 +13,79 @@
     <form class="trybewarts-login" action="#">
       <input class="header-input-email" placeholder="Email" name="email" type="text">
       <input class="headerInputSenha" placeholder="Senha" name="password" type="password">
-      <button class="header-btn-entrar">Entrar</button>
+      <button class="header-btn-entrar">Entrar</button>     
     </form>
   </header>
 
-  <main>
-    <form action="#" id="evaluation-form">
-      <h1>Formulário de Avaliação</h1>
-      <section class="nome-sobrenome-email-container">
-        <input id="input-name" placeholder="Nome" type="text">
-        <input id="input-lastname" placeholder="Sobrenome" type="text">
+<main>
+  <form action="#" id="evaluation-form">
+    <h1>Formulário de Avaliação</h1>
+    <section class="nome-sobrenome-email-container">
+      <input id="input-name" placeholder="Nome" type="text">
+      <input id="input-lastname" placeholder="Sobrenome" type="text">
+    </section>
+
+    <section class="casas-container">
+      <input id="input-email" placeholder="Email" type="text">
+      <label for="house">Casa: </label>
+      <select name="select" id="house">
+        <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
+        <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+        <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
+        <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
+      </select>
+    </section>
+    <hr>
+
+    <section class="sua-familia-vontade-aprender-container">
+      <section class="sua-familia-container">
+
+        <label for="family" id="label-family">Qual sua família?</label>
+
+        <label for="input-frontend">
+          <input type="radio" name="family" value="Frontend" id="input-frontend">Família Frontend
+        </label>
+        <label for="input-backend">
+          <input type="radio" name="family" value="Backend" id="input-backend">Família Backend
+        </label>
+        <label for="input-fullstack">
+          <input type="radio" name="family" value="FullStack" id="input-fullstack">Família FullStack
+        </label>
       </section>
 
-      <section class="casas-container">
-        <input id="input-email" placeholder="Email" type="text">
-        <label for="house">Casa: </label>
-        <select name="select" id="house">
-          <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
-          <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-          <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
-          <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
-      </section>
-      <hr>
-    </form>
-  </main>
-  <footer>
+      <section class="vontade-aprender-container">
+        <label for="label-content" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
 
-  </footer>
+        <div>
+          <label for="HoFs">
+            <input type="checkbox" name="HoFs" id="HoFs" value="HoFs">HoFs
+          </label>
+          <label for="Jest">
+            <input type="checkbox" name="Jest" id="Jest" value="Jest">Jest
+          </label>
+          <label for="Promises">
+            <input type="checkbox" name="Promises" id="Promises" value="Promises">Promises
+          </label>
+        </div>
+
+        <div>
+          <label for="React">
+            <input type="checkbox" name="React" id="React" value="React">React
+          </label>
+          <label for="SQL">
+            <input type="checkbox" name="SQL" id="SQL" value="SQL">SQL
+          </label>
+          <label for="Python">
+            <input type="checkbox" name="Python" id="Python" value="Python">Python
+          </label>
+        </div>
+      </section>
+    </section>
+    <hr>
+  </form>
+</main>
+<footer>
+
+</footer>
 </body>
-
 </html>
