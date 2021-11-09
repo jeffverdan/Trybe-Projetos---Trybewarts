@@ -26,3 +26,8 @@ main {
     flex-direction: column;
 }
 
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
