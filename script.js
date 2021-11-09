@@ -8,3 +8,5 @@ function alerta() {
     alert('Email ou senha inválidos');
   }
 }
+
+alerta();
