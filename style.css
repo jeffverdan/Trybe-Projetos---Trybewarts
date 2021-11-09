@@ -78,6 +78,16 @@ main {
   margin-right: 5px;
   margin-bottom: 12px;
   width: 316px;
+  background-color: white;
+}
+
+.family {
+  width: 340px;
+  float: left;
+}
+
+.content {
+  align-items: flex-end;
 }
 
 .evaluation-trybe {
@@ -85,9 +95,22 @@ main {
   flex-direction: row;
 }
 
+#textarea {
+  width: 675px;
+}
+
+#counter {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .footer {
-  background-color: black;
+  display: flex;
   color: white;
-  text-align: center;
   font-size: 20px;
+  background: rgb(65, 62, 83);
+  height: 56px;
+  margin-bottom: 0px;
+  align-items: center;
+  justify-content: center;
 }

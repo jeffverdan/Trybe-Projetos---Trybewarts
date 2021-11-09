@@ -25,6 +25,16 @@ checkInfo.addEventListener('input', () => {
   }
 });
 
+const contador = 500;
+document.getElementById('counter').innerHTML = `contador: ${contador}`;
+const textArea = document.getElementById('textarea');
+
+textArea.addEventListener('input', (event) => {
+  const textInput = event.target.value;
+  const num = contador - textInput.length;
+  document.getElementById('counter').innerHTML = `Contador: ${num}`;
+});
+
 const fillName = () => {
   const name = document.getElementById('input-name');
   const lastname = document.getElementById('input-lastname');
