@@ -10,15 +10,22 @@
 }
 
 .trybewarts-header-logo {
-
+  align-self: flex-start;
 }
 
 #trybewarts-header-title {
   display: flex;
-  
 }
 
 .trybewarts-login {
   display: flex;
   justify-content: center;
+}
+
+main , #evaluation-form {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
 }
