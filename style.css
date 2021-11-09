@@ -1,6 +1,7 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
 }
 
 .trybewarts-header-logo {
@@ -9,9 +10,7 @@
 
 .trybewarts-login {
   display: flex;
-  width: 100%;
   height: 100%;
-  justify-content: flex-end;
   padding-top: 40px;
   padding-right: 20px;
 }
