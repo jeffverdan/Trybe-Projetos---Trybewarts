@@ -78,6 +78,10 @@ main {
   gap: 10px;
 }
 
+.subcontainer {
+  width: 100%;
+}
+
 #evaluation-form .campo1 input {
   padding: 15px;
   border: none;
