@@ -48,7 +48,8 @@ main {
 #divvv {
   flex-direction: row;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #divvvv {
@@ -77,3 +78,6 @@ footer p {
   width: 120px;
   border-radius: 4px;
 }
+
+#label-rate {
+  margin-right: 5px;}
