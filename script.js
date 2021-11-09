@@ -4,7 +4,7 @@ const inputPassword = document.getElementById('inputPassword');
 const inputAgreement = document.getElementById('agreement');
 const formsBtn = document.getElementById('submit-btn');
 
-loginBtn.addEventListener("click", () => {
+loginBtn.addEventListener('click', () => {
   if (
     inputEmail.value === 'tryber@teste.com' && inputPassword.value === '123456') {
     alert('Olá, Tryber!');
@@ -14,11 +14,11 @@ loginBtn.addEventListener("click", () => {
 });
 
 inputAgreement.addEventListener('click', () => {
-  if (inputAgreement.className !== 'checked'){
+  if (inputAgreement.className !== 'checked') {
     inputAgreement.className = 'checked';
     formsBtn.disabled = false;
   } else {
-    inputAgreement.className = 'unchecked'
+    inputAgreement.className = 'unchecked';
     formsBtn.disabled = true;
   }
 });
