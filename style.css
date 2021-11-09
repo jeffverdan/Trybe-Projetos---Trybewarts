@@ -104,10 +104,13 @@ main {
 .labels {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px 15px;
 }
 
 .labelcontent section {
   display: grid;
-  grid-template-columns: repeat(3, 30px);
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
 }
+
