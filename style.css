@@ -12,6 +12,6 @@ main {
 }
 
 #evaluation-form {
-    display: flex;
+    flex-flow: column;
     width: 675px;
 }
