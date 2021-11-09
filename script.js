@@ -25,7 +25,7 @@ checkBox.addEventListener('click', (e) => {
 });
 
 const textArea = document.getElementById('textarea');
-const spamArea = document.getElementById('count');
+const spamArea = document.getElementById('counter');
 
 spamArea.textContent = 500;
 
