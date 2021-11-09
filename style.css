@@ -63,3 +63,7 @@ main {
 #radios input {
   display: block;
 }
+
+.row {
+  flex-direction: row;
+}
