@@ -34,3 +34,7 @@ main , #evaluation-form {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.inline {
+  display: flex;
+}
