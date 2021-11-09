@@ -12,7 +12,6 @@ btnLogin.addEventListener('click', () => {
 
 checkbox.addEventListener('click', (e) => {
   btnSubimit.disabled = !e.target.checked;
-
 });
 
 window.onload = () => {
