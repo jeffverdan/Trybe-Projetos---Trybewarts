@@ -6,7 +6,6 @@ const btnSubit = document.getElementById('submit-btn');
 const contador = document.getElementById('counter');
 const areaTexto = document.getElementById('textarea');
 const formsContaier = document.getElementById('evaluation-form');
-const mensagem = document.getElementById('mensagem');
 let infosDoAluno = '';
 const nome = document.getElementById('input-name');
 const sobrenome = document.getElementById('input-lastname');
@@ -15,7 +14,6 @@ const casa = document.getElementById('house');
 const familia = document.getElementsByName('family');
 const materias = document.getElementsByClassName('subject');
 const nota = document.getElementsByName('rate');
-const paragrafo = document.createElement('p');
 
 btnLogin.addEventListener('click', () => {
   if (emailLogin.value === 'tryber@teste.com' && senhaLogin.value === '123456') {
@@ -36,51 +34,65 @@ aceiteTermos.addEventListener('change', (e) => {
 areaTexto.addEventListener('input', (e) => {
   contador.innerText = 500 - e.target.value.length;
 });
-function verificaFamilia() {
 
+function verificaFamilia() {
+  infosDoAluno = '';
   for (let i = 0; i < familia.length; i += 1) {
     if (familia[i].checked) {
-      infosDoAluno += `Famlia: ${familia[i].value} <br>`;
+      infosDoAluno += `Famlia: ${familia[i].value} `;
     }
   }
-  return infosDoAluno;
+  const mensagemFamilia = document.createElement('p');
+  mensagemFamilia.innerText = infosDoAluno;
+  formsContaier.appendChild(mensagemFamilia);
 }
 
 function verificaConteudos() {
   let conteudos = '';
+  infosDoAluno = '';
   for (let j = 0; j < materias.length; j += 1) {
     if (materias[j].checked) {
       conteudos += `${materias[j].value}, `;
     }
   }
-  infosDoAluno += `Matérias: ${conteudos.substr('', conteudos.length - 2)} <br>`;
-  return infosDoAluno;
+  infosDoAluno += `Matérias: ${conteudos.substr('', conteudos.length - 2)}`;
+  const mensagemConteudo = document.createElement('p');
+  mensagemConteudo.innerText = infosDoAluno;
+  formsContaier.appendChild(mensagemConteudo);
 }
 
 function verificaNota() {
+  infosDoAluno = '';
   for (let k = 0; k < nota.length; k += 1) {
     if (nota[k].checked) {
       infosDoAluno += `Avaliação: ${nota[k].value}`;
     }
   }
-  return infosDoAluno;
+  const mensagemNota = document.createElement('p');
+  mensagemNota.innerText = infosDoAluno;
+  formsContaier.appendChild(mensagemNota);
 }
 
 function aparecerMensagem() {
-  infosDoAluno += `Nome: ${nome.value} ${sobrenome.value} <br>`;
-  infosDoAluno += `Email: ${email.value} <br>`;
-  infosDoAluno += `Casa: ${casa.value} <br>`;
+  const mensagemNome = document.createElement('p');
+  mensagemNome.innerText = `Nome: ${nome.value} ${sobrenome.value}`;
+  formsContaier.appendChild(mensagemNome);
+  const mensagemEmail = document.createElement('p');
+  mensagemEmail.innerText = `Email: ${email.value}`;
+  formsContaier.appendChild(mensagemEmail);
+  const mensagemCasa = document.createElement('p');
+  mensagemCasa.innerText = `Casa: ${casa.value}`;
+  formsContaier.appendChild(mensagemCasa);
   verificaFamilia();
   verificaConteudos();
   verificaNota();
-  infosDoAluno += `Observações: ${areaTexto.value} <br>`;
-  paragrafo.innerHTML = infosDoAluno;
-  mensagem.appendChild(paragrafo);
+  const mensagemObs = document.createElement('p');
+  mensagemObs.innerText = `Observações: ${areaTexto.value}`;
+  formsContaier.appendChild(mensagemObs);
 }
 
 btnSubit.addEventListener('click', (e) => {
   e.preventDefault();
-  formsContaier.style.display = 'none';
-  mensagem.style.display = 'block';
+  formsContaier.innerHTML = '';
   aparecerMensagem();
 });
