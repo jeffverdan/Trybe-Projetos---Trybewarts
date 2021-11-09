@@ -21,7 +21,13 @@ function submitbtn(event) {
   if (!checkbox.checked) {
     submitButton.disabled = true;
   }
-  submitButton.disabled = false;
 }
-// submitButton.addEventListener('click', submitbtn);
+
 window.onload = submitbtn;
+
+function ligarBotao() {
+  console.log(submitButton.disabled);
+  submitButton.disabled = !checkbox.checked;
+}
+
+checkbox.addEventListener('click', ligarBotao);

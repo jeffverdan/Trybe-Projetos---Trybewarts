@@ -45,6 +45,11 @@ main , #evaluation-form {
   display: flex;
 }
 
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
 #rating {
   display: inline-block;
 }
