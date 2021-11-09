@@ -23,11 +23,11 @@
     </header>
     <main>
       <form action="" method="get" id="evaluation-form">
-        <div>
+        <div class="border">
           <input type="text" id="input-name" placeholder="Nome" />
           <input type="text" id="input-lastname" placeholder="Sobrenome" />
         </div>
-        <div>
+        <div class="border">
           <input type="email" name="" id="input-email" placeholder="Email" />
           <label for="house">Casa:</label>
           <select name="house" id="house">
@@ -37,6 +37,105 @@
             <option value="Pytherina" id="pytherina-house">Pytherina</option>
           </select>
         </div>
+        <section id="itens-form">
+          <label for="" id="label-family"
+            >Qual sua família?
+
+            <label for="frontend"
+              ><input
+                type="radio"
+                name="family"
+                value="Frontend"
+                id="frontend"
+              />
+              Família Frontend</label
+            >
+            <label for="backend"
+              ><input type="radio" name="family" value="Backend" id="backend" />
+              Família Backend</label
+            >
+
+            <label for="fullStack"
+              ><input
+                type="radio"
+                name="family"
+                value="FullStack"
+                id="fullStack"
+              />
+              Família FullStack</label
+            >
+          </label>
+          <label for="" id="label-content"
+            >Qual conteúdo você está com mais vontade de aprender?
+            <div>
+              <label for="hofs"
+                ><input type="checkbox" id="hofs" value="HoFs" /> HoFs</label
+              >
+              <label for="jest"
+                ><input type="checkbox" id="jest" value="Jest" /> Jest</label
+              >
+              <label for="promises"
+                ><input type="checkbox" id="promises" value="Promises" />
+                Promises</label
+              >
+            </div>
+
+            <div>
+              <label for="react"
+                ><input type="checkbox" id="react" value="React" /> React</label
+              >
+              <label for="sql"
+                ><input type="checkbox" id="sql" value="SQL" /> SQL</label
+              >
+              <label for="python"
+                ><input type="checkbox" id="python" value="Python" />
+                Python</label
+              >
+            </div>
+          </label>
+        </section>
+        <label for="" id="label-rate"
+          >Como você avalia a Trybewarts?
+          <label for="1"
+            ><input type="radio" id="1" value="1" name="rate" /> 1</label
+          >
+          <label for="2"
+            ><input type="radio" id="2" value="2" name="rate" /> 2</label
+          >
+          <label for="3"
+            ><input type="radio" id="3" value="3" name="rate" /> 3</label
+          >
+          <label for="4"
+            ><input type="radio" id="4" value="4" name="rate" /> 4</label
+          >
+          <label for="5"
+            ><input type="radio" id="5" value="5" name="rate" /> 5</label
+          >
+          <label for="6"
+            ><input type="radio" id="6" value="6" name="rate" /> 6</label
+          >
+          <label for="7"
+            ><input type="radio" id="7" value="7" name="rate" /> 7</label
+          >
+          <label for="8"
+            ><input type="radio" id="8" value="8" name="rate" /> 8</label
+          >
+          <label for="9"
+            ><input type="radio" id="9" value="9" name="rate" /> 9</label
+          >
+          <label for="10"
+            ><input type="radio" id="10" value="10" name="rate" /> 10</label
+          >
+        </label>
+        <label for="textarea" class="textarea"
+          >Deixe seu comentário:
+          <textarea
+            id="textarea"
+            cols="30"
+            rows="10"
+            maxlength="500"
+          ></textarea>
+        </label>
       </form>
       <div>
         <img
@@ -44,7 +143,6 @@
           alt="logo do trybewarts"
           id="trybewarts-forms-logo"
         />
-        <p></p>
       </div>
     </main>
     <script src="script.js"></script>

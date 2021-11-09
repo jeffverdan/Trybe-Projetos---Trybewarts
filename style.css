@@ -25,13 +25,37 @@
 
 main {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #evaluation-form {
     display: flex;
+    flex-direction: column;
+    
     width: 765px;
 }
 
 #trybewarts-forms-logo {
     height: 500px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+#itens-form {
+    display: flex;
+    flex-direction: row;
+}
+
+#label-family, #label-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
 }
