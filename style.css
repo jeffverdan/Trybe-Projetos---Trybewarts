@@ -24,6 +24,10 @@
   align-items: center;
 }
 
+.column {
+  flex-direction: column;
+}
+
 .evaluation-form {
   width: 675px;
   flex-direction: column;
