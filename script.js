@@ -18,7 +18,7 @@ loginBtn.addEventListener("click", () => {
 inputAgreement.addEventListener("click", () => {
   if (inputAgreement.value !== null) {
     formsBtn.disabled = false;
-  } else  if (inputAgreement.checked){ 
+  } else { 
     formsBtn.disabled = true;
   }
 });
