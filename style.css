@@ -86,3 +86,14 @@ main {
 #textarea {
   width: 90%;
 }
+
+footer {
+  background-color: rgb(50, 167, 145);
+  margin-top: 45px;
+  padding: 20px;
+}
+
+footer h2 {
+  font-size: 18px;
+  color: white;
+}
