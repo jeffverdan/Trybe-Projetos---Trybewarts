@@ -26,3 +26,8 @@ main {
 #campos {
   display: inline;
 }
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
