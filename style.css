@@ -34,3 +34,8 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+.comentario {
+  display: flex;
+  flex-direction: column;
+}
