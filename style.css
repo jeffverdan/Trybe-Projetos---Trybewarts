@@ -98,19 +98,64 @@ main {
 .labelfamily section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .labels {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px 10px 15px;
+  padding: 20px 10px 15px;
 }
 
 .labelcontent section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
+  height: 50%;
+  margin-top: 10px;
 }
 
+.rate-fieldset {
+  border-top: 1px solid rgb(87, 87, 87);
+  margin-top: 10px;
+}
+
+.rate {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.opinion {
+  padding: 10px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opinion textarea {
+  height: 100px;
+  resize: none;
+  box-shadow: 2px 2px rgba(87, 87, 87, 0.418);
+}
+
+.agree {
+  padding: 10px 10px 15px;
+}
+
+#submit-btn {
+  padding: 10px;
+  background-color: rgb(63, 13, 156);
+  font-size: 25px;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#submit-btn:hover {
+  filter: brightness(80%);
+}
