@@ -60,6 +60,11 @@ main {
 
 }
 
-.checkbox-button {
-  
+#label-rate {
+  display: flex;
+
+}
+
+.avaliacao {
+  display: flex;
 }
