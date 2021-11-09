@@ -8,7 +8,7 @@ const inputAgreement = document.querySelector('#agreement');
 const textArea = document.querySelector('#textarea');
 const counter = document.querySelector('#counter');
 
-textArea.addEventListener('keypress', () => {
+textArea.addEventListener('keyup', () => {
   const count = 500 - textArea.value.length;
   counter.innerHTML = count;
 });
