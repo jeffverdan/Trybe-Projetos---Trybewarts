@@ -8,18 +8,41 @@
 
 .header {
   display: flex;
+  justify-content: space-between;
   background-color: rgb(50, 167, 145);
 }
 
-.trybewarts-login {
-  display: flex;
+/* logo header */
+.trybewarts-header-logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 1em;
 }
 
-#evaluation-form {
-  width: 675px;
+/* inputs header */
+.trybewarts-login {
   display: flex;
-  border: solid 1px black;
-  flex-direction: column;
+  margin: 10px 10px 0 0;
+}
+
+/* btn header */
+.btn-header-submit {
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(72, 40, 117);
+  color: white;
+  border-radius: 15px;
+}
+
+header input[type="email"],
+input[type="password"] {
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+}
+
+/* h1 header*/
+#trybewarts-header-title {
+  font-size: 1.5rem;
+  color: white;
   margin: 10px;
 }
 
@@ -28,6 +51,16 @@ main {
   justify-content: space-around;
 }
 
+/* form */
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+/* Imagem a direita */
 #trybewarts-forms-logo {
   height: 500px;
   margin: 10px;
@@ -47,28 +80,93 @@ footer span {
 }
 
 .formBoxAval {
-    margin: 5px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 5px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.formBoxText ,  .formBoxCheck, .formBoxButton {
-    margin: 5px 30px;
-    text-align: center;
+.formBoxText,
+.formBoxCheck,
+.formBoxButton {
+  margin: 5px 30px;
+}
+
+.formBoxButton {
+  margin: 5px 30px;
+  text-align: center;
 }
 
 .textarea {
-    margin: auto;
+  margin: auto;
 }
 
 hr {
-    margin: 2px 30px;
-    width: auto;
+  margin: 2px 30px;
+  width: auto;
 }
 
 #submit-btn {
-    width: 80%;
-    height: 25px;
-    margin: 2px auto;
+  width: 80%;
+  height: 25px;
+  margin: 2px auto;
+}
+
+.formBoxName {
+  display: flex;
+  margin: 5px 30px;
+}
+
+.formBoxName input[type="text"] {
+  flex-grow: 1;
+  margin: 5px 2px;
+  height: 2em;
+}
+
+#evaluation-form h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.formBoxEmailHouse {
+  display: flex;
+  margin: 5px 30px;
+  justify-content: space-between;
+}
+
+.houseLabel {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formBoxEmailHouse [type="email"] {
+  flex-grow: 1;
+  margin: 5px 2px;
+  height: 2em;
+}
+
+.houseLabel label {
+  margin: 5px 10px;
+}
+
+.houseLabel select {
+  margin: 1px;
+  flex-grow: 1;
+  height: 2em;
+}
+
+.formFamily {
+  width: 50%;
+}
+
+.formLearn {
+  width: 50%;
+}
+
+.famLearn {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 30px;
 }
