@@ -35,3 +35,11 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.subcontainer {
+  display: flex;
+}
+
+#input-name, #input-lastname {
+  width: 50%;
+}
