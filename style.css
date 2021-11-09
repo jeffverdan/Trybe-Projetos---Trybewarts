@@ -47,3 +47,7 @@ main, #evaluation-form {
 #rating {
   display: inline-block;
 }
+
+#rating h3 {
+  display: inline;
+}
