@@ -40,7 +40,7 @@ function obterMateriasSelecionadas() {
     if (i === checkboxConteudos.length) {
       materias += `${checkboxConteudos[i].value}`;
     }
-    materias += `${checkboxConteudos[i].value} `;
+    materias += `${checkboxConteudos[i].value}, `;
   }
 
   return materias;
