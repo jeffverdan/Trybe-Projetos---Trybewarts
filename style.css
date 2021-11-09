@@ -48,3 +48,7 @@ main , #evaluation-form {
   display: flex;
   flex-direction: row;
 }
+
+.rate-itens {
+  display: flex;
+}
