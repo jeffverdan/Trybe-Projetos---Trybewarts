@@ -1,18 +1,16 @@
-const selecionaButao = document.querySelector(".header-button");
-
-selecionaButao.addEventListener("click", alerta);
+const selecionaButao = document.querySelector('.header-button');
 
 function alerta() {
-  const emailInput = document.querySelector("#email-header");
-  const senhaInput = document.querySelector("#senha-header");
+  const emailInput = document.querySelector('#email-header');
+  const senhaInput = document.querySelector('#senha-header');
 
-  if (emailInput.value === "tryber@teste.com" && senhaInput.value === "123456"){
-    alert("Olá, Tryber!");
+  if (emailInput.value === 'tryber@teste.com' && senhaInput.value === '123456') {
+    alert('Olá, Tryber!');
   } else {
-    alert("Email ou senha inválidos.");
+    alert('Email ou senha inválidos.');
   }
 }
-
+selecionaButao.addEventListener('click', alerta);
 function clickCheckbox() {
   const checkboxElement = document.querySelector('#agreement');
   checkboxElement.addEventListener('click', (e) => {
