@@ -40,7 +40,7 @@ main {
   display: flex;
 }
 
-#input-name, #input-lastname, #input-email, #house {
+#input-name , #input-lastname , #input-email , #house {
   width: 50%;
 }
 
