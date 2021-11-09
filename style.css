@@ -128,3 +128,23 @@ footer {
   display: flex;
   padding: 15px;
 }
+
+#third div label {
+  display: block;
+  margin: 8px 0;
+}
+
+#third div textarea {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#submit-btn {
+  display: block;
+  background-color: rgb(233, 86, 34);
+  padding: 4px 8px;
+  cursor: pointer;
+  color: white;
+  margin: 8px auto;
+  font-size: 17px;
+}
