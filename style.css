@@ -42,7 +42,7 @@ main , #evaluation-form {
 }
 
 .family-lessontolearn {
-  display: inline-flex;
+  display: flex;
 }
 
 #rating {
@@ -51,4 +51,18 @@ main , #evaluation-form {
 
 #rating h3 {
   display: inline;
+}
+
+footer {
+  background-color: grey;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+
+footer p {
+  font-size: 20px;
+  margin: 10px 0;
 }

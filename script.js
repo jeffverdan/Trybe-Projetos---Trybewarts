@@ -1,4 +1,5 @@
 const button = document.querySelector('#login-button');
+const submitButton = document.querySelector('#submit-btn');
 
 function login(event) {
   event.preventDefault();
@@ -15,3 +16,9 @@ function login(event) {
 }
 
 button.addEventListener('click', login);
+
+// function submitbtn(event) {
+//   event.preventDefault();
+// }
+
+// submitButton.addEventListener('click', submitbtn);
