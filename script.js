@@ -12,8 +12,9 @@ btnEnter.addEventListener('click', () => {
 
 const checkBox = document.getElementById('agreement');
 const btnEnviar = document.getElementById('submit-btn');
-checkBox.addEventListener('change', function(){
-  if(checkBox.value === 'on'){
+
+checkBox.addEventListener('change', () => {
+  if (checkBox.value === 'on') {
     btnEnviar.disabled = false;
   }
-})
+});
