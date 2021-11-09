@@ -5,21 +5,46 @@
 
 main {
   display: flex;
+  justify-content: space-around;
 }
 
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.trybewarts-header-logo {
+  width: 65px;
+  margin-left: 10px;
 }
 
 #trybewarts-header-title {
   order: 1;
+  color: white;
 }
 
 .trybewarts-login {
   display: flex;
   order: 2;
+  margin-right: 10px;
+  height: 60%;
+}
+
+.header-radius {
+  border: none;
+  margin-left: 5px;
+  border-radius:8px;
+}
+
+.header-button {
+  background-color: rgb(78, 44, 131);
+  color: white;
+  align-self: center;
+  width: 150px;
+  height: 90%;
 }
 
 #evaluation-form {
