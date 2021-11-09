@@ -12,4 +12,10 @@ function login() {
 
 buttonLogin.addEventListener('click', login);
 
-// push
+const agreementBtn = document.getElementById('agreement');
+const submitBtn = document.getElementById('submit-btn');
+
+agreementBtn.addEventListener('click', function() {
+  submitBtn.disabled = false;
+})
+
