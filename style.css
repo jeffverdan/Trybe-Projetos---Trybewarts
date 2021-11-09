@@ -9,9 +9,26 @@
 }
 
 #login {
-  height: 25px;
+  height: 22px;
 }
 
 .trybewarts-login {
   display: flex;
+}
+
+main {
+  display: flex;
+}
+
+form {
+  display: flex;
+  width: 675px;
+}
+
+#evaluation-form {
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
