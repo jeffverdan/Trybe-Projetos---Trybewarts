@@ -23,3 +23,14 @@ checkBox.addEventListener('click', (e) => {
     btnSubmit.disabled = true;
   }
 });
+
+const textArea = document.getElementById('textarea');
+const spamArea = document.getElementById('count');
+
+spamArea.textContent = 500;
+
+textArea.addEventListener('keyup', () => {
+  const numCaracter = textArea.value.length;
+  const resultado = 500 - numCaracter;
+  spamArea.textContent = resultado;
+});
