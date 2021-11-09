@@ -46,3 +46,8 @@ hr {
   flex-direction: column;
   display: flex;
 }
+
+.label-container {
+  flex-direction: column;
+  display: flex;
+}
