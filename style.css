@@ -9,6 +9,9 @@
   background-color: rgb(50, 167, 145);
   padding: 3px;
   justify-content: space-between;
+  height: 70px;
+  color:white;
+  
 }
 
 .trybewarts-login {
@@ -22,3 +25,10 @@
     flex-direction: row;
   
 } */
+
+#trybewarts-header-title{
+
+    display: flex;
+    align-items: center;
+   
+}
