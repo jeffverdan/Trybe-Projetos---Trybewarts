@@ -44,3 +44,6 @@ main, #evaluation-form {
 .family-lessontolearn {
   display: inline-flex;
 }
+#rating {
+  display: inline-block;
+}
