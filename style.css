@@ -55,3 +55,28 @@ main {
 
 #label-family {
 }
+
+.checkbox-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#first-3 {
+  display: flex;
+}
+
+#second-3 {
+  display: flex;
+}
+
+#label-rate {
+  
+}
+
+.second-div {
+  display: flex;
+}
+
+.fifth-class {
+  display: flex;
+}
