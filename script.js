@@ -9,3 +9,25 @@ botao.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const inputAgree = document.querySelector('#agreement');
+
+function checkedButton(event) {
+  const buttonSubmit = document.querySelector('#submit-btn');
+  const buttonClick = event.target.checked;
+  if (buttonClick) {
+    buttonSubmit.disabled = false;
+  } else {
+    buttonSubmit.disabled = true;
+  }
+}
+
+function checkedInput() {
+  inputAgree.addEventListener('click', checkedButton);
+}
+
+window.onload = () => {
+  checkedInput();
+};
+
+// quando a janela carregar vai chamar a função do input e quando a gente clicar no input vai habilitar ou desabilitar o botão de enviar.
