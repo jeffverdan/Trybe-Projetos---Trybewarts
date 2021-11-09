@@ -13,5 +13,17 @@ btnSubmit.addEventListener('click', (event) => {
 const checkbox = document.getElementById('agreement');
 checkbox.addEventListener('change', () => {
   const btnSubmitForm = document.getElementById('submit-btn');
-  btnSubmitForm.removeAttribute('disabled');
+  if (checkbox.checked) {
+    btnSubmitForm.removeAttribute('disabled');
+  } else {
+    btnSubmitForm.setAttribute('disabled', true);
+  }
 });
+
+
+  // Requisito 21
+const submitForm = document.getElementById('submit-btn');
+submitForm.addEventListener('click', () => {
+  const formulario = document.getElementById('forms');
+  formulario.value = '';
+})
