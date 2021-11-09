@@ -5,6 +5,13 @@ const emailTryber = 'tryber@teste.com';
 const passwordTryber = '123456';
 const submitBtn = document.querySelector('#submit-btn');
 const inputAgreement = document.querySelector('#agreement');
+const textArea = document.querySelector('#textarea');
+const counter = document.querySelector('#counter');
+
+textArea.addEventListener('keypress', () => {
+  const count = 500 - textArea.value.length;
+  counter.innerHTML = count;
+});
 
 function loginAlert() {
   if (emailLogin.value === emailTryber && passwordLogin.value === passwordTryber) {

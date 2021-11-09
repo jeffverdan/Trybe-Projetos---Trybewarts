@@ -57,3 +57,13 @@ main {
   display: flex;
   flex-direction: row;
 }
+
+#counter {
+  opacity: 60%;
+}
+
+#counter {
+  position: relative;
+  top: -20px;
+  left: 95%;
+}
