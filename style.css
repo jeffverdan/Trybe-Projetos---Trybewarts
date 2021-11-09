@@ -47,17 +47,15 @@
   cursor: pointer;
   background-color: rgb(75, 69, 160);
   color: seashell;
-  text-align: center;main {
+  text-align: center; 
+}
+ main {
   display: flex;
   background-color: #F0F8FF;
   width: 80%;
   margin: auto;
 }
 
-main {
-  display: flex;
-  flex-direction: row;
-}
 
 #evaluation-form {
   display: flex;
