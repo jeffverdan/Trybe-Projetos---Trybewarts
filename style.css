@@ -1,16 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
- scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 .header {
-    width: 100%;
-    display: flex;
-    background-color: rgb(50, 167, 145);
-    padding: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  padding: 10 20px;
+  align-items: center;
+}
+
+.header button {
+ margin-right: 20px;
 }
 
 .trybewarts-header-logo {
-    
+    width: 50px;
 }
