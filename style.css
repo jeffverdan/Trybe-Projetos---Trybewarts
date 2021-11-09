@@ -13,10 +13,15 @@ form {
 
 .header {
   display: flex;
-	background-color: rgb(50, 167, 145)
+  background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-header-logo {
+  background-color:cadetblue;
 }
 
 #trybewarts-forms-logo {
 	height: 500px;
 }
+
 
