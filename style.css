@@ -40,3 +40,7 @@
   flex-wrap: wrap;
   width: 400px;
 }
+
+.emailAndHouse {
+  display: inline-flex;
+}
