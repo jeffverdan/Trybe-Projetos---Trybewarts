@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #efefef;
+}
+
 .header {
+  padding: 20px;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,17 +21,64 @@ h1 {
   color: white;
 }
 
+.trybewarts-login {
+  height: 5vh;
+  width: 28vw;
+  justify-content: space-between;
+}
+
+.dados-login {
+  border: none;
+  border-radius: 10px;
+  width: 9vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.btn-login {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  opacity: 1.0;
+}
+
 .flex {
   display: flex;
 }
 
 .trybewarts-header-logo {
-  width: 7vw;
+  height: 7vh;
+}
+
+.button-space {
+  height: 12vh;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content label {
+  margin-right: 15px;
 }
 
 .main-container {
   justify-content: space-around;
   align-items: center;
+  height: 90vh;
 }
 
 .column {
@@ -35,10 +88,35 @@ h1 {
 .evaluation-form {
   width: 675px;
   flex-direction: column;
+  height: 60vh;
+  justify-content: space-around;
+}
+
+.dados-form {
+  margin: 2px;
+  height: 4vh;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.house {
+  width: 17vw;
+  background-color: white;
+}
+
+.align-house {
+  align-items: center;
+  display: flex;
 }
 
 .trybewarts-forms-logo {
   height: 500px;
+}
+
+.submit-btn {
+  height: 4vh;
+  border-radius: 10px;
 }
 
 button {
