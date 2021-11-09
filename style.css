@@ -1,16 +1,21 @@
 .header {
   display: flex;
-  background-color: rgb(50, 167, 145)
+  background-color: rgb(50, 167, 145);
 }
 
-main{
+main {
   display: flex;
 }
 
-form{
+form {
   display: flex;
   width: 675px;
 }
-#evaluation-form{
+
+#evaluation-form {
   flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
