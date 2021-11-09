@@ -10,3 +10,15 @@ function login () {
 }
 
 document.getElementById('btn-login').addEventListener('click', login);
+
+const submitBtn = document.getElementById('submit-btn');
+const checkbox = document.getElementById('agreement');
+function checkBtn() {
+  if (!checkbox.checked) {
+    submitBtn.disabled = true;
+  } else {
+    submitBtn.disabled = false;
+  }
+}
+checkBtn();
+checkbox.addEventListener('click', checkBtn);
