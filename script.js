@@ -13,11 +13,10 @@ buttonHeader.addEventListener('click', (event) => {
 const buttonMain = document.querySelector('#submit-btn');
 const agreementCheck = document.querySelector('#agreement');
 
-agreementCheck.addEventListener('click', function(){
-  if (agreementCheck.checked === false){
-      buttonMain.disabled = true
-  }else{
-      buttonMain.disabled = false
-  };
-})
-
+agreementCheck.addEventListener('click', () => {
+  if (agreementCheck.checked === false) {
+    buttonMain.disabled = true;
+  } else {
+    buttonMain.disabled = false;
+  }
+});
