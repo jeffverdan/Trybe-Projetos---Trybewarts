@@ -2,4 +2,6 @@
 node_modules/
 cypress/reports
 cypress/screenshots
+cypress/fixtures
+/cypress
 .DS_Store
