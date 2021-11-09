@@ -4,7 +4,6 @@
 
 }
 
-
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -16,8 +15,11 @@
 .trybewarts-header-logo {
   height: 70px;
 }
+.trybewarts-login {
+  display: flex;
+}
 
-#main-content {
+.main-content {
   display: flex;
   border: 1px black dotted;
 }
@@ -43,5 +45,9 @@
 }
 
 #em-hs {
+  display: flex;
+}
+
+#imgform-container{
   display: flex;
 }
