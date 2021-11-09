@@ -51,6 +51,9 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+.section-1 {
+  display: flex;
+}
 
 .section-2 {
   display: flex;
@@ -61,13 +64,13 @@ main {
   margin: 2px;
 }
 
-.section-1,
-input {
+.section-1 input {
   display: flex;
   margin: 2px;
 }
 
-.py {
+.radio-l {
   display: flex;
-  flex-direction: row;
+ width: 100%;
 }
+
