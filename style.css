@@ -37,7 +37,6 @@ main {
 
 #evaluation-form {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
     width: 675px;
 }
