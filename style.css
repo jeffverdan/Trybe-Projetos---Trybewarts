@@ -8,8 +8,8 @@ body {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -30,16 +30,16 @@ main {
   font-size: 40px;
 }
 
-.header:nth-child(0) {
-    order: 1;
+.header:nth-child( 0 ) {
+  order: 1;
 }
 
-.header:nth-child(1) {
-    color: 2;
+.header:nth-child( 1 ) {
+  order: 2;
 }
 
-.header:nth-child(2) {
-    color: 3;
+.header:nth-child( 2 ) {
+  order: 3;
 }
 
 #evaluation-form {
@@ -52,7 +52,6 @@ main {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  width: 400px;
   border: 10px;
 }
 
