@@ -25,7 +25,7 @@ main {
   height: 500px;
 }
 
-.conteiner-family{
+.conteiner-family {
   display: flex;
   flex-direction: column;
 }
