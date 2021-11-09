@@ -23,3 +23,5 @@ function confirmarEnvio() {
 }
 
 inputAgreement.addEventListener('change', confirmarEnvio);
+
+// projeto finalizado
