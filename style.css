@@ -44,3 +44,8 @@
 .emailAndHouse {
   display: inline-flex;
 }
+
+.container-family {
+  display: flex;
+  flex-direction: column;
+}
