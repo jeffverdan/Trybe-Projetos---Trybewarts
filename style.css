@@ -29,5 +29,28 @@
 
 .trybewarts-login {
   display: flex;
+<<<<<<< HEAD
   border: 1px solid black;
 };
+=======
+}
+
+main {
+  display: flex;
+}
+
+.evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+>>>>>>> 921f95541abe692517fbde462c4991cb9d151c55
