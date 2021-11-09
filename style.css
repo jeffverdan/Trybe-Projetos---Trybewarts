@@ -30,3 +30,7 @@
   width: 675px;
   flex-direction: column;
 }
+
+.imagemLogo {
+  height: 500px;
+}
