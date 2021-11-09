@@ -16,12 +16,12 @@
 .trybewarts-login {
   display: inline;
 }
-main,
-form {
+main {
   display: flex;
 }
 
 form {
+  display: flex;
   flex-direction: column;
 }
 
