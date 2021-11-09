@@ -2,17 +2,13 @@
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
-}
-
-/* .trybewarts-header-logo {
-
-}
- */
-.header-div {
-  display: inline-flex;
   align-items: center;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.trybewarts-login {
+  display: flex;
 }

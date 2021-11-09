@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-     <header class="header">
-         <label class="header-div">
-         <h1 id="trybewarts-header-title">Trybewarts</h1>
-         <img src="images/trybewarts-header-logo.svg
-         " alt="" class="trybewarts-header-logo">
-        </label>
-     </header>
-     <label id="label-content">Qual conteúdo você está com mais vontade de aprender?
-         <input type="checkbox" name="" id="">HoFs
-        <input type="checkbox" name="" id="">jest
-        <input type="checkbox" name="" id="">Promises
-        <input type="checkbox" name="" id="">React
-        <input type="checkbox" name="" id="">SQL
-        <input type="checkbox" name="" id="">Python
-         <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
-     </label>
-</body>
+  </head>
+  <body>
+    <header class="header">
+        <img
+        src="images/trybewarts-header-logo.svg
+         "
+        alt=""
+        class="trybewarts-header-logo"/>
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form class="trybewarts-login">
+        <input name="email" placeholder="Email" class="inputs" id="input1" />
+        <input name="password" placeholder="Senha" class="inputs" id="input2" />
+        <button id="btn">Entrar</button>
+      </form>
+    </header>
+    <label id="label-content"
+      >Qual conteúdo você está com mais vontade de aprender?
+      <input type="checkbox" name="" id="" />HoFs
+      <input type="checkbox" name="" id="" />jest
+      <input type="checkbox" name="" id="" />Promises
+      <input type="checkbox" name="" id="" />React
+      <input type="checkbox" name="" id="" />SQL
+      <input type="checkbox" name="" id="" />Python
+      <img
+        src="images/trybewarts-colored.svg"
+        alt=""
+        id="trybewarts-forms-logo"
+      />
+    </label>
+    <script src="script.js"></script>
+  </body>
 </html>
