@@ -33,3 +33,11 @@ body {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.form-control {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
