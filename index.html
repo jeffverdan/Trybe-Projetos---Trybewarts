@@ -7,16 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+
   <body>
     <header class="header">
-      <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg"/>
+      <img
+        class="trybewarts-header-logo"
+        src="images/trybewarts-header-logo.svg"
+      />
       <h1 id="trybewarts-header-title">Trybewarts</h1>
       <form class="trybewarts-login">
-        <label for="inputEmail">Email:
-          <input type="text" name="email" placeholder="Email" id="email"/>
+        <label for="inputEmail"
+          >Email:
+          <input type="text" name="email" placeholder="Email" id="email" />
         </label>
-        <label for="inputSenha">Senha:
-          <input type="password" name="password" placeholder="Senha" id="password"/>
+        <label for="inputSenha"
+          >Senha:
+          <input
+            type="password"
+            name="password"
+            placeholder="Senha"
+            id="password"
+          />
         </label>
         <button type="button" id="login" onclick="login()">Entrar</button>
       </form>
@@ -28,13 +39,24 @@
           <input type="text" id="input-lastname" placeholder="Sobrenome" />
         </div>
         <div>
-          <input type="text" id="input-email" placeholder="Email"/>
+          <input type="text" id="input-email" placeholder="Email" />
           <select name="" id="house">
             <option value="Gitnória" id="gitnoria-house">Gitnória</option>
             <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
             <option value="Corvinode" id="corvinode-house">Corvinode</option>
             <option value="Pytherina" id="pytherina-house">Pytherina</option>
           </select>
+          <p id="label-family">Qual sua família?</p>
+          <div>
+            <label for="family">Frontend</label>
+            <input type="radio" name="family" value="Frontend" />
+          </div>
+          <label for="family">Backend</label>
+          <input type="radio" name="family" value="Backend" />
+          <div>
+            <label for="family">FullStack</label>
+            <input type="radio" name="family" value="FullStack" />
+          </div>
         </div>
       </form>
       <form id="family-form">

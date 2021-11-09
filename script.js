@@ -1,5 +1,5 @@
-const inputEmail = document.getElementById('email')
+// const inputEmail = document.getElementById('email')
 
 function login() {
-       window.alert('oi');
+  window.alert('oi');
 }
