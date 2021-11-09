@@ -16,10 +16,10 @@ btnEnviar.addEventListener('click', (event) => {
 
 buttonSub.disabled = true;
 
-checkbox.addEventListener('change', function (){
-  if (checkbox.checked){
+checkbox.addEventListener('change', () => {
+  if (checkbox.checked) {
     buttonSub.disabled = false;
   } else {
     buttonSub.disabled = true;
   }
-})
+});
