@@ -41,15 +41,48 @@
         <h1>Formulário de Avaliação</h1>
         <section>
           <input id="input-name" type="text" name="nome" placeholder="Nome" />
-          <input id="input-lastname" type="text" name="sobrenome" placeholder="Sobrenome"/>
-          <input id="input-email" type="email" name="email" placeholder="Email"/>
+          <input
+            id="input-lastname"
+            type="text"
+            name="sobrenome"
+            placeholder="Sobrenome"
+          />
+          <input
+            id="input-email"
+            type="email"
+            name="email"
+            placeholder="Email"
+          />
           <label for="house">Casa:</label>
           <select id="house">
-            <option value="Gitnória" name="house" id="gitnoria-house">Gitnória</option>
-            <option value="Reactpuff" name="house" id="reactpuff-house">Reactpuff</option>
-            <option value="Corvinode" name="house" id="corvinode-house">Corvinode</option>
-            <option value="Pytherina" name="house" id="pytherina-house">Pytherina</option>
-          </select> 
+            <option value="Gitnória" name="house" id="gitnoria-house">
+              Gitnória
+            </option>
+            <option value="Reactpuff" name="house" id="reactpuff-house">
+              Reactpuff
+            </option>
+            <option value="Corvinode" name="house" id="corvinode-house">
+              Corvinode
+            </option>
+            <option value="Pytherina" name="house" id="pytherina-house">
+              Pytherina
+            </option>
+          </select>
+        </section>
+        <section class="conteiner-family">
+          <label id="label-family" for="family">Qual sua família?</label>
+          <div>
+          <input id="frontend" value="Frontend" name="family" type="radio" />
+          <label for="frontend">Frontend</label>
+        </div>
+        <div>
+          <input id="backend" value="Backend" name="family" type="radio" />
+          <label for="backend">Backend</label>
+        </div>
+        <div>
+          <input id="fullstack" value="FullStack" name="family" type="radio" />
+          <label for="fullstack">FullStack</label>
+        </div>
         </section>
       </form>
       <img

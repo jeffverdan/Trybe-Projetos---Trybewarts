@@ -24,3 +24,8 @@ main {
   align-self: center;
   height: 500px;
 }
+
+.conteiner-family{
+  display: flex;
+  flex-direction: column;
+}
