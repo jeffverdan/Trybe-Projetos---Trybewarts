@@ -135,7 +135,9 @@
           </div>
         </section>
         <section>
-          <label id="label-rate" for="rate">Como você avalia a Trybewarts?</label>
+          <label id="label-rate" for="rate"
+            >Como você avalia a Trybewarts?</label
+          >
           <input type="radio" name="rate" id="" value="0" />0
           <input type="radio" name="rate" id="" value="1" />1
           <input type="radio" name="rate" id="" value="2" />2
@@ -149,8 +151,21 @@
           <input type="radio" name="rate" id="" value="10" />10
         </section>
         <label class="textarea" for="text-area">Deixe seu comentário:</label>
-        <textarea name="textsarea" id="textarea" cols="50" rows="10" maxlength="500"></textarea>
-       </form>
+        <textarea
+          name="textsarea"
+          id="textarea"
+          cols="50"
+          rows="10"
+          maxlength="500"
+        ></textarea>
+        <section>
+          <label id="label-infos" for="agreement"
+            >Você concorda com o uso das informações acima?</label
+          >
+          <input id="agreement" type="checkbox" />
+        </section>
+        <button id="submit-btn" type="submit">Enviar</button>
+      </form>
       <img
         id="trybewarts-forms-logo"
         src="images/trybewarts-colored.svg"
