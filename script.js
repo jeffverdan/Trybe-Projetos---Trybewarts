@@ -1,6 +1,6 @@
-const btn = document.querySelector('#btn-submit');
-const inputEmail = document.querySelector('#input-email');
-const inputPassword = document.querySelector('#input-password');
+const btn = document.querySelector('#btnSubmit');
+const inputEmail = document.querySelector('#inputEmail');
+const inputPassword = document.querySelector('#inputPassword');
 
 btn.addEventListener('click', (event) => {
   event.preventDefault();
