@@ -9,3 +9,16 @@ btnEntrar.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+function entrar() {
+  const check = document.getElementById('agreement');
+  check.addEventListener('change', () => {
+    if (!check.checked) {
+      document.getElementById('submit-btn').setAttribute('disabled', 'disabled');
+    } else {
+      document.getElementById('submit-btn').removeAttribute('disabled');
+    }
+  });
+}
+
+entrar();

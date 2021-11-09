@@ -54,6 +54,7 @@ main {
 }
 
 #label-family {
+  line-height: 2em;
 }
 
 .checkbox-content {
@@ -70,7 +71,7 @@ main {
 }
 
 #label-rate {
-  
+  line-height: 1.5em;
 }
 
 .second-div {
@@ -79,4 +80,8 @@ main {
 
 .fifth-class {
   display: flex;
+}
+
+.footer {
+  text-align: center;
 }
