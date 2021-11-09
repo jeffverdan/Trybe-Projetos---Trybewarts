@@ -184,6 +184,8 @@ footer {
   border-radius: 10px;
   max-width: 675px;
   max-height: 180px;
+  padding: 20px;
+  font-size: 16px;
 }
 
 #submit-btn {
@@ -202,4 +204,9 @@ footer {
 #label-infos {
   font-size: 19px;
   margin: 10px 5px 10px 25px;
+}
+
+.contador {
+  display: flex;
+  justify-content: flex-end;
 }

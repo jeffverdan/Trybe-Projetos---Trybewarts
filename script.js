@@ -3,6 +3,8 @@ const email = document.querySelector('.email');
 const senha = document.querySelector('.senha');
 const checkbox = document.querySelector('#agreement');
 const btn = document.querySelector('#submit-btn');
+const textarea = document.querySelector('#textarea');
+const contador = document.querySelector('#counter');
 
 function login() {
   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
@@ -20,5 +22,10 @@ function habilitarBotao() {
     btn.disabled = true;
   }
 }
-
 checkbox.addEventListener('click', habilitarBotao);
+
+const wordCounter = 500;
+textarea.addEventListener('input', () => {
+  const textAreaValue = textarea.value;
+  contador.innerHTML = wordCounter - textAreaValue.length;
+});
