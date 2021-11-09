@@ -6,7 +6,7 @@ const checkBox = document.getElementById('agreement');
 const counter = document.getElementById('counter');
 const textarea = document.getElementById('textarea');
 // Mensagem e efeito de login
-btnEnter.addEventListener('click', function () {
+btnEnter.addEventListener('click', () => {
   if (email.value === 'tryber@teste.com' && password.value === '123456') {
     alert('Olá, Tryber!');
   } else {
@@ -19,7 +19,7 @@ window.onload = () => {
   btnSend.disabled = true;
 };
 
-checkBox.addEventListener('click', function () {
+checkBox.addEventListener('click', () => {
   if (checkBox.checked) {
     btnSend.disabled = false;
   } else {

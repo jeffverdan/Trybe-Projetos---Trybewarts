@@ -53,10 +53,12 @@ main {
   justify-content: space-evenly;
   flex-direction: column;
 }
+
 .learning2 {
   display: flex;
   justify-content: space-between;
 }
+
 .learning3 {
   display: flex;
   justify-content: space-between;
