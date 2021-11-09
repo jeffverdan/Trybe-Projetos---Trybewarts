@@ -19,6 +19,7 @@
 
 #main-content {
   display: flex;
+  border: 1px black dotted;
 }
 
 #evaluation-form {
