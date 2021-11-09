@@ -23,3 +23,13 @@ function desabilitar() {
     btnSubmit.disabled = false;
   }
 }
+
+const caracteres = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+const qtMaxCaracteres = caracteres.maxLength;
+counter.innerText = qtMaxCaracteres;
+
+caracteres.addEventListener('input', () => {
+  const contador = caracteres.value.length;
+  counter.innerText = qtMaxCaracteres - contador;
+});
