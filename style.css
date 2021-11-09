@@ -1,6 +1,19 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+#trybewarts-header-title {
+  align-self: center;
+}
+
+.image-container img {
+  width: 70px;
+  height: 70px;
 }
 
 .trybewarts-login {
@@ -8,10 +21,16 @@
   align-items: flex-end;
 }
 
-#trybewarts-header-title {
-  align-self: center;
+.main-container {
+  display: flex;
 }
 
-.imagemLogo {
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
   height: 500px;
 }
