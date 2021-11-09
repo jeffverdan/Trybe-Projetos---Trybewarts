@@ -1,7 +1,7 @@
-const inputEmail = document.getElementById('email')
+// const inputEmail = document.getElementById('email')
 
-function login() {
-   if (inputEmail.value !== '') {
-       window.alert('oi')
-   }
-}
+// function login() {
+//    if (inputEmail.value !== '') {
+//        window.alert('oi')
+//    }
+// }
