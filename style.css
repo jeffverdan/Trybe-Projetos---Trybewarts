@@ -1,0 +1,12 @@
+main {
+    display: flex;
+}
+
+#evaluation-form {
+    display: flex;
+    width: 765px;
+}
+
+#trybewarts-forms-logo {
+    height: 500px;
+}
