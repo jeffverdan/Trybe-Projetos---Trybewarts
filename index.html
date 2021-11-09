@@ -23,16 +23,58 @@
   <main>
 
     <form action="" id="evaluation-form">
-      <input type="text" id="input-name" placeholder="Nome">
-      <input type="text" id="input-lastname" placeholder="Sobrenome">
-      <input type="email" id="input-email" placeholder="Email">
 
-      <select name="" id="house">
-        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-        <option value="Corvinode" id="corvinode-house">Corvinode</option>
-        <option value="Pytherina" id="pytherina-house">Pytherina</option>
-      </select>
+      <div>
+        <input type="text" id="input-name" placeholder="Nome">
+        <input type="text" id="input-lastname" placeholder="Sobrenome">
+
+      </div>
+
+      <div>
+        <input type="email" id="input-email" placeholder="Email">
+        <label for="house">Casa:</label>
+        <select name="" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+      </div>
+      <label for="family" id="label-family">Qual sua família?</label>
+
+
+      <input type="radio" name="family" value="Frontend">Familia Frontend
+      <input type="radio" name="family" value="Backend">Familia Backend
+      <input type="radio" name="family" value="FullStack">Familia Fullstack
+
+      <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender? </label>
+      <label for="">
+        <input type="checkbox" value="HoFs">HoFs
+      </label>
+      <label for="">
+        <input type="checkbox" value="Jest">Jest
+      </label>
+      <label for="">
+        <input type="checkbox" value="Promises">Promises
+      </label>
+      <label for="">
+        <input type="checkbox" value="React">React
+      </label>
+      <label for="">
+        <input type="checkbox" value="SQL">SQL
+      </label>
+      <label for="">
+        <input type="checkbox" value="Python">Python
+      </label>
+
+
+
+
+
+
+
+
+
 
     </form>
     <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="">
