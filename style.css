@@ -70,7 +70,7 @@ main {
   display: flex;
   padding-bottom: 20px;
   width: 90%;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .row-content {
