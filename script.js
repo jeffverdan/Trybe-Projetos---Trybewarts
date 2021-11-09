@@ -1,4 +1,8 @@
 const submit = document.getElementById('submit');
+const email = document.querySelector('#email');
+const password = document.querySelector('#password');
+
+
 
 submit.addEventListener('click', () => {
   if (email === 'ryber@teste.com' && password === '123456') {
