@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 .header {
@@ -15,6 +14,7 @@
 .trybewarts-header-logo {
   height: 70px;
 }
+
 .trybewarts-login {
   display: flex;
 }
@@ -24,7 +24,15 @@
   border: 1px black dotted;
 }
 
-#inputs-container{
+#full-name {
+  display: flex;
+}
+
+#em-hs {
+  display: flex;
+}
+
+#inputs-container {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -35,8 +43,6 @@
   width: 675px;
   flex-direction: column;
 }
-
-
 
 #trybewarts-forms-logo {
   height: 500px;
@@ -53,7 +59,7 @@
 }
 
 #checkboxes section {
-  margin: 10px 10px;
+  margin: 10px;
 }
 
 .checkbox1 {
@@ -68,14 +74,6 @@ footer {
   justify-content: center;
 }
 
-#full-name {
-  display: flex;
-}
-
-#em-hs {
-  display: flex;
-}
-
-#imgform-container{
+#imgform-container {
   display: flex;
 }
