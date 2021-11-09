@@ -46,3 +46,13 @@ hr {
   display: flex;
   flex-direction: column;
 }
+.avaliacao{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.family-form{
+  display: flex;
+  justify-content: space-between;
+}
