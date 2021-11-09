@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Trybewarts</title>
+</head>
+
+<body>
+
+    <header class="header container-fluid mb-3">
+        <img src="/images/trybewarts-header-logo.svg" class="trybewarts-header-logo">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form class="trybewarts-login">
+            <input type="email" name="email" id="email" class="form-control mb-3" placeholder="Email"
+                autocomplete="off">
+            <input type="password" name="password" id="password" class="form-control mb-3" placeholder="Senha">
+            <button type="submit" class="btn btn-primary" id="btnLogin">Entrar</button>
+        </form>
+    </header>
+
+    <main>
+
+        <form id="evaluation-form" class="m-3">
+            <div class="bg">
+                <img src="/carta.png" class="img-fluid">
+                <div class="result container">
+                    <h2>Dados do Aluno:</h2>
+                </div>
+            </div>
+            <div class="input-name">
+                <input type="text" name="name" id="input-name" placeholder="Nome" class="form-control mb-2">
+                <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome"
+                    class="form-control mb-2">
+            </div>
+            <div class="input-email-house">
+                <input type="text" name="email" id="input-email" placeholder="Email" class="form-control mb-3">
+                <select id="house" class="form-select">
+                    <option value="">Escolha uma casa</option>
+                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+
+                </select>
+            </div>
+
+
+            <div class="break-apart"></div>
+
+            <div class="family-tech">
+                <div class="family m-4">
+                    <div class="title mb-3">
+                        <label id="label-family">Qual sua família?</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="family" id="front" value="Frontend">
+                        <label class="form-check-label" for="front">
+                            Frontend
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="family" id="back" value="Backend">
+                        <label class="form-check-label" for="back">
+                            Backend
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="family" id="full" value="FullStack">
+                        <label class="form-check-label" for="full">
+                            FullStack
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="tech m-4">
+
+                    <div class="title mb-3">
+                        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input subject" type="checkbox" value="HoFs" id="HoFs">
+                        <label class="form-check-label " for="HoFs">
+                            HoFs
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input subject" type="checkbox" value="Jest" id="Jest">
+                        <label class="form-check-label" for="Jest">
+                            Jest
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input subject" type="checkbox" value="Promises" id="Promises">
+                        <label class="form-check-label" for="Promises">
+                            Promises
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input subject" type="checkbox" value="React" id="React">
+                        <label class="form-check-label" for="React">
+                            React
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input subject" type="checkbox" value="SQL" id="SQL">
+                        <label class="form-check-label" for="SQL">
+                            SQL
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input subject" type="checkbox" value="Python" id="Python">
+                        <label class="form-check-label" for="Python">
+                            Python
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="break-apart"></div>
+
+
+
+            <div id='rate-container' class="m-4">
+
+                <div class="title mb-3">
+                    <label id="label-rate">Como você avalia a Trybewarts?</img>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-1' name="rate" value="1">
+                    <label for="radio-1">1</label>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-2' name="rate" value="2">
+                    <label for="radio-2">2</label>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-3' name="rate" value="3">
+                    <label for="radio-3">3</label>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-4' name="rate" value="4">
+                    <label for="radio-4">4</label>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-5' name="rate" value="5">
+                    <label for="radio-5">5</label>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-6' name="rate" value="6">
+                    <label for="radio-6">6</label>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-7' name="rate" value="7">
+                    <label for="radio-7">7</label>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-8' name="rate" value="8">
+                    <label for="radio-8">8</label>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-9' name="rate" value="9">
+                    <label for="radio-9">9</label>
+                </div>
+
+                <div class='rate-input'>
+                    <input type="radio" id='radio-10' name="rate" value="10">
+                    <label for="radio-10">10</label>
+                </div>
+
+            </div>
+
+            <div class="m-4">
+                <label class="textarea mb-3">Deixe seu comentário:</label>
+                <div class="input-control">
+                    <textarea class="form-control" id="textarea" style="height: 100px" maxlength="500"></textarea>
+                    <span id="counter">500</span>
+                </div>
+            </div>
+
+            <div class="m-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="agreement">
+                    <label class="form-check-label" for="agreement" id="label-infos">
+                        Você concorda com o uso das informações acima?
+                    </label>
+
+                </div>
+            </div>
+
+            <div class=" d-grid m-4">
+                <button type="submit" id="submit-btn" class="btn btn-outline-success" disabled>Enviar</button>
+            </div>
+
+        </form>
+
+        <div id="logo">
+            <img src="/images/trybewarts-colored.svg" id="trybewarts-forms-logo" class="img-fluid" alt="logo trybe">
+        </div>
+        </div>
+
+    </main>
+
+    <div class="container-fluid">
+        <footer>
+            <p>Direitos reservados à Trybewarts©</p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
