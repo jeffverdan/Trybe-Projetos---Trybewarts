@@ -3,7 +3,7 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const btnSend = document.getElementById('submit-btn');
 const checkBox = document.getElementById('agreement');
-let counter = document.getElementById('counter');
+const counter = document.getElementById('counter');
 const textarea = document.getElementById('textarea');
 // Mensagem e efeito de login
 btnEnter.addEventListener('click', function () {
