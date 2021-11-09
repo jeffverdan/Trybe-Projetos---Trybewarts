@@ -18,8 +18,7 @@ body {
   display: flex;
 }
 
-header button ,
-input {
+header button , input {
   height: 20px;
   margin-left: 5px;
 }
