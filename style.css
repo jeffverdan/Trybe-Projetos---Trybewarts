@@ -41,10 +41,17 @@
 
 #checkboxes {
   display: flex;
+  justify-content: space-between;
+  height: 150px;
 }
 
 #checkboxes section {
   margin: 10px 10px;
+}
+
+.checkbox1 {
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
