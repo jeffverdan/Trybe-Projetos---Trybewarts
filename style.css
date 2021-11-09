@@ -21,3 +21,13 @@
   display: flex;
   padding: 40px;
 }
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column ;
+}
+
+#main-container {
+  display: flex;
+}
