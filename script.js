@@ -21,7 +21,7 @@ button.disabled = true;
 
 function verificaAceite() {
   if (document.querySelector('#agreement').value === '') {
-    button.disabled = true; 
+    button.disabled = true;
   } else {
     button.disabled = false;
   }
