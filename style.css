@@ -12,7 +12,7 @@
 }
 
 .trybewarts-header-title {
-  margin: 20px 50px; 
+  margin: 20px 50px;
 }
 
 .trybewarts-header-logo {
@@ -21,16 +21,16 @@
 
 .trybewarts-login {
   display: flex;
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 
-main, #evaluation-form {
+main , #evaluation-form {
   display: flex;
 }
 
 #evaluation-form {
   width: 675px;
-  flex-direction:column;
+  flex-direction: column;
 }
 
 #trybewarts-forms-logo {
@@ -44,6 +44,7 @@ main, #evaluation-form {
 .family-lessontolearn {
   display: inline-flex;
 }
+
 #rating {
   display: inline-block;
 }
