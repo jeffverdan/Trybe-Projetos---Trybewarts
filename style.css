@@ -3,7 +3,8 @@ header {
   background-color: rgb(50, 167, 145);
 }
 
-main, #evaluation-form {
+main,
+#evaluation-form {
   display: flex;
 }
 
