@@ -16,6 +16,9 @@
 .trybewarts-header-logo {
   height: 70px;
 }
+.trybewarts-login {
+  display: flex;
+}
 
 .main-content {
   display: flex;
