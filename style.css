@@ -19,11 +19,12 @@ h1 {
   padding-right: 20px;
 }
 
-#evaluation-form main {
+main {
   display: flex;
 }
 
 #evaluation-form {
+  display: flex;
   width: 675px;
   margin-top: 50px;
   background-color: rgb(50, 167, 145);
