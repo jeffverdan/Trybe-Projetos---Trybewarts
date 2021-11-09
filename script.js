@@ -9,3 +9,15 @@ buttonHeader.addEventListener('click', (event) => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const buttonMain = document.querySelector('#submit-btn');
+const agreementCheck = document.querySelector('#agreement');
+
+agreementCheck.addEventListener('click', function(){
+  if (agreementCheck.checked === false){
+      buttonMain.disabled = true
+  }else{
+      buttonMain.disabled = false
+  };
+})
+
