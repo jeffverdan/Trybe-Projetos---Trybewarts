@@ -1,7 +1,7 @@
 .header {
-    background-color: rgb(50, 167, 145);
-    display: flex;
-    width: 100%;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  width: 100%;
 }
 
 main {
@@ -12,21 +12,17 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-  
 }
 
 #trybewarts-forms-logo {
-    height: 500px;
-    display: flex;
+  display: flex;
+  height: 500px;
 }
 
-.Nome {
-    display: inline;
-    margin-left: 800px;
-    margin-top: -300px;
+#fullname {
+  display: inline;
 }
 
-.Email {
-    display: inline;
-    margin-left: 800px;
+#campos {
+  display: inline;
 }
