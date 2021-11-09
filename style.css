@@ -49,10 +49,10 @@ main {
   flex-direction: column;
 }
 
-.textarea {
+#textarea {
   resize: none;
 }
 
-#rate-conatiner {
+#agree-container {
   display: flex;
 }
