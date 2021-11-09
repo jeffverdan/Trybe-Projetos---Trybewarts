@@ -68,3 +68,12 @@ body {
 hr {
   width: 99%;
 }
+
+.form-end {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#submit-btn {
+  width: 100%;
+}
