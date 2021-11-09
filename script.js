@@ -20,7 +20,7 @@ document.querySelector('#agreement').addEventListener('click', () => {
   submitBtn.disabled = false;
 });
 
-textarea.addEventListener('keydown', () => {
+textarea.addEventListener('keyup', () => {
   counter.textContent = 500 - textarea.value.length;
 });
 
