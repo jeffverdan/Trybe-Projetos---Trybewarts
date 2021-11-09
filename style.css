@@ -105,3 +105,12 @@ hr {
   display: flex;
   align-items: center;
 }
+
+.comentario {
+  display: flex;
+  flex-direction: column;
+}
+
+#coment {
+  height: 100px;
+}
