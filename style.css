@@ -21,7 +21,7 @@
   display: flex;
 }
 
-main {
+main , #evaluation-form {
   background-color: lightblue;
   display: flex;
   justify-content: space-between;
@@ -30,6 +30,10 @@ main {
 /* FORMS */
 .first-form h1 {
   text-align: center;
+}
+
+form {
+  width: 675px;
 }
 
 /* MAIN IMAGE */
