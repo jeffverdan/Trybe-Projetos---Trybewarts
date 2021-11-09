@@ -20,10 +20,22 @@ checkbox.addEventListener('change', () => {
   }
 });
 
+/* Requisito 20 */
+const textArea = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+textArea.addEventListener('keyup', () => {
+  const caracterRest = 500 - textArea.value.length;
+  counter.innerText = caracterRest;
+});
 
-  // Requisito 21
-const submitForm = document.getElementById('submit-btn');
-submitForm.addEventListener('click', () => {
-  const formulario = document.getElementById('forms');
-  formulario.value = '';
-})
+// Requisito 21
+// const submitForm = document.getElementById('submit-btn');
+// submitForm.addEventListener('click', () => {
+// const name = document.getElementById('input-name').value
+// const lastname = document.getElementById('input-lastname').value
+// const email = document.getElementById('input-email').value
+// const choices = document.getElementsByClassName('subject').value
+// const obs = document.getElementsByClassName('textarea').value
+// const formulario = document.getElementById('forms');
+// formulario.innerText = 'Nome: ' && name + ' ' + lastname;
+// })
