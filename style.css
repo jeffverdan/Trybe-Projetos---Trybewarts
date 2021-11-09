@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+body {
+  background: rgb(239, 239, 239);
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  font-size: 16px;
+}
+
+hr {
+  display: block;
+  clear: both;
+  border-top: 1px solid rgb(202, 202, 202);
+  margin-bottom: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+header {
+  color: white;
+  padding: 4px 0;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  margin: 0 auto;
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .input {
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+header .input input {
+  width: 100px;
+}
+
+header .trybewarts-login {
+  display: flex;
+}
+
+#content img {
+  height: 500px;
+}
+
+#icon img {
+  width: 62px;
+}
+
+.inpute {
+  background-color: white;
+  border-radius: 4px;
+  line-height: 16px;
+  font-size: 16px;
+  padding: 7px 15px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+.inpute:focus {
+  border: 1px solid rgba(77, 48, 129, 1);
+}
+
+.input select {
+  background-color: white;
+  border-radius: 4px;
+  line-height: 16px;
+  font-size: 16px;
+  padding: 7px 15px;
+  box-sizing: border-box;
+}
+
+.input.c-label select {
+  width: calc(100% - 50px);
+  clear: both;
+  display: inline-block;
+}
+
+.checks label {
+  flex-basis: 30%;
+  margin-bottom: 15px;
+}
+
+.input.c-label label {
+  width: 50px;
+  line-height: 33px;
+  float: left;
+}
+
+button {
+  background: rgba(77, 48, 129, 1);
+  color: white;
+  padding: 3px 15px;
+  height: 32px;
+  border-radius: 4px;
+  line-height: 16px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#content {
+  display: flex;
+  align-items: center;
+}
+
+#content h1 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#content form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#content form > div > .input {
+  width: calc(50% - 30px);
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#dadospessoais > .input input {
+  width: 100%;
+}
+
+.desktop-30 {
+  width: 30%;
+  float: left;
+}
+
+.desktop-70 {
+  width: 70%;
+  float: left;
+}
+
+#tecnologia .desktop-30 label {
+  display: block;
+}
+
+#tecnologia .desktop-70 > label {
+  display: block;
+}
+
+#tecnologia .desktop-30 label:not( :first-child ) {
+  margin-top: 15px;
+}
+
+#tecnologia .desktop-30 label:last-child {
+  margin-bottom: 15px;
+}
+
+#tecnologia .desktop-70 .checks {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#avaliacao {
+  clear: both;
+  display: block;
+  margin-top: 30px;
+}
+
+@media screen and ( max-width : 868px ) {
+
+  #content {
+    flex-direction: column-reverse;
+  }
+}
+
+#avaliacao div {
+  margin-bottom: 15px;
+}
+
+.component-textarea {
+  width: 100%;
+  position: relative;
+}
+
+.component-textarea span {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  pointer-events: none;
+}
+
+.component-textarea textarea {
+  padding: 3px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  border: 1px solid transparent;
+}
+
+.component-textarea textarea:focus {
+  border: 1px solid rgba(77, 48, 129, 1);
+}
+
+#formulario {
+  width: 675px;
+}
+
+#formulario button {
+  margin-top: 15px;
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(59, 64, 74);
+  color: rgb(163, 156, 156);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  padding: 3px 0;
+}

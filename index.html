@@ -7,52 +7,55 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header>
-		<section id="icon"><img src=""></section>
-		<section id="logo"><img src=""></section>
+	<header class="header">
+		<section id="icon"><img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo"></section>
+		<h1 id="trybewarts-header-title">Trybewarts</h1>
 		<section id="login">
-			<div class="input">
-				<input type="email" name="email" placeholder="Email" />
-			</div>
-			<div class="input">
-				<input type="password" name="senha" placeholder="Senha" />
-			</div>
-			<button>Entrar</button>
+			<form class="trybewarts-login">
+				<div class="input">
+					<input type="email" name="email" placeholder="Email" class="inpute" />
+				</div>
+				<div class="input">
+					<input type="password" name="password" placeholder="Senha" class="inpute" />
+				</div>
+				<button>Entrar</button>
+			</form>
 		</section>
 	</header>
-	<section class="container" id="content">
+	<main class="container" id="content">
 		<section id="formulario">
 			<h1>Formulário de Avaliação</h1>
-			<form method="GET">
-				<h1>Formulário de Avaliação</h1>
-				<div class="input">
-					<input type="text" name="nome"/>
-				</div>
-				<div class="input">
-					<input type="text" name="sobrenome"/>
-				</div>
-				<div class="input">
-					<input type="email" name="email"/>
-				</div>
-				<div class="input c-label">
-					<label for="casa">Casa:</label>
-					<select name="casa">
-						<option value="grifinoria">Grifinória</option>
-						<option value="soncerina">Soncerina</option>
-						<option value="corvinal">Corvinal</option>
-						<option value="lufalufa">Lufa-Lufa</option>
-					</select>
+			<form id="evaluation-form">
+				<div id="dadospessoais">
+					<div class="input">
+						<input type="text" name="nome" placeholder="Nome" class="inpute" id="input-name"/>
+					</div>
+					<div class="input">
+						<input type="text" name="sobrenome" placeholder="Sobrenome" class="inpute" id="input-lastname"/>
+					</div>
+					<div class="input">
+						<input type="email" name="email" placeholder="Email" class="inpute" id="input-email"/>
+					</div>
+					<div class="input c-label">
+						<label for="casa">Casa:</label>
+						<select name="casa" id="house">
+							<option id="gitnoria-house" value="Gitnória">Gitnória</option>
+							<option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+							<option id="corvinode-house" value="Corvinode">Corvinode</option>
+							<option id="pytherina-house" value="Pytherina">Pytherina</option>
+						</select>
+					</div>
 				</div>
 				<hr>
 				<section id="tecnologia">
 					<div class="desktop-30">
-						<label>Qual sua família?</label>
-						<label><input type="radio" name="familia" value="frontend"/> Família Frontend</label>
-						<label><input type="radio" name="familia" value="backend"/> Família Backend</label>
-						<label><input type="radio" name="familia" value="fullstack"/> Família Fullstack</label>
+						<label id="label-family">Qual sua família?</label>
+						<label><input type="radio" name="family" value="Frontend"/> Família Frontend</label>
+						<label><input type="radio" name="family" value="Backend"/> Família Backend</label>
+						<label><input type="radio" name="family" value="FullStack"/> Família Fullstack</label>
 					</div>
 					<div class="desktop-70">
-						<label>Qual conteúdo você está com mais vontade de aprender?</label>
+						<label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
 						<div class="checks">
 							<label><input type="checkbox" name="conteudo[]" value="HoFs"/> HoFs</label>
 							<label><input type="checkbox" name="conteudo[]" value="Jest"/> Jest</label>
@@ -80,7 +83,7 @@
 					</div>
 					<div class="component-textarea">
 						<label>Deixe seu comentário:</label>
-						<textarea name="comentario"></textarea>
+						<textarea rows="4" maxlength="500" name="comentario"></textarea>
 						<span>500</span>
 					</div>
 					<label>Você concorda com o uso das informações acima? <input type="checkbox" name="concorda" value="1" required/></label>
@@ -88,10 +91,11 @@
 				<button>Enviar</button>
 			</form>
 		</section>
-		<img id="brasao"></img>
-	</section>
+		<img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"/>
+	</main>
 	<footer>
 		Direitos reservados à Trybewarts©
 	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
