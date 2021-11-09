@@ -28,3 +28,8 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.form-radio {
+  display: flex;
+  flex-direction: column;
+}
