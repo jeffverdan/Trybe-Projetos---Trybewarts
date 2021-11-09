@@ -1,14 +1,14 @@
-document.getElementById("login").addEventListener("click", function (event) {
+document.getElementById('login').addEventListener('click', function () {
   if (
-    document.getElementById("email").value.includes("@", ".com") &&
-    document.getElementById("password").value.length > 4
+    document.getElementById('email').value.includes('@', '.com')
+    && document.getElementById('password').value.length > 4
   ) {
-    document.getElementById("email").value = "";
-    document.getElementById("password").value = "";
-    window.alert("Olá, Tryber!");
+    document.getElementById('email').value = '';
+    document.getElementById('password').value = '';
+    window.alert('Olá, Tryber!');
   } else {
-    document.getElementById("email").value = "";
-    document.getElementById("password").value = "";
-    window.alert("Email ou senha inválidos.");
+    document.getElementById('email').value = '';
+    document.getElementById('password').value = '';
+    window.alert('Email ou senha inválidos.');
   }
 });
