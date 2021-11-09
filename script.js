@@ -1,5 +1,7 @@
 const login = document.querySelector('.trybewarts-login');
 const btnLogin = document.getElementById('btn-login');
+const btnSubmit = document.getElementById('submit-btn');
+const checkAgreement = document.getElementById('agreement');
 
 btnLogin.addEventListener('click', (evt) => {
   evt.preventDefault();
@@ -14,4 +16,12 @@ btnLogin.addEventListener('click', (evt) => {
     alert('Email ou senha inválidos.');
   }
   // document.getElementById('demo').innerText = JSON.stringify(usuario);
+});
+
+checkAgreement.addEventListener('click', (evt) => {
+  if (evt.target.checked) {
+    btnSubmit.disabled = false;
+  } else {
+    btnSubmit.disabled = true;
+  }
 });
