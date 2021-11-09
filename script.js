@@ -4,6 +4,10 @@ const senha = document.getElementById('senha');
 const btnEnviar = document.getElementById('submit-btn');
 const checkBox = document.getElementById('agreement');
 
+window.onload = function desabilita() {
+    checkBox.disbaled = true;
+}
+
 function login() {
   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
     alert('Olá, Tryber!');

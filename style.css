@@ -7,6 +7,11 @@ body {
   background-color: rgba(239, 239, 239, 255);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -23,6 +28,18 @@ body {
   align-content: center;
   justify-content: center;
   font-size: 40px;
+}
+
+.header:nth-child(0) {
+    order: 1;
+}
+
+.header:nth-child(1) {
+    color: 2;
+}
+
+.header:nth-child(2) {
+    color: 3;
 }
 
 #evaluation-form {
@@ -51,15 +68,10 @@ body {
   align-content: center;
   align-items: center;
   width: 150px;
-  background-color: red;
 }
 
 footer {
   background-color: gray;
-}
-
-#formulario1 {
-  display: flex;
 }
 
 .input , .colorBtn {
