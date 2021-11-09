@@ -6,3 +6,7 @@
 .trybewarts.login {
   display: flex;
 }
+
+form {
+  display: flex;
+}
