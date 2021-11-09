@@ -10,3 +10,15 @@ function loginCredentials() {
   }
 }
 btnFornSubmit.addEventListener('click', loginCredentials);
+
+function changeButtonState() {
+  const button = document.querySelector('#submit-btn');
+  if (button.disabled === true) {
+    button.disabled = false;
+  } else {
+    button.disabled = true;
+  }
+}
+
+const checkBox = document.querySelector('#agreement');
+checkBox.addEventListener('click', changeButtonState);

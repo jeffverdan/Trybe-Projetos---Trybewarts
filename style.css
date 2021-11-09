@@ -45,3 +45,30 @@ footer span {
   color: white;
   font-weight: bold;
 }
+
+.formBoxAval {
+    margin: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formBoxText ,  .formBoxCheck, .formBoxButton {
+    margin: 5px 30px;
+    text-align: center;
+}
+
+.textarea {
+    margin: auto;
+}
+
+hr {
+    margin: 2px 30px;
+    width: auto;
+}
+
+#submit-btn {
+    width: 80%;
+    height: 25px;
+    margin: 2px auto;
+}
