@@ -10,13 +10,11 @@
   padding: 3px;
   justify-content: space-between;
   height: 70px;
-  color:white;
-  
+  color: white;
 }
 
 .trybewarts-login {
   display: flex;
-  
 }
 
 /* .form{
@@ -26,9 +24,16 @@
   
 } */
 
-#trybewarts-header-title{
+#trybewarts-header-title {
+  display: flex;
+  align-items: center;
+}
 
-    display: flex;
-    align-items: center;
-   
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
