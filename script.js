@@ -1,5 +1,7 @@
-const inputEmail = document.getElementById('email').innerText
+const inputEmail = document.getElementById('email')
 
 function login() {
-   window.alert('ola mundo');
+   if (inputEmail.value !== '') {
+       window.alert('oi')
+   }
 }
