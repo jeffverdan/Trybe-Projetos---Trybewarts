@@ -39,3 +39,8 @@ main {
   width: 100%;
   display: flex;
 }
+
+.wich-family {
+  display: inline;
+  color: black;
+}
