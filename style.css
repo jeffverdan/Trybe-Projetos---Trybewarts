@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Cinzel, serif;
+  margin: 0;
+  padding: 0;
+  font-family: Cinzel, serif;
 }
 
 .header {
@@ -25,4 +25,18 @@
 
 .trybewarts-login {
   display: flex;
+}
+
+#main-form {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
