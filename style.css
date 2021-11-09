@@ -1,133 +1,130 @@
-*  {
+* {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  }
-  
-  .header {
-    background-color: rgb(50, 167, 145);
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
-  }
-  
-  .trybewarts-header-logo {
-    height: 80px;
-  }
-  
-  #trybewarts-header-title {
-    color: white;
-    font-family: 'Henny Penny', cursive;
-    font-size: 40px;
-  }
-  
-  
-  .trybewarts-login {
-    display: flex;
-  
-  }
-  
-  .senha, .email, .entrar {
-    margin-right: 20px;
-    border-radius: 8px;
-    height: 35px;
-    width: 145px;
-    text-align: center;
-  }
-  
-  .entrar {
-    background-color: rgb(81, 5, 110);
-    color: white;
-    cursor: pointer;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(233, 233, 233);
-    justify-content: space-around;
-  
-  }
-  
-  #evaluation-form {
-    display: flex;
-    width: 675px;
-    flex-direction: column;
-    flex-basis: 675px;
-    padding: 20px;
-    justify-content: stretch;
-    align-items: center;
-  }
-  
-  #trybewarts-forms-logo {
-    height: 500px;
-    flex-basis: 500px;
-    display: flex;
-    flex-direction: row;
-    align-self:stretch;
-  }
-  
-  #title {
-    display: flex;
-    width: 675px;
-    padding: 20px;
-    justify-content: center;
-    font-family: 'Acme', sans-serif;
-  }
-  
-  #input-name {
-    width: 250px;
-    height: 40px;
-    border-radius: 7px;
-    margin-right: 7px;
-    font-size: 15px;
-  }
-  
-  #input-lastname {
-    width: 250px;
-    height: 40px;
-    border-radius: 7px;
-    font-size: 15px;
-  }
-  
-  #input-email {
-    width: 250px;
-    height: 40px;
-    border-radius: 7px;
-    margin-right: 7px;
-    margin-top: 15px;
-    font-size: 15px;
-  }
-  
-  #house {
-    width: 210px;
-    height: 40px;
-    border-radius: 7px;
-    font-size: 15px;
-  }
-  
-  footer {
-    background-color: grey;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  .familia {
-    display: flex;
-    flex-direction: column;
-    margin-right: 70px;
-  }
+}
 
-  .vontade { 
-    display: flex;
-    flex-direction: column;
-  }
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
 
-  #second {
-    display: flex;
-    padding: 15px;
-  }
+.trybewarts-header-logo {
+  height: 80px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-family: Henny Penny, cursive;
+  font-size: 40px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.senha , .email , .entrar {
+  margin-right: 20px;
+  border-radius: 8px;
+  height: 35px;
+  width: 145px;
+  text-align: center;
+}
+
+.entrar {
+  background-color: rgb(81, 5, 110);
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(233, 233, 233);
+  justify-content: space-around;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  flex-basis: 675px;
+  padding: 20px;
+  justify-content: stretch;
+  align-items: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  flex-basis: 500px;
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+}
+
+#title {
+  display: flex;
+  width: 675px;
+  padding: 20px;
+  justify-content: center;
+  font-family: Acme, sans-serif;
+}
+
+#input-name {
+  width: 250px;
+  height: 40px;
+  border-radius: 7px;
+  margin-right: 7px;
+  font-size: 15px;
+}
+
+#input-lastname {
+  width: 250px;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+#input-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 7px;
+  margin-right: 7px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+#house {
+  width: 210px;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.familia {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.vontade {
+  display: flex;
+  flex-direction: column;
+}
+
+#second {
+  display: flex;
+  padding: 15px;
+}
