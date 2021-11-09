@@ -36,7 +36,53 @@
             <option value="Pytherina" id="pytherina-house">Pytherina</option>
           </select>
         </fieldset>
-
+        <fieldset class="labels">
+          <section class="labelfamily">
+            <label id="label-family">Qual sua família?</label>
+            <section>
+              <input type="radio" name="family" value="Frontend">
+              <input type="radio" name="family" value="Backend">
+              <input type="radio" name="family" value="FullStack">
+            </section>
+          </section>
+          <section class="labelcontent">
+            <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <section>
+              <input type="checkbox" value="HoFs">
+              <input type="checkbox" value="Jest">
+              <input type="checkbox" value="Promises">
+              <input type="checkbox" value="React">
+              <input type="checkbox" value="SQL">
+              <input type="checkbox" value="Python">
+            </section>
+          </section>
+        </fieldset>
+        <fieldset>
+          <section class="labels">
+            <label id="label-rate">Como você avalia a Trybewarts?</label>
+            <section>
+              <input type="radio" name="rate" value="1">
+              <input type="radio" name="rate" value="2">
+              <input type="radio" name="rate" value="3">
+              <input type="radio" name="rate" value="4">
+              <input type="radio" name="rate" value="5">
+              <input type="radio" name="rate" value="6">
+              <input type="radio" name="rate" value="7">
+              <input type="radio" name="rate" value="8">
+              <input type="radio" name="rate" value="9">
+              <input type="radio" name="rate" value="10">
+            </section>
+          </section>
+          <section>
+            <label class="text-area">Deixe seu comentário:</label>
+            <textarea maxlength="500"></textarea>
+          </section>  
+        </fieldset>
+        <fieldset>
+          <label id="label-infos">Você concorda com o uso das informações acima?</label>
+          <input type="checkbox" id="agreement">
+        </fieldset>
+        <button type="submit" id="submit-btn">Enviar</button>
       </form>
       <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" />
     </main>

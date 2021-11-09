@@ -11,3 +11,15 @@ loginBtn.addEventListener('click', (e) => {
   }
   alert('Olá, Tryber!');
 });
+
+const btnSubmit = document.getElementById('submit-btn');
+btnSubmit.disabled = true;
+const checkBox = document.getElementById('agreement');
+
+checkBox.addEventListener('click', (e) => {
+  if (e.target.checked) {
+    btnSubmit.disabled = false;
+  } else {
+    btnSubmit.disabled = true;
+  }
+});

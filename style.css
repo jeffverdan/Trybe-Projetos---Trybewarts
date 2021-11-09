@@ -95,3 +95,19 @@ main {
   height: 500px;
 }
 
+.labelfamily section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+}
+
+.labelcontent section {
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+  justify-content: center;
+}
