@@ -19,8 +19,10 @@ const checkBox = document.getElementById('agreement');
 checkBox.addEventListener('click', (e) => {
   if (e.target.checked) {
     btnSubmit.disabled = false;
+    btnSubmit.style.backgroundColor = 'rgb(63, 13, 156)';
   } else {
     btnSubmit.disabled = true;
+    btnSubmit.style.backgroundColor = 'rgb(37, 37, 37)';
   }
 });
 

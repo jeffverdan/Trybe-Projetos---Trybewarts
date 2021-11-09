@@ -157,12 +157,13 @@ main {
 
 #submit-btn {
   padding: 10px;
-  background-color: rgb(63, 13, 156);
+  background-color: rgb(37, 37, 37);
   font-size: 25px;
   color: white;
   font-weight: 800;
   cursor: pointer;
   transition: all 0.3s;
+  border-radius: 5px;
 }
 
 #submit-btn:hover {
