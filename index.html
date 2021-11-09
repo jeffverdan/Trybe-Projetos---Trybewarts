@@ -28,18 +28,89 @@
           <input type="text" id="input-name" placeholder="Nome" />
           <input type="text" id="input-lastname" placeholder="Sobrenome" />
         </section>
-        
+
         <section id="email-house-section">
           <input type="text" id="input-email" placeholder="Email" />
-        <select name="" id="house">
-          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-          <option value="Corvinode" id="corvinode-house">Corvinode</option>
-          <option value="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
-      </section>
-      <label for="" id="label-family">Qual sua família?</label>
-      <input type="radio" name="" id="">
+          <select name="" id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </section>
+
+        <label for="" id="label-family">Qual sua família?</label>
+        <div>
+          <input type="radio" name="family" id="frontend" value="Frontend" />
+          <label for="frontend" class="family">Frontend</label>
+        </div>
+        <div>
+          <input type="radio" name="family" id="backend" value="Backend" />
+          <label for="backend" class="family">Backend</label>
+        </div>
+        <div>
+          <input type="radio" name="family" id="fullstack" value="FullStack" />
+          <label for="fullstack" class="family">FullStack</label>
+        </div>
+
+        <section id="contents-section">
+          <label for="" id="label-content"
+            >Qual conteúdo você está com mais vontade de aprender?</label
+          >
+
+          <section id="HoFs">
+            <input type="checkbox" value="HoFs" id="HoFs" />
+            <label for="HoFs">HoFs</label>
+          </section>
+
+          <section id="Jest">
+            <input type="checkbox" value="Jest" id="Jest" />
+            <label for="Jest">Jest</label>
+          </section>
+
+          <section id="Promises">
+            <input type="checkbox" value="Promises" id="Promises" />
+            <label for="Promises">Promises</label>
+          </section>
+
+          <section id="React">
+            <input type="checkbox" value="React" id="React" />
+            <label for="React">React</label>
+          </section>
+
+          <section id="SQL">
+            <input type="checkbox" value="SQL" id="SQL" />
+            <label for="SQL">SQL</label>
+          </section>
+
+          <section id="Python">
+            <input type="checkbox" value="Python" id="Python" />
+            <label for="Python">Python</label>
+          </section>
+        </section>
+
+        <section>
+          <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+          <input type="radio" name="rate" id="" value="1" />1
+          <input type="radio" name="rate" id="" value="2" />2
+          <input type="radio" name="rate" id="" value="3" />3
+          <input type="radio" name="rate" id="" value="4" />4
+          <input type="radio" name="rate" id="" value="5" />5
+          <input type="radio" name="rate" id="" value="6" />6
+          <input type="radio" name="rate" id="" value="7" />7
+          <input type="radio" name="rate" id="" value="8" />8
+          <input type="radio" name="rate" id="" value="9" />9
+          <input type="radio" name="rate" id="" value="10" />10
+        </section>
+
+        <label for="" class="textarea">Deixe seu comentário:</label>
+        <textarea
+          name=""
+          id="textarea"
+          cols="30"
+          rows="10"
+          maxlength="500"
+        ></textarea>
       </form>
       <img
         src="images/trybewarts-colored.svg"
