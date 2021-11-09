@@ -46,3 +46,9 @@ form {
 #fam-cont {
   display: flex;
 }
+
+#text-area {
+  display: flex;
+  flex-direction: column;
+}
+
