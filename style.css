@@ -28,3 +28,8 @@ main {
   width: 675px;
   flex-direction: column;
 }
+
+#trybewarts-forms-logo {
+  order: 1;
+  height: 500px;
+}
