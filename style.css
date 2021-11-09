@@ -12,6 +12,10 @@ header {
   align-items: center;
 }
 
+header img {
+  max-width: 5%;
+}
+
 .trybewarts-login {
   display: flex;
   align-items: center;
