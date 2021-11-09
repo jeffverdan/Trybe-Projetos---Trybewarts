@@ -17,6 +17,8 @@
   display: inline;
 }
 
+.trybewarts-header-title {
+}
 main {
   display: flex;
   justify-content: center;
@@ -38,4 +40,9 @@ form {
 
 .row {
   display: flex;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
 }

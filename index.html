@@ -9,16 +9,12 @@
   </head>
   <body>
     <header class="header">
-      <img
-        class="trybewarts-header-logo"
-        src="images/trybewarts-header-logo.svg"
-        alt=""
-      />
+      <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt=""/>
       <h1 class="trybewarts-header-title">Trybewarts</h1>
       <form class="trybewarts-login" action="">
         <input id="email" type="" name="email" placeholder="Email" />
-        <input id="password" type="" name="password" placeholder="Senha" />
-        <button onclick="alert()">Entrar</button>
+        <input id="password" type="password" name="password" placeholder="Senha" />
+        <button onclick="alerta()">Entrar</button>
       </form>
     </header>
 
@@ -30,6 +26,7 @@
         </div>
         <div class="row">
           <input type="email" id="input-email" placeholder="Email" />
+          <label for="house">
           <select id="house">
             <option id="gitnoria-house" value="Gitnória">Gitnória</option>
             <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
@@ -37,6 +34,27 @@
             <option id="pytherina-house" value="Pytherina">Pytherina</option>
           </select>
         </div>
+        <hr>
+        <div class="row">
+          <div class="family">
+            <label id="label-family">Qual sua família?</label>
+            <input type="radio" id="frontend" name="family" value="Frontend">
+            <label for="frontend">Frontend</label>
+            <input type="radio" id="backend" name="family" value="Backend">
+            <label for="fullstack">Frontend</label>
+            <input type="radio" id="fullstack" name="family" value="Fullstack">
+          </div>
+          <div class="content">
+            <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <input type="checkbox" value="HoFs">
+            <input type="checkbox" value="Jest">
+            <input type="checkbox" value="Promises">
+            <input type="checkbox" value="React">
+            <input type="checkbox" value="SQL">
+            <input type="checkbox" value="Python">
+          </div>
+        </div>
+        <hr>
       </form>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" />
     </main>
