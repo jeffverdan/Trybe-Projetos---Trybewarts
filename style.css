@@ -6,8 +6,8 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  flex-flow: wrap;
   flex-direction: row;
-  flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -17,9 +17,14 @@
   width: 5%;
   padding: 0 15px;
 }
+
+#trybewarts-header-title {
+  color: white;
+}
+
 .trybewarts-login {
   padding: 0 15px;
   display: flex;
+  flex-flow: wrap;
   flex-direction: row;
-  flex-wrap: wrap;
 }
