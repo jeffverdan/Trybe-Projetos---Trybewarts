@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  height: auto;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#senha {
+  width: 35%;
+  border-radius: 5px;
+}
+
+#email {
+  width: 35%;
+  border-radius: 5px;
+}
+
+#trybewarts-header-title {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  color: white;
+}
+
+.header img {
+  width: 100px;
+}
+
+.trybewarts-login {
+  display: flex;
+  margin-right: 20px;
+  align-self: center;
+  gap: 10px;
+}
+
+.logo-header {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  gap: 20px;
+  align-self: center;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  width: 400px;
+  height: 500px;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-width {
+  width: 200px;
+  border-radius: 4px;
+  line-height: 50px;
+}
+
+.second-divison {
+  margin-top: -10px;
+  background-color: rgba(177, 176, 176, 0.61);
+  width: 138%;
+  height: 2px;
+}
+
+.coluns {
+  display: grid;
+  grid-template-columns: repeat(2, 240px);
+  gap: 30px;
+}
+
+.label-rate {
+  display: flex;
+}
+
+.textarea {
+  display: block;
+}
+
+.text {
+  height: 100px;
+  width: 100%;
+}
+
+.fild {
+  position: absolute;
+  margin-top: -110px;
+  left: 20%;
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+}
+
+.trybe-avaliation {
+  position: absolute;
+  margin-top: 70px;
+  left: 7%;
+}
+
+.container-textarea {
+  position: absolute;
+  margin-top: 120px;
+  left: 7%;
+  width: 100%;
+}
+
+.division {
+  background-color: rgba(177, 176, 176, 0.61);
+  height: 2px;
+}
+
+#agreement {
+  margin-top: 20px;
+}
+
+#submit-btn {
+  padding: 0 30px;
+  align-self: flex-start;
+  width: 20%;
+}
+
+.footer {
+  background-color: rgba(51, 51, 51, 0.938);
+  margin-top: 180px;
+  height: 50px;
+  width: 100%;
+}
+
+.rights {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
