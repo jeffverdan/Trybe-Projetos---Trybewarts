@@ -1,0 +1,76 @@
+main {
+  display: flex;
+  background-color: #F0F8FF;
+  width: 80%;
+  margin: auto;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#name-lastname {
+  display: flex;
+}
+
+#email-and-house {
+  display: flex;
+}
+
+#input-name,
+#input-lastname,
+#input-email,
+#house {
+  border-radius: 4px;
+  width: 40%;
+  height: 30px;
+  border: solid 1px grey;
+  margin: 5px 5px 5px 0;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#family-info {
+  margin: 15px 0;
+}
+
+#label-family,
+#label-content,
+#label-rate,
+.textarea,
+#label-infos {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+#comments {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-btn {
+  background-color: #4B0082;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+  background-color: #808080;
+}
