@@ -33,7 +33,12 @@
 main {
     display: flex;
     
+    
+    
 }
+
+ 
+
 
 #evaluation-form {
     display: flex;
@@ -46,15 +51,8 @@ main {
 
 }
 
-.name-sobre {
-    display: flex;
-    flex-direction: row;
-    
-}
-.name-sobre input {
-    margin: 10px;
-}
 
 #trybewarts-forms-logo {
     height: 500px;
+    
 }
