@@ -8,11 +8,10 @@
   align-items: flex-end;
 }
 
-.titulo1 {
+#trybewarts-header-title {
   align-self: center;
 }
 
 .imagemLogo {
   height: 500px;
 }
-
