@@ -12,7 +12,6 @@
   padding: 2%;
   color: white;
 }
-
 .trybewarts-login {
   display: flex;
 }
@@ -20,7 +19,6 @@
 .trybewarts-header-logo {
   width: 50px;
 }
-
 main {
   display: flex;
   margin: 5%;
@@ -35,7 +33,6 @@ main h1 {
   width: 675px;
   flex-direction: column;
 }
-
 #trybewarts-forms-logo {
   height: 500px;
   justify-content: end;
@@ -48,4 +45,14 @@ hr {
 #divlabel-family {
   display: flex;
   flex-direction: column;
+}
+.avaliacao{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.family-form{
+  display: flex;
+  justify-content: space-between;
 }
