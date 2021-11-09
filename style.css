@@ -85,6 +85,8 @@ main {
 
 #textarea {
   width: 90%;
+  border: 1px solid rgb(78, 44, 131);
+  border-radius: 3px;
 }
 
 footer {
