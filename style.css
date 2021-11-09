@@ -20,3 +20,17 @@
 .trybewarts-header-logo {
     width: 50px;
 }
+
+.trybewarts-login {
+    display: flex;
+}
+
+#trybewarts-header-title {
+    text-align: center;
+    color: white;
+}
+
+#evaluation-form {
+    display: flex;
+    width: 675px;
+}
