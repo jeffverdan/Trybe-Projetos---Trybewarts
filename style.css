@@ -12,4 +12,21 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  
+}
+
+#trybewarts-forms-logo {
+    height: 500px;
+    display: flex;
+}
+
+.Nome {
+    display: inline;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+.Email {
+    display: inline;
+    margin-left: 800px;
 }
