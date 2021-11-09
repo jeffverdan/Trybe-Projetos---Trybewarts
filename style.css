@@ -37,12 +37,19 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
-}
-
-#trybewarts-forms-logo {
-  height: 500px;
+  margin: auto;
 }
 
 .form-rate {
   display: flex;
+}
+
+#trybewarts-forms-logo {
+  margin: auto;
+  height: 500px;
+  width: 30%;
+}
+
+footer {
+  text-align: center;
 }
