@@ -11,7 +11,7 @@ btnEnter.addEventListener('click', function () {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
-  };
+  }
 });
 
 // Habilitar botão de enviar
@@ -24,12 +24,12 @@ checkBox.addEventListener('click', function () {
     btnSend.disabled = false;
   } else {
     btnSend.disabled = true;
-  };
+  }
 });
 
 // Contagem de caracteres
 
-let textarea2 = textarea.getAttribute('maxlength');
+const textarea2 = textarea.getAttribute('maxlength');
 counter.innerHTML = textarea2;
 textarea.addEventListener('keyup', function () {
   document.getElementById('counter').innerHTML = textarea2 - this.value.length;
