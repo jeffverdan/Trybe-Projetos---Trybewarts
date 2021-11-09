@@ -1,47 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang='pt-br'>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <title>Trybewarts</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel='stylesheet' href='style.css' />
   </head>
   <body>
-    <header class="header-container">
+    <header class='header'>
       <img
-        src="images/trybewarts-header-logo.svg"
-        alt="Logotipo da Trybewarts"
+        src='images/trybewarts-header-logo.svg'
+        alt='Logotipo da Trybewarts'
+        class='trybewarts-header-logo'
       />
-      <h1 id="trybewarts-header-title">Trybewarts</h1>
-      <form class="header-form">
-        <input
-          type="email"
-          name="email"
-          placeholder="E-mail"
-          id="input-email"
-        />
-        <input
-          type="password"
-          name="password"
-          placeholder="Senha"
-          id="input-senha"
-        />
-        <button type="submit" class="header-button">Entrar</button>
-      </form>
+      <h1 id='trybewarts-header-title'>Trybewarts</h1>
+      <div class='container'>
+        <form class='trybewarts-login'>
+          <input
+            type='email'
+            name='email'
+            placeholder='Email'
+            id='email-header'
+          />
+          <input
+            type='password'
+            name='password'
+            placeholder='Senha'
+            id='senha-header'
+          />
+          <button type='submit' class='header-button'>Entrar</button>
+        </form>
+      </div>
     </header>
     <main>
-      <section>
-        <form action="" id="evaluation-form"><input type="text" name=></form>
+      <section class='main-form'>
+        <form action='' id='evaluation-form' class='form-main'>
+          <div class='nome-sobrenome'>
+            <input type='nome' name='nome' placeholder='Nome' id='input-name' />
+            <input
+              type='sobrenome'
+              name='sobrenome'
+              placeholder='Sobrenome'
+              id='input-lastname'
+            />
+          </div>
+          <div class='email-casa'>
+            <input
+              type='email'
+              name='email'
+              placeholder='Email'
+              id='input-email'
+            />
+            <select id='house'>
+              <option value='Gitnória' id='gitnoria-house'>Gitnória</option>
+              <option value='Reactpuff' id='reactpuff-house'>Reactpuff</option>
+              <option value='Corvinode' id='corvinode-house'>Corvinode</option>
+              <option value='Pytherina' id='pytherina-house'>Pytherina</option>
+            </select>
+          </div>
+           <hr>
+          <div class="familia-conteudo">
+            <div class="radio-label">
+              <p id="label-family">Qual sua família</p>
+              <input type="radio" id="frontend" name="family" value="Frontend">
+              <label for="frontend">Família Front-End</label>
+              <input type="radio" id="backend" name="family" value="Backend">
+              <label for="backend">Família Back-End</label>
+              <input type="radio" id="fullstack" name="family" value="Fullstack">
+              <label for="fullstack">Família FullStack</label>
+            </div>
+            <div class="checkbox-all">
+            <div class="checkbox-title">
+              <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            </div>
+            <div class="checkbox-label">
+              <input type="checkbox" id="hofs" name="conteudos" value="HoFs" class="checkbox-button">
+              <label for="hofs">HoFs</label>
+              <input type="checkbox" id="jest" name="conteudos" value="Jest" class="checkbox-button">
+              <label for="jest">Jest</label>
+              <input type="checkbox" id="promises" name="conteudos" value="Promises" class="checkbox-button">
+              <label for="promises">Promises</label>
+              <input type="checkbox" id="react" name="conteudos" value="React" class="checkbox-button">
+              <label for="react">React</label>
+              <input type="checkbox" id="sql" name="conteudos" value="SQL" class="checkbox-button">
+              <label for="sql">SQL</label>
+              <input type="checkbox" id="python" name="conteudos" value="Python" class="checkbox-button">
+              <label for="python">Phyton</label>
+            </div>
+          </div>
+          </div>
+        </form>
       </section>
-      <aside id="imagem-lateral">
+      <aside id='imagem-lateral'>
         <img
-          src="images/trybewarts-colored.svg"
-          alt="Brasão da Trybewarts"
-          class="img-lateral"
+          src='images/trybewarts-colored.svg'
+          alt='Brasão da Trybewarts'
+          class='img-lateral'
+          id='trybewarts-forms-logo'
         />
       </aside>
+     
+      
+      
     </main>
-    <script src="script.js"></script>
+    <script src='script.js'></script>
   </body>
 </html>

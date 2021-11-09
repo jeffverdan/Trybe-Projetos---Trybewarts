@@ -1,8 +1,12 @@
-.header-container {
+.header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
   align-items: center;
+}
+
+.container {
+  display: flex;
 }
 
 .header-form {
@@ -14,13 +18,48 @@ main {
   display: flex;
 }
 
-.evaluation-form {
+.main-form,
+.trybewarts-login {
+  display: flex;
+}
+.form-main {
   display: flex;
   width: 675px;
-  background-color: gray;
   flex-direction: column;
 }
 
 .img-lateral {
   height: 500px;
+}
+
+.nome-sobrenome {
+  display: inline-flex;
+}
+
+.radio-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.familia-conteudo {
+  display: flex;
+}
+
+.checkbox-all{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.checkbox-label {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.checkbox-button {
+  
 }
