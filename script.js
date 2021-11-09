@@ -1,7 +1,9 @@
 const loginButton = document.getElementById('login-button');
+const inputEmail = document.getElementById('input-login');
+const inputSenha = document.getElementById('input-senha');
 
 loginButton.addEventListener('click', ()=>{
-    if(document.getElementById('input-email').value.length > 0 && document.getElementById('input-senha').value.length >0){
+    if(inputEmail.value.length > 0 && inputSenha.value.length >0){
         alert('Olá, Tryber!');
     } else {
         alert('Email ou senha inválidos.');

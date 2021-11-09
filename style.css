@@ -30,3 +30,23 @@ form button {
   padding: 5px;
   margin-right: 10px;
 }
+
+main {
+  display: flex;
+
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.full-name{
+    display: flex;
+    
+}
