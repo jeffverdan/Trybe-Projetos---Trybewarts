@@ -59,4 +59,11 @@
   display: flex;
   justify-content: center;
   background-color: gray;
+  padding: 10px 0;
+}
+
+.new {
+  display: flex;
+  order: -1;
+  width: 50%;
 }
