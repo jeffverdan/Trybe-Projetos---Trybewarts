@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #efefef;
+  background-color: rgba(239,239,239,255);
 }
 
 .header {
@@ -20,8 +20,9 @@ body {
 
 .header h1 {
   display: flex;
+  align-content: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #evaluation-form {
@@ -33,6 +34,7 @@ body {
 .trybewarts-login {
   display: flex;
   justify-content: space-around;
+  align-content: center;
   width: 400px;
   border: 10px;
 }
@@ -40,10 +42,13 @@ body {
 .login {
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 .loginInput {
-  width: 120px;
+    display: flex;
+    align-content: center;
+    width: 120px;
 }
 
 footer {
@@ -54,10 +59,9 @@ footer {
   display: flex;
 }
 
-.input,
-.colorBtn {
+.input , .colorBtn {
   border-radius: 5px;
-  padding: 10px 10px;
+  padding: 10px;
   margin-left: 5px;
   margin-top: 10px;
 }
