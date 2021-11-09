@@ -5,41 +5,29 @@
   /* flex-grow: 1; */
   justify-content: space-between;
   align-items: center;
-};
+}
 
+<<<<<<< HEAD
 .img-container {
+=======
+.header img {
+>>>>>>> 7cd84d8ac509f3b50cf39372bd2eb77e3e9f48e3
   width: 80px;
-};
+}
 
-#trybewarts-header-title {
+.header h1 {
   color: white;
+<<<<<<< HEAD
 };
 
 .forms-container {
   display: flex;
 };
+=======
+}
+>>>>>>> 7cd84d8ac509f3b50cf39372bd2eb77e3e9f48e3
 
 .trybewarts-login {
   display: flex;
   border: 1px solid black;
 };
-
-/* .trybewarts-login input {
-  border-radius: 5px;
-  border: white;
-  width: 120px;
-  height: 30px;
-  margin-left: 10px;
-};
-
-.trybewarts-login button {
-  border-radius: 5px;
-  border: purple;
-  width: 120px;
-  height: 30px;
-  background-color: rgb(99, 2, 99);
-  color: white;
-  margin-right: 10px;
-  margin-left: 10px;
-}; */
-
