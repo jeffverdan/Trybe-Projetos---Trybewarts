@@ -8,9 +8,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .trybewarts-header-logo {
   width: 50px;
 }
+
 .trybewarts-login {
   display: inline;
 }
