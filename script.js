@@ -1,5 +1,3 @@
-const buttonLogIn = document.getElementById('login');
-
 function logIn() {
   const email = document.querySelector('#email');
   const senha = document.querySelector('#senha');
@@ -9,4 +7,6 @@ function logIn() {
     alert('Email ou senha inválidos.');
   }
 }
+
+const buttonLogIn = document.getElementById('login');
 buttonLogIn.addEventListener('click', logIn);

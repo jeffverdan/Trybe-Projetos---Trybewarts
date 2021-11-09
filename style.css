@@ -16,12 +16,16 @@
   align-self: center;
 }
 
-main , #evaluation-form {
+main , #evaluation-form , .section-family {
   display: flex;
 }
 
 #evaluation-form {
   width: 675px;
+  flex-direction: column;
+}
+
+.section-family {
   flex-direction: column;
 }
 
