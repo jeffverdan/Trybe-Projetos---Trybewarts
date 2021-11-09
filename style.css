@@ -24,9 +24,6 @@ body {
 
 #main-content {
   display: flex;
-  border: 1px black solid;
-  align-items: center;
-  justify-content: center;
 }
 
 #full-name {
