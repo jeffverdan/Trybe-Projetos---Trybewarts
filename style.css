@@ -10,6 +10,7 @@
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
   padding: 10 20px;
+  margin-bottom: 80px;
   align-items: center;
 }
 
@@ -37,9 +38,9 @@ main {
 
 #evaluation-form {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
   width: 675px;
+  
 }
 
 #evaluation-form input {
