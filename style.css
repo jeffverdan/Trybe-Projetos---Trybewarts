@@ -7,3 +7,28 @@
   flex-direction: column;
   width: 675px;
 }
+
+.checks {
+  display: flex;
+  width: 675px;
+}
+
+.inputRadio {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.inputCheckbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputCheckbox #label-content {
+  width: 100%;
+}
+
+.divTextarea {
+  display: flex;
+  flex-direction: column;
+}
