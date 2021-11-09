@@ -32,6 +32,8 @@
 
 main {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     
     
     
@@ -42,11 +44,13 @@ main {
 
 #evaluation-form {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     width: 675px;
 }
 
 #evaluation-form input {
+    display: flex;
     width: 30%;
 
 }
