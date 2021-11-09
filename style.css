@@ -17,7 +17,7 @@ main, form {
     display: flex;
 }
 
-main form {
+.evaluation {
     width: 675px;
     
 }
@@ -28,4 +28,8 @@ main form {
 
 #trybewarts-forms-logo {
     height: 500px;
+}
+
+.space{
+    height: 400px;
 }
