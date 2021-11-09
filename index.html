@@ -24,6 +24,49 @@
         <button id="btn-login" type="submit">Entrar</button>
       </form>
     </header>
+    <main class="main-content">
+      <div>
+        <img
+          id="trybewarts-forms-logo"
+          src="images/trybewarts-colored.svg"
+          alt="emblema da trybewarts colorido"
+        />
+      </div>
+      <form id="evaluation-form" action="" method="get">
+        <div class="row">
+          <div class="line-content">
+            <input id="input-name" type="text" name="name" placeholder="Nome" />
+          </div>
+          <div class="line-content">
+            <input
+              id="input-lastname"
+              type="text"
+              name="lastname"
+              placeholder="Sobrenome"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="line-content">
+            <input
+              id="input-email"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="line-content">
+            <label for="house">Casa</label>
+            <select id="house" name="house">
+              <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+              <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+              <option id="corvinode-house" value="Corvinode">Corvinode</option>
+              <option id="pytherina-house" value="Pytherina">Pytherina</option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </main>
   </body>
   <script src="script.js"></script>
 </html>
