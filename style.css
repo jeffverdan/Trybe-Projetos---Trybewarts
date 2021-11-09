@@ -27,19 +27,18 @@
 
 /* btn header */
 .btn-header-submit {
-  padding: 5px 20px 5px 20px;
+  padding: 5px 20px;
   background-color: rgb(72, 40, 117);
   color: white;
   border-radius: 15px;
 }
 
-header input[type="email"],
-input[type="password"] {
+header input[ type = "email" ], input[ type = "password" ] {
   border-radius: 5px;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 20px;
 }
 
-/* h1 header*/
+/* h1 header */
 #trybewarts-header-title {
   font-size: 1.5rem;
   color: white;
@@ -55,7 +54,6 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  display: flex;
   flex-direction: column;
   margin: 10px;
 }
@@ -67,7 +65,7 @@ main {
 }
 
 footer {
-  background-color: #3d3d3d;
+  background-color: rgb(61, 61, 61);
   height: 30px;
   display: flex;
   justify-content: center;
@@ -76,7 +74,7 @@ footer {
 
 footer span {
   color: white;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .formBoxAval {
@@ -86,9 +84,7 @@ footer span {
   align-items: center;
 }
 
-.formBoxText,
-.formBoxCheck,
-.formBoxButton {
+.formBoxText, .formBoxCheck, .formBoxButton {
   margin: 5px 30px;
 }
 
@@ -117,7 +113,7 @@ hr {
   margin: 5px 30px;
 }
 
-.formBoxName input[type="text"] {
+.formBoxName input[ type = "text" ] {
   flex-grow: 1;
   margin: 5px 2px;
   height: 2em;
@@ -141,7 +137,7 @@ hr {
   align-items: center;
 }
 
-.formBoxEmailHouse [type="email"] {
+.formBoxEmailHouse [ type = "email" ] {
   flex-grow: 1;
   margin: 5px 2px;
   height: 2em;
