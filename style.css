@@ -18,3 +18,9 @@ main {
   flex-direction: column;
   width: 675px;
 }
+
+#trybewarts-forms-logo {
+  display: flex;
+  align-self: center;
+  height: 500px;
+}
