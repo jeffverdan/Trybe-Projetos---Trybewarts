@@ -43,4 +43,11 @@ main {
 .family {
   display: flex;
   flex-direction: column;
+  width: 30%;
+}
+
+.conteudo {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
 }
