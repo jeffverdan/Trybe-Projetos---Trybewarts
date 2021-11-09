@@ -19,6 +19,11 @@
   width: 10vw;
 }
 
+.main-container {
+  justify-content: space-around;
+  align-items: center;
+}
+
 .evaluation-form {
   width: 675px;
   flex-direction: column;
