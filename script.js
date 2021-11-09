@@ -7,7 +7,7 @@ function alertEmailAndPassword() {
     emailInput.value === 'tryber@teste.com'
     && passwordInput.value === '123456'
   ) {
-    alert('Olá Tryber!');
+    alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
   }
