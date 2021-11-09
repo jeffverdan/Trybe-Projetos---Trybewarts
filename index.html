@@ -142,7 +142,8 @@
         </div>
         <label class="textarea"
           >Deixe seu comentário: <br />
-          <textarea cols="30" rows="10" maxlength="500"></textarea>
+          <textarea id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+          <p id="counter">500</p>
         </label>
         <label id="label-infos"
           >Você concorda com o uso das informações acima?
@@ -153,6 +154,7 @@
             />Sim.</label
           ></label
         >
+        <button type="submit" id="submit-btn" disabled>Enviar</button>
       </form>
       <img
         id="trybewarts-forms-logo"
@@ -160,6 +162,7 @@
         alt="trybewarts logo"
       />
     </main>
+    <footer>Direitos reservados à Trybewarts©</footer>
   </body>
   <script src="script.js"></script>
 </html>

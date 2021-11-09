@@ -25,3 +25,14 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+#textarea {
+  resize: none;
+}
+
+#counter {
+  position: absolute;
+  font-size: 20px;
+  top: 560px;
+  margin-left: 220px;
+}
