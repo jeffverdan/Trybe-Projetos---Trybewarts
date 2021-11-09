@@ -23,37 +23,59 @@
       </form>
     </header>
     <main>
-
       <form id="evaluation-form">
-        <input type="text" id="input-name" placeholder="Nome">
-        <input type="text" id="input-lastname" placeholder="Sobrenome">
-        <input type="text" id="input-email" placeholder="Email">
+        <input type="text" id="input-name" placeholder="Nome" />
+        <input type="text" id="input-lastname" placeholder="Sobrenome" />
+        <input type="text" id="input-email" placeholder="Email" />
         <select name="" id="house">
-            <option>Gitnória</option>
-            <option>Reactpuff</option>
-            <option>Corvinode</option>
-            <option>Pytherina</option>
+          <option>Gitnória</option>
+          <option>Reactpuff</option>
+          <option>Corvinode</option>
+          <option>Pytherina</option>
         </select>
+        <label id="label-family">Qual sua família?</label>
+        <input type="radio" name="family" value="Frontend">
+        <input type="radio" name="family" value="Backend">
+        <input type="radio" name="family" value="FullStack">
+    
+        <label id="label-content"
+        >Qual conteúdo você está com mais vontade de aprender?</label>
+        <input type="checkbox" name="" id="" value="HoFs" />HoFs
+        <input type="checkbox" name="" id="" value="Jest" />Jest
+       <input type="checkbox" name="" id="" value="Promises" />Promises
+       <input type="checkbox" name="" id="" value="React" />React
+       <input type="checkbox" name="" id="" value="SQL" />SQL
+       <input type="checkbox" name="" id="" value="Python" />Python
+       
+      
         
-      </form>
 
-    </main>
+       <label id='label-rate'>Como você avalia a Trybewarts? </label>
+        <input type="radio" name="rate" value="1">
+        <input type="radio" name="rate" value="2">
+        <input type="radio" name="rate" value="3">
+        <input type="radio" name="rate" value="4">
+        <input type="radio" name="rate" value="5">
+        <input type="radio" name="rate" value="6">
+        <input type="radio" name="rate" value="7">
+        <input type="radio" name="rate" value="8">
+        <input type="radio" name="rate" value="9">
+        <input type="radio" name="rate" value="10">
 
-
-    <label id="label-content"
-      >Qual conteúdo você está com mais vontade de aprender?
-      <input type="checkbox" name="" id="" value="HoFs"/>HoFs
-      <input type="checkbox" name="" id="" value="Jest"/>Jest
-      <input type="checkbox" name="" id="" value="Promises"/>Promises
-      <input type="checkbox" name="" id="" value="React"/>React
-      <input type="checkbox" name="" id="" value="SQL"/>SQL
-      <input type="checkbox" name="" id="" value="Python"/>Python
-      <img
+      <label class="textarea">Deixe seu comentário:
+        </label>
+        <textarea maxlength="500"></textarea>
+        <img
         src="images/trybewarts-colored.svg"
         alt=""
-        id="trybewarts-forms-logo"/>
-    </label>
+        id="trybewarts-forms-logo"
+       />
+      </form>
+      
+    </main>
 
+   
+<footer>Direitos reservados à Trybewarts©</footer>
     <script src="script.js"></script>
   </body>
 </html>
