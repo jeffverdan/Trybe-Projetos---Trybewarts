@@ -21,3 +21,16 @@ checkboxAgreement.addEventListener('click', () => {
     btnEnviar.disabled = false;
   }
 });
+
+const textarea = document.getElementById('textarea');
+textarea.addEventListener('input', (e) => {
+  const target = e.currentTarget;
+  // Destructuring
+  const { maxLength } = target;
+  const currentLength = target.value.length;
+  // Selecting html element
+  const counter = document.getElementById('counter');
+  // Put value into counter
+  counter.textContent = `${maxLength - currentLength}`;
+});
+//  source: https://stackoverflow.com/questions/14086398/count-textarea-characters
