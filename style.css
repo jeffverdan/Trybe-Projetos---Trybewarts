@@ -18,8 +18,7 @@ body {
   display: flex;
 }
 
-header button,
-input {
+header button, input {
   height: 20px;
   margin-left: 5px;
 }
@@ -53,7 +52,6 @@ main {
 footer {
   height: 20px;
   background-color: rgb(10, 8, 8);
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
-  position: auto;
 }
