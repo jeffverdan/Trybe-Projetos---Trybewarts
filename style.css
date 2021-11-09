@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: gainsboro;
 }
 
 main {
@@ -7,16 +8,23 @@ main {
   justify-content: space-between;
 }
 
+input, button {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
-  height: 80px;
+  padding: 10px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-basis: 0;
 }
 
 .trybewarts-header-logo {
-  margin: 10px;
   align-self: stretch;
 }
 
