@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-body{
+body {
   background-color: rgb(197, 196, 196);
 }
 
@@ -41,12 +41,10 @@ main {
   display: flex;
 }
 
-.eh-container{
+.eh-container {
   display: flex;
 }
 
-.avaliacao{
+.avaliacao {
   display: flex;
 }
-
-
