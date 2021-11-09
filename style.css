@@ -19,3 +19,27 @@ input {
 .trybewarts-header-logo {
     height: 70px;
 }
+
+main {
+    display: flex;
+}
+
+#evaluation-form {
+    display: flex;
+    flex-direction: column;
+    width: 675px;
+}
+
+#trybewarts-forms-logo {
+    height: 500px;
+}
+
+#nome-sobrenome {
+    display: flex;
+}
+
+#email-house {
+    display: flex;
+}
+
+>>>>>>>e1b21aa6ef168331854d060e5a63f961d443f1a0

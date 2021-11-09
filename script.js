@@ -3,11 +3,10 @@ let emailLogin = document.querySelector('#emailLogin')
 let senhaLogin = document.querySelector('#senhaLogin')
 
 function login(event) {
-    console.log('b')
     if (emailLogin.value === 'tryber@teste.com' && senhaLogin.value === '123456') {
-        window.alert('a')
+        window.alert('Olá, Tryber!')
     } else {
-        window.alert('errado')
+        window.alert('Email ou senha inválidos.')
     }
 }
 
