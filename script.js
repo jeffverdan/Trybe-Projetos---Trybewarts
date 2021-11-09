@@ -23,13 +23,13 @@ function enableButton() {
     btnSubmit.disabled = true;
   }
 }
-
+const carac = ' caracteres restantes';
 agreementCheckbox.addEventListener('click', enableButton);
 const counter = document.getElementById('counter');
-counter.innerHTML = 500;
+counter.innerHTML = 500 + carac;
 const textarea = document.getElementById('textarea');
 function contar() {
-  counter.innerHTML = 500 - textarea.value.length;
+  counter.innerHTML = 500 - textarea.value.length + carac;
   console.log(counter);
   return counter;
 }
