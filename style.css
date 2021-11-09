@@ -28,4 +28,6 @@ main {
   width: 675px;
   margin-top: 50px;
   background-color: rgb(50, 167, 145);
+  display: flex;
+  flex-direction: column;
 }
