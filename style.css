@@ -5,7 +5,7 @@ body {
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 input, button {
@@ -16,10 +16,9 @@ input, button {
 
 .header {
   background-color: rgb(50, 167, 145);
-  padding: 10px;
   height: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-basis: 0;
 }
@@ -32,6 +31,16 @@ input, button {
   color: white;
 }
 
-.evaluation-form {
-  flex-wrap: wrap;
+.trybewarts-login {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
