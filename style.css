@@ -59,11 +59,8 @@ main {
 }
 
 #counter {
-  opacity: 60%;
-}
-
-#counter {
   position: relative;
   top: -20px;
   left: 95%;
+  opacity: 60%;
 }
