@@ -111,6 +111,20 @@ hr {
   flex-direction: column;
 }
 
+.comentario label {
+  display: flex;
+  align-items: center;
+}
+
 #coment {
   height: 100px;
+}
+
+footer {
+  color: white;
+  background-color: rgb(44, 41, 41);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
