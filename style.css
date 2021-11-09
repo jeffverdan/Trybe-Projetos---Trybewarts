@@ -2,7 +2,7 @@
  por isso existem tags com o mesmo valor */
 
 body {
-  background-color: #eaeaea;
+  background-color: rgb(234, 234, 234);
 }
 
 /* Todos que precisam de display Flex */
@@ -18,7 +18,7 @@ body {
   display: flex;
 }
 
-.text-area-container .agreement-container , footer {
+.text-area-container , footer {
   display: flex;
 }
 
@@ -27,12 +27,12 @@ body {
   font-size: 15px;
 }
 
-.agreement-container , .satisfaçao-trybewarts-container , .text-area-container , footer {
+footer , .satisfaçao-trybewarts-container , .text-area-container {
   font-size: 15px;
 }
 
 /* Todos containers que tem margin-top */
-.agreement-container , .text-area-container , .btn-submit-container {
+.text-area-container , .btn-submit-container {
   margin-top: 20px;
 }
 
@@ -111,6 +111,9 @@ hr {
 
 .agreement-container {
   flex-direction: row;
+  margin-top: 20px;
+  font-size: 15px;
+  display: flex;
 }
 
 .btn-submit-container {
@@ -118,7 +121,7 @@ hr {
 }
 
 footer {
-  background-color: #3c404a;
+  background-color: rgb(60, 64, 74);
   margin-top: 20px;
   justify-content: center;
   color: white;
