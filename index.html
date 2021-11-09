@@ -2,9 +2,96 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Trybewarts</title>
+	<title>Projeto Trybewarts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
+	<header>
+		<section id="icon"><img src=""></section>
+		<section id="logo"><img src=""></section>
+		<section id="login">
+			<div class="input">
+				<input type="email" name="email" placeholder="Email" />
+			</div>
+			<div class="input">
+				<input type="password" name="senha" placeholder="Senha" />
+			</div>
+			<button>Entrar</button>
+		</section>
+	</header>
+	<section class="container" id="content">
+		<section id="formulario">
+			<h1>Formulário de Avaliação</h1>
+			<form method="GET">
+				<h1>Formulário de Avaliação</h1>
+				<div class="input">
+					<input type="text" name="nome"/>
+				</div>
+				<div class="input">
+					<input type="text" name="sobrenome"/>
+				</div>
+				<div class="input">
+					<input type="email" name="email"/>
+				</div>
+				<div class="input c-label">
+					<label for="casa">Casa:</label>
+					<select name="casa">
+						<option value="grifinoria">Grifinória</option>
+						<option value="soncerina">Soncerina</option>
+						<option value="corvinal">Corvinal</option>
+						<option value="lufalufa">Lufa-Lufa</option>
+					</select>
+				</div>
+				<hr>
+				<section id="tecnologia">
+					<div class="desktop-30">
+						<label>Qual sua família?</label>
+						<label><input type="radio" name="familia" value="frontend"/> Família Frontend</label>
+						<label><input type="radio" name="familia" value="backend"/> Família Backend</label>
+						<label><input type="radio" name="familia" value="fullstack"/> Família Fullstack</label>
+					</div>
+					<div class="desktop-70">
+						<label>Qual conteúdo você está com mais vontade de aprender?</label>
+						<div class="checks">
+							<label><input type="checkbox" name="conteudo[]" value="HoFs"/> HoFs</label>
+							<label><input type="checkbox" name="conteudo[]" value="Jest"/> Jest</label>
+							<label><input type="checkbox" name="conteudo[]" value="Promises"/> Promises</label>
+							<label><input type="checkbox" name="conteudo[]" value="React"/> React</label>
+							<label><input type="checkbox" name="conteudo[]" value="SQL"/> SQL</label>
+							<label><input type="checkbox" name="conteudo[]" value="Python"/> Python</label>
+						</div>
+					</div>
+				</section>
+				<hr>
+				<section id="avaliacao">
+					<div>
+						<label>Como você avalia a Trybewarts?</label>
+						<label><input type="radio" name="avaliacao" value="1"/> 1</label>
+						<label><input type="radio" name="avaliacao" value="2"/> 2</label>
+						<label><input type="radio" name="avaliacao" value="3"/> 3</label>
+						<label><input type="radio" name="avaliacao" value="4"/> 4</label>
+						<label><input type="radio" name="avaliacao" value="5"/> 5</label>
+						<label><input type="radio" name="avaliacao" value="6"/> 6</label>
+						<label><input type="radio" name="avaliacao" value="7"/> 7</label>
+						<label><input type="radio" name="avaliacao" value="8"/> 8</label>
+						<label><input type="radio" name="avaliacao" value="9"/> 9</label>
+						<label><input type="radio" name="avaliacao" value="10"/> 10</label>
+					</div>
+					<div class="component-textarea">
+						<label>Deixe seu comentário:</label>
+						<textarea name="comentario"></textarea>
+						<span>500</span>
+					</div>
+					<label>Você concorda com o uso das informações acima? <input type="checkbox" name="concorda" value="1" required/></label>
+				</section>
+				<button>Enviar</button>
+			</form>
+		</section>
+		<img id="brasao"></img>
+	</section>
+	<footer>
+		Direitos reservados à Trybewarts©
+	</footer>
 </body>
 </html>
