@@ -45,5 +45,11 @@ main {
 }
 
 #div {
-    flex-direction: row;
+  flex-direction: row;
+}
+
+#divvv {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
 }
