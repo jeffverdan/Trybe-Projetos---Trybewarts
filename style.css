@@ -54,3 +54,9 @@
 .radio-container input {
   display: block;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}

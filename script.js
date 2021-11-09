@@ -3,6 +3,8 @@ const inputEmail = document.querySelector('#inputEmail');
 const inputPassword = document.querySelector('#inputPassword');
 const submitBtn = document.querySelector('#submit-btn');
 const checkboxAgree = document.querySelector('#agreement');
+const textArea = document.querySelector('#textarea');
+const counter = document.querySelector('#counter');
 
 btn.addEventListener('click', (event) => {
   event.preventDefault();
@@ -21,4 +23,8 @@ checkboxAgree.addEventListener('click', () => {
   } else {
     submitBtn.disabled = true;
   }
+});
+
+textArea.addEventListener('keyup', () => {
+  counter.innerHTML = 500 - textArea.value.length;
 });
