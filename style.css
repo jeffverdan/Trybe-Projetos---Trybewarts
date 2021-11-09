@@ -4,20 +4,17 @@ body {
 
 .header {
   background-color: rgb(50, 167, 145);
+  height: 80px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .trybewarts-header-logo {
-  width: 70px;
+  margin: 10px;
+  align-self: stretch;
 }
 
 #trybewarts-header-title {
   color: white;
-}
-
-.trybewarts-login {
-  align-items: center;
-  height: 20px;
-
 }
