@@ -73,8 +73,8 @@ main {
   border: none;
   border-bottom: 1px solid rgb(87, 87, 87);
   padding: 10px 10px 15px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -82,9 +82,11 @@ main {
   padding: 15px;
   border: none;
   border-radius: 5px;
+  width: 49%;
 }
 
 #evaluation-form .campo1 select {
+  width: 49%;
   padding: 15px;
   border: none;
   background-color: white;
