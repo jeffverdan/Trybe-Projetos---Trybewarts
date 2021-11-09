@@ -1,6 +1,6 @@
-let buttonLogin = document.querySelector('#button-login');
-let emailLogin = document.querySelector('#email-login');
-let passwordLogin = document.querySelector('#password-login');
+const buttonLogin = document.querySelector('#button-login');
+const emailLogin = document.querySelector('#email-login');
+const passwordLogin = document.querySelector('#password-login');
 
 function checkTryber() {
   if (emailLogin.value === 'tryber@teste.com' && passwordLogin.value === '123456') {
