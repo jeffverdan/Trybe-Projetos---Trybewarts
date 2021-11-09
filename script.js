@@ -3,11 +3,10 @@ const inputMail = document.getElementById('email');
 const inputSenha = document.getElementById('senha');
 
 btnEntra.addEventListener('click', (e) => {
-  e.preventDefault()
+  e.preventDefault();
   if (inputMail.value === 'tryber@teste.com' && inputSenha.value === '123456') {
-    alert('Olá, Tryber!')
+    alert('Olá, Tryber!');
   } else {
-    alert('Email ou senha inválidos.')
+    alert('Email ou senha inválidos.');
   }
-
-})
+});
