@@ -135,9 +135,9 @@ body {
 }
 
 #submit-btn {
-  padding: 0 30px;
-  align-self: flex-start;
-  width: 20%;
+  width: 60%;
+  padding: 10 50px;
+  margin-top: 20px;
 }
 
 .footer {
