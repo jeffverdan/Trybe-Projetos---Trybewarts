@@ -11,3 +11,11 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#nome-sobrenome {
+  display: flex;
+}
+
+#email-house {
+  display: flex;
+}
