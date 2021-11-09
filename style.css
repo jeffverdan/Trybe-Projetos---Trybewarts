@@ -48,3 +48,12 @@ main {
 #submit-btn {
   width: fit-content;
 }
+
+#label-rate {
+  display: flex;
+  flex-direction: row;
+}
+
+#agreement {
+  display: flex;
+}
