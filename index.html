@@ -9,14 +9,35 @@
 </head>
 <body>
     <header class="header">
-        <img src="images/trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
+        <img src="images/trybewarts-header-logo.svg" alt="" height="70px" width="70px" class="trybewarts-header-logo">
         <h1 id="trybewarts-header-title">Trybewarts</h1>
         <form class="trybewarts-login" action="">
-            <input type="text" name="email" placeholder="Email">
-            <input type="text" name="password" placeholder="Senha">
-            <button>Entrar</button>
+            <input id="email" type="text" name="email" placeholder="Email">
+            <input id="password" type="password" name="password" placeholder="Senha">
+            <button id="login">Entrar</button>
         </form>
     </header>
+    <main>
+        <form action="" id="evaluation-form">
+            <section>
+                <input type="text" name="" id="input-name" placeholder="Nome">
+                <input type="text" name="" id="input-lastname" placeholder="Sobrenome">
+            </section>
+            <section>
+                <input type="text" name="" id="input-email" placeholder="Email">
+                <label for="house"> Casa
+                    <select name="" id="house">
+                        <option value="Gitnória"  id="gitnoria-house">Gitnória</option>
+                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                    </select>
+                </label>
+            </section>
+            <hr>
+        </form>
+        <img  id="trybewarts-forms-logo"src="images/trybewarts-colored.svg" height="500px" alt="">
+    </main>
    <script src="script.js"></script>
 </body>
 </html>
