@@ -50,3 +50,7 @@
 .container input {
   margin-right: 20px;
 }
+
+.radio-container input {
+  display: block;
+}

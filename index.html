@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Trybewarts</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <img
-        class="trybewarts-header-logo"
-        src="images/trybewarts-header-logo.svg"
-      />
-      <h1 id="trybewarts-header-title">Trybewarts</h1>
-      <form class="trybewarts-login" action="" method="get">
-        <input id="inputEmail" type="email" name="email" placeholder="Email" />
-        <input
-          id="inputPassword"
-          type="password"
-          name="password"
-          placeholder="Senha"
-        />
-        <button id="btnSubmit" type="submit">Entrar</button>
-      </form>
-    </header>
-    <main id="main-container">
-      <form id="evaluation-form" method="get" action="">
-        <div class="container">
-          <input type="text" id="input-name" placeholder="Nome"/>
-          <input type="text" id="input-lastname" placeholder="Sobrenome"/>
-          <input type="email" id="input-email" placeholder="Email" />
-          <label for="house">Casa:</label>
-          <select name="" id="house">
-            <option id="gitnoria-house" text="Gitnória" value="Gitnória">Gitnória</option>
-            <option id="reactpuff-house" text="Reactpuff" value="Reactpuff">Reactpuff</option>
-            <option id="corvinode-house" text="Corvinode" value="Corvinode">Corvinode</option>
-            <option id="pytherina-house" text="Pytherina" value="Pytherina">Pytherina</option>
-          </select>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Trybewarts</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" />
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <form class="trybewarts-login" action="" method="get">
+      <input id="inputEmail" type="email" name="email" placeholder="Email" />
+      <input id="inputPassword" type="password" name="password" placeholder="Senha" />
+      <button id="btnSubmit" type="submit">Entrar</button>
+    </form>
+  </header>
+  <main id="main-container">
+    <form id="evaluation-form" method="get" action="">
+      <section class="container">
+        <input type="text" id="input-name" placeholder="Nome" />
+        <input type="text" id="input-lastname" placeholder="Sobrenome" />
+        <input type="email" id="input-email" placeholder="Email" />
+        <label for="house">Casa:</label>
+        <select name="" id="house">
+          <option id="gitnoria-house" text="Gitnória" value="Gitnória">Gitnória</option>
+          <option id="reactpuff-house" text="Reactpuff" value="Reactpuff">Reactpuff</option>
+          <option id="corvinode-house" text="Corvinode" value="Corvinode">Corvinode</option>
+          <option id="pytherina-house" text="Pytherina" value="Pytherina">Pytherina</option>
+        </select>
+        <div class="labels">
+          <label id="label-family" for="family">Qual sua família?</label>
+          <div>
+            <input id="family1" name="family" type="radio" value="Frontend">
+            <label for="family1">Frontend</label>
+          </div>
+          <div>
+            <input id="family2" name="family" type="radio" value="Backend">
+            <label for="family2">Backend</label>
+          </div>
+          <div>
+            <input id="family3" name="family" type="radio" value="FullStack">
+            <label for="family3">FullStack</label>
+          </div>
         </div>
-      </form>
-      <img
-        id="trybewarts-forms-logo"
-        src="images/trybewarts-colored.svg"
-        alt=""
-      />
-    </main>
-  </body>
-  <script src="script.js"></script>
+      </section>
+    </form>
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="" />
+  </main>
+</body>
+<script src="script.js"></script>
+
 </html>
