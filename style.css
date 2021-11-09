@@ -32,6 +32,7 @@
 
 main {
   display: flex;
+  margin-left: 50px;
 }
 
 #evaluation-form {
@@ -46,6 +47,7 @@ main {
 
 .content {
   margin: 10px 0;
+  display: flex;
 }
 
 .flex {
@@ -60,6 +62,17 @@ main {
   margin-left: 5px;
 }
 
-#radios input {
+#radios {
   display: block;
+  margin-right: 60px;
+}
+
+#radios input {
+  display: flex;
+  flex-direction: column;
+}
+
+#checkboxs {
+  display: flex;
+  flex-direction: column;
 }
