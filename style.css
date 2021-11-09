@@ -22,6 +22,12 @@
   border: 1px black dotted;
 }
 
+#inputs-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 #evaluation-form {
   display: flex;
   width: 675px;
