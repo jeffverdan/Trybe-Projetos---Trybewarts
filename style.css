@@ -41,7 +41,6 @@ main {
 .formulário-de-avaliação {
   display: flex;
   flex-wrap: wrap;
-  flex-flow: wrap row;
   margin: 50px 80px 80px;
 }
 
