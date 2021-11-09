@@ -33,3 +33,32 @@ caracteres.addEventListener('input', () => {
   const contador = caracteres.value.length;
   counter.innerText = qtMaxCaracteres - contador;
 });
+
+const formCadastro = document.getElementById('evaluation-form');
+const parentCadastro = document.getElementById('box-text-form');
+const materias = document.getElementsByClassName('subject');
+
+function adicionarConteudoCadastro(conteudo) {
+  const campo = document.createElement('p');
+  parentCadastro.appendChild(campo);
+  campo.innerText = conteudo;
+}
+
+formCadastro.addEventListener('submit', (event) => {
+  event.preventDefault(); // previne que o evento de enviar form seja disparado.
+  document.getElementById('campos').classList.add('hidden');
+  adicionarConteudoCadastro(`Nome: ${formCadastro.nome.value} ${formCadastro.sobrenome.value}`);
+  adicionarConteudoCadastro(`Email: ${formCadastro.email.value}`);
+  adicionarConteudoCadastro(`Casa: ${formCadastro.house.value}`);
+  adicionarConteudoCadastro(`Família: ${formCadastro.family.value}`);
+  const result = [];
+  for (const index of materias) {
+    if (index.checked) {
+      result.push(index.value);
+    }
+  }
+  adicionarConteudoCadastro(`Matérias: ${result.join(', ')}`);
+  adicionarConteudoCadastro(`Avaliação: ${formCadastro.rate.value}`);
+  adicionarConteudoCadastro(`Observações: ${formCadastro.textarea.value}`);
+  parentCadastro.classList.remove('hidden');
+});
