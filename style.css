@@ -1,7 +1,8 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -11,22 +12,40 @@
   padding: 2%;
   color: white;
 }
-.trybewarts-login{
+
+.trybewarts-login {
   display: flex;
 }
-  
-.trybewarts-header-logo{
+
+.trybewarts-header-logo {
   width: 50px;
 }
-main{
+
+main {
   display: flex;
+  margin: 5%;
 }
-#evaluation-form{
+
+main h1 {
+  margin-bottom: 10%;
+}
+
+#evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
 }
-#trybewarts-forms-logo{
+
+#trybewarts-forms-logo {
   height: 500px;
   justify-content: end;
+}
+
+hr {
+  margin: 2% 0;
+}
+
+#divlabel-family {
+  display: flex;
+  flex-direction: column;
 }
