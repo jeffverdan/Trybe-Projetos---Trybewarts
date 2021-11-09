@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid red;
+}
+
+.header img {
+  width: 40px;  
+}
+
+.trybewarts-header-title {
+  text-align: center;
+}
+
+.trybewarts-login {
+  display: flex;
+}
