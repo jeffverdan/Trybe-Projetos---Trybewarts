@@ -15,6 +15,7 @@ const casa = document.getElementById('house');
 const familia = document.getElementsByName('family');
 const materias = document.getElementsByClassName('subject');
 const nota = document.getElementsByName('rate');
+const paragrafo = document.createElement('p');
 
 btnLogin.addEventListener('click', () => {
   if (emailLogin.value === 'tryber@teste.com' && senhaLogin.value === '123456') {
@@ -36,6 +37,7 @@ areaTexto.addEventListener('input', (e) => {
   contador.innerText = 500 - e.target.value.length;
 });
 function verificaFamilia() {
+
   for (let i = 0; i < familia.length; i += 1) {
     if (familia[i].checked) {
       infosDoAluno += `Famlia: ${familia[i].value} <br>`;
@@ -54,11 +56,11 @@ function verificaConteudos() {
   infosDoAluno += `Matérias: ${conteudos.substr('', conteudos.length - 2)} <br>`;
   return infosDoAluno;
 }
-// testando erro lint
+
 function verificaNota() {
   for (let k = 0; k < nota.length; k += 1) {
     if (nota[k].checked) {
-      infosDoAluno += `Avaliação: ${nota[k].value} <br>`;
+      infosDoAluno += `Avaliação: ${nota[k].value}`;
     }
   }
   return infosDoAluno;
@@ -72,7 +74,8 @@ function aparecerMensagem() {
   verificaConteudos();
   verificaNota();
   infosDoAluno += `Observações: ${areaTexto.value} <br>`;
-  mensagem.innerHTML = infosDoAluno;
+  paragrafo.innerHTML = infosDoAluno;
+  mensagem.appendChild(paragrafo);
 }
 
 btnSubit.addEventListener('click', (e) => {
