@@ -49,6 +49,11 @@ main {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 .textarea {
   resize: none;
+=======
+#rate-conatiner {
+  display: flex;
+>>>>>>> 2018525d22c845ce13da5d141b517d4a58ba51b1
 }
