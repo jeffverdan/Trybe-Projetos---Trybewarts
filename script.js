@@ -1,4 +1,5 @@
 const btnHeader = document.getElementById('submit-header');
+const evaluationForm = document.getElementById('evaluation-form');
 
 function alertEmailAndPassword() {
   const emailInput = document.getElementById('email');
@@ -19,15 +20,17 @@ function createRadioButtons() {
   const elementLabel = document.createElement('label');
   elementLabel.id = 'label-rate';
   elementLabel.innerText = 'Como você avalia a Trybewarts?';
-  const evaluationForm = document.getElementById('evaluation-form');
-  evaluationForm.appendChild(elementLabel);
+  const elementDiv = document.createElement('div');
+  elementDiv.id = 'radio-container';
+  evaluationForm.appendChild(elementDiv);
+  elementDiv.appendChild(elementLabel);
   for (let i = 0; i <= 10; i += 1) {
     const radioButton = document.createElement('input');
     radioButton.type = 'radio';
     radioButton.innerHTML = i;
     radioButton.value = i;
     radioButton.name = 'rate';
-    evaluationForm.appendChild(radioButton);
+    elementDiv.appendChild(radioButton);
   }
 }
 createRadioButtons();
@@ -36,11 +39,11 @@ function createTextArea() {
   const elementLabel = document.createElement('label');
   elementLabel.className = 'textarea';
   elementLabel.innerText = 'Deixe seu comentário:';
-  document.getElementById('evaluation-form').appendChild(elementLabel);
+  evaluationForm.appendChild(elementLabel);
   const textArea = document.createElement('textarea');
   textArea.id = 'textarea';
   textArea.maxLength = 500;
-  document.getElementById('evaluation-form').appendChild(textArea);
+  evaluationForm.appendChild(textArea);
 }
 createTextArea();
 // Req 17 (pulei o 16)
@@ -49,6 +52,6 @@ function createSubmitBtn() {
   submitBtn.id = 'submit-btn';
   submitBtn.innerText = 'Enviar';
   submitBtn.type = 'submit';
-  document.getElementById('evaluation-form').appendChild(submitBtn);
+  evaluationForm.appendChild(submitBtn);
 }
 createSubmitBtn();
