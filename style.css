@@ -12,24 +12,24 @@ body {
 }
 
 #trybewarts-header-title {
-  color: #FFF;
+  color: white;
 }
 
 .trybewarts-header-logo {
   width: 70px;
   padding: 10px;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 .trybewarts-login {
   display: flex;
   padding: 10px;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 .trybewarts-login input {
   padding: 2px;
-  margin: 0px 5px;
+  margin: 0 5px;
   height: 35px;
 }
 
@@ -37,4 +37,14 @@ body {
   padding: 2px;
   width: 120px;
   margin-left: 5px;
+}
+
+#main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 }
