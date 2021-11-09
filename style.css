@@ -52,6 +52,13 @@ hr {
   display: flex;
 }
 
-.label-rate-container {
-  display: flex;
+#label-rate-container {
+    display: flex;
+    align-content: center;
 }
+
+#label-rate, #radio-buttons-container {
+  display: inline-block;
+}
+
+
