@@ -14,7 +14,7 @@ headerButton.addEventListener('click', () => {
 
 const sendbtn = document.querySelector('#submit-btn');
 const checker = document.querySelector('#agreement');
-
+  
 checker.onchange = () => {
   if (this.checked) {
     sendbtn.disabled = false;
