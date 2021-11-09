@@ -1,0 +1,44 @@
+.header {
+  top: 0;
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+};
+
+.header .img-container {
+  width: 80px;
+};
+
+#trybewarts-header-title {
+  color: white;
+};
+
+/* .forms-container {
+  display: flex;
+}; */
+
+.trybewarts-login {
+  display: flex;
+};
+
+/* .trybewarts-login input {
+  border-radius: 5px;
+  border: white;
+  width: 120px;
+  height: 30px;
+  margin-left: 10px;
+};
+
+.trybewarts-login button {
+  border-radius: 5px;
+  border: purple;
+  width: 120px;
+  height: 30px;
+  background-color: rgb(99, 2, 99);
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}; */
+
