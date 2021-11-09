@@ -16,5 +16,5 @@ btnTextarea.addEventListener('keyup', () => {
   const quant = 500;
   const total = texto.length;
   const resto = quant - total;
-  document.getElementById('contador').innerHTML = resto;
+  document.getElementById('counter').innerHTML = resto;
 });
