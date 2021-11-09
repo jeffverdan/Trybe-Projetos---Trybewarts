@@ -32,3 +32,8 @@ form {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#family-form {
+  display: flex;
+  flex-direction: column;
+}

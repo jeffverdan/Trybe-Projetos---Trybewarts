@@ -18,7 +18,7 @@
         <label for="inputSenha">Senha:
           <input type="password" name="password" placeholder="Senha" id="password"/>
         </label>
-        <button id="login" onclick="login()">Entrar</button>
+        <button type="button" id="login" onclick="login()">Entrar</button>
       </form>
     </header>
     <main>
@@ -37,9 +37,21 @@
           </select>
         </div>
       </form>
-
-      <form action="" id="label-family">Qual sua família?</form>
-
+      <form id="family-form">
+        <div id="label-family">Qual sua família?
+          <input type="radio" value="Frontend" name="family">Frontend
+          <input type="radio" value="Backtend" name="family">Backtend
+          <input type="radio" value="FullStack" name="family">FullStack
+        </div>
+        <div id="label-content">Qual conteúdo vc está mais a vontade de aprender?
+          <input type="checkbox" value="HoFs" >HoFs
+          <input type="checkbox" value="Jest" >Jest
+          <input type="checkbox" value="Promises" >Promises
+          <input type="checkbox" value="React" >React
+          <input type="checkbox" value="SQL" >SQL
+          <input type="checkbox" value="Python" >Python
+        </div>
+      </form>
       <div>
         <img
           src="images/trybewarts-colored.svg"
