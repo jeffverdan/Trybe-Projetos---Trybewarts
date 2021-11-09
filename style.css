@@ -94,3 +94,14 @@ hr {
   align-items: center;
   width: 50%;
 }
+
+.rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.rate label {
+  display: flex;
+  align-items: center;
+}
