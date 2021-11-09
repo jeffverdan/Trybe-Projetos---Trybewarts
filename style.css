@@ -37,3 +37,17 @@ main {
   display: flex;
   height: 500px;
 }
+
+.formulário-de-avaliação {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: wrap row;
+  margin: 50px 80px 80px;
+}
+
+.input {
+  display: flex;
+  width: 80px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
