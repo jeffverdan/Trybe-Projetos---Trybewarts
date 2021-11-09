@@ -5,7 +5,19 @@
   font-family: Mohave, sans-serif;
 }
 
+.trybewarts-header-logo {
+  height: 85px;
+  width: 85px;
+  margin: 5px;
+}
+
 .header {
   display: flex;
-  background-color: rgb(50,167,145);
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+}
+
+.trybewarts-login {
+  display: flex;
+  padding: 40px;
 }
