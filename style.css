@@ -35,6 +35,17 @@
   height: 500px;
 }
 
+.container-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
 .emailAndHouse {
   display: inline-flex;
+}
+
+.container-family {
+  display: flex;
+  flex-direction: column;
 }
