@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
 * {
   margin: 0;
@@ -33,7 +33,7 @@
   border-radius: 15px;
 }
 
-header input[ type = "email" ], input[ type = "password" ] {
+.inputEmailPass {
   border-radius: 5px;
   padding: 5px 20px;
 }
@@ -84,7 +84,7 @@ footer span {
   align-items: center;
 }
 
-.formBoxText, .formBoxCheck, .formBoxButton {
+.formBoxText , .formBoxCheck , .formBoxButton {
   margin: 5px 30px;
 }
 
@@ -113,7 +113,7 @@ hr {
   margin: 5px 30px;
 }
 
-.formBoxName input[ type = "text" ] {
+#input-name , #input-lastname {
   flex-grow: 1;
   margin: 5px 2px;
   height: 2em;
@@ -137,7 +137,7 @@ hr {
   align-items: center;
 }
 
-.formBoxEmailHouse [ type = "email" ] {
+#input-email {
   flex-grow: 1;
   margin: 5px 2px;
   height: 2em;
