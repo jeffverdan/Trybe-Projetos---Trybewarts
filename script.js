@@ -1,6 +1,6 @@
 const email = document.querySelector('#email').value;
 const senha = document.querySelector('#senha').value;
-const Btn = document.queryselector('#BtnL');
+const Btn = document.getElementById('BtnL');
 
 function Login() {
   if (email === 'tryber@teste.com' && senha === '123456') {
