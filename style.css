@@ -1,0 +1,11 @@
+form main {
+  display: flex;
+}
+
+form {
+  width: 675px;
+}
+
+.evaluation-form {
+	flex-direction: column;
+}
