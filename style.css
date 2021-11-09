@@ -60,13 +60,37 @@ hr {
   width: 100%;
 }
 
+.content-area {
+  display: flex;
+  flex-direction: row;
+}
+
 .select-family {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  width: 50%;
 }
 
 .select-family label {
   display: flex;
   align-items: center;
+}
+
+.content-labels {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.content-choice {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.content-labels label {
+  display: flex;
+  align-items: center;
+  width: 50%;
 }

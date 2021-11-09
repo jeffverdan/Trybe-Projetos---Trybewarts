@@ -16,8 +16,8 @@
         <form class="trybewarts-login" action="" method="get">
             <input type="email" placeholder="Email" name="email" id="email">
             <input type="password" name="password" placeholder="Senha" id="password">
-           <button class="btn-login">Entrar</button>
-            </form>
+            <button class="btn-login">Entrar</button>
+        </form>
     </header>
     <main>
         <form action="" id="evaluation-form" method="get">
@@ -33,34 +33,37 @@
                     <option id="corvinode-house" value="Corvinode">Corvinode</option>
                     <option id="pytherina-house" value="Pytherina">Pytherina</option>
                 </select>
-                <hr />
             </div>
-            <div class="select-family">
-                <p id="label-family">Qual sua família?</p>
-                <label for="Frontend"><input type="radio" value="Frontend" name="family"
-                        id="Frontend" />Família Frontend</label>
-                <label for="Backend">
-                    <input type="radio" value="Backend" name="family" id="Backend" />Família Backend</label>
-                <label for="FullStack"><input type="radio" value="FullStack" name="family"
-                        id="FullStack" />Família FullStack</label>
+            <hr>
+            <div class="content-area">
+                <div class="select-family">
+                    <p id="label-family">Qual sua família?</p>
+                    <label for="Frontend"><input type="radio" value="Frontend" name="family" id="Frontend" />Família
+                        Frontend</label>
+                    <label for="Backend">
+                        <input type="radio" value="Backend" name="family" id="Backend" />Família Backend</label>
+                    <label for="FullStack"><input type="radio" value="FullStack" name="family" id="FullStack" />Família
+                        FullStack</label>
+                </div>
+                <div class="content-labels">
+                    <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
+                    <div class="content-choice">
+                        <label for="HoFs" id="label-content"><input type="checkbox" value="HoFs" name="content"
+                                id="HoFs" />HoFs</label>
+                        <label for="Jest" id="label-content"><input type="checkbox" value="Jest" name="content"
+                                id="Jest" />Jest</label>
+                        <label for="Promises" id="label-content"><input type="checkbox" value="Promises" name="content"
+                                id="Promises" />Promises</label>
+                        <label for="React" id="label-content"><input type="checkbox" value="React" name="content"
+                                id="React" />React</label>
+                        <label for="SQL" id="label-content"><input type="checkbox" value="SQL" name="content"
+                                id="SQL" />SQL</label>
+                        <label for="Python" id="label-content"><input type="checkbox" value="Python" name="content"
+                                id="Python" />Python</label>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p id="label-content">
-                    Qual conteúdo você está com mais vontade de aprender?
-                </p>
-                <label for="HoFs" id="label-content"><input type="checkbox" value="HoFs" name="content"
-                        id="HoFs" />HoFs</label>
-                <label for="Jest" id="label-content"><input type="checkbox" value="Jest" name="content"
-                        id="Jest" />Jest</label>
-                <label for="Promises" id="label-content"><input type="checkbox" value="Promises" name="content"
-                        id="Promises" />Promises</label>
-                <label for="React" id="label-content"><input type="checkbox" value="React" name="content"
-                        id="React" />React</label>
-                <label for="SQL" id="label-content"><input type="checkbox" value="SQL" name="content"
-                        id="SQL" />SQL</label>
-                <label for="Python" id="label-content"><input type="checkbox" value="Python" name="content"
-                        id="Python" />Python</label>
-            </div>
+            <hr>
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="" />
     </main>
