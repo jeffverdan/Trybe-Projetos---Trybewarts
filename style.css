@@ -21,6 +21,7 @@ main {
 .main-form , .trybewarts-login {
   display: flex;
 }
+
 .form-main {
   display: flex;
   width: 675px;
