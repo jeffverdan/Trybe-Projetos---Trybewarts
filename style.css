@@ -59,3 +59,8 @@ input , button {
 hr {
   width: 100%;
 }
+
+.select-family {
+  display: flex;
+  flex-direction: column;
+}
