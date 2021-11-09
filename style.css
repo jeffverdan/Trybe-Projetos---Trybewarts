@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+}
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -19,9 +22,11 @@
   display: flex;
 }
 
-.main-content {
+#main-content {
   display: flex;
-  border: 1px black dotted;
+  border: 1px black solid;
+  align-items: center;
+  justify-content: center;
 }
 
 #full-name {
