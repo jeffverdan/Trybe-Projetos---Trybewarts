@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Projeto Trybewarts</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="header">
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="trybewarts logo">
         <h1 id="trybewarts-header-title">"Trybewarts"</h1>
-        <form class="trybewarts-login" action="GET">
+        <form class="trybewarts-login" action="" method="get">
             <input type="email" placeholder="Email" name="email" id="email">
-            <input type="password" name="senha" placeholder="Senha" id="senha">
+            <input type="password" name="password" placeholder="Senha" id="password">
             <button class="btn-login">Entrar</button>
         </form>
     </header>
+    <main>
+        <form action="" class="evaluation-form" method="get">
+            <input type="text" name="input-name" placeholder="Nome" id="input-name">
+            <input type="text" name="input-lastname" placeholder="Sobrenome" id="input-lastname">
+            <input type="email" placeholder="Email" name="input-email" id="input-email">
+        </form>
+        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+    </main>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
