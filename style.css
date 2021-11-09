@@ -18,8 +18,7 @@ main {
   display: flex;
 }
 
-.main-form,
-.trybewarts-login {
+.main-form , .trybewarts-login {
   display: flex;
 }
 .form-main {
@@ -45,10 +44,9 @@ main {
   display: flex;
 }
 
-.checkbox-all{
+.checkbox-all {
   display: flex;
   flex-direction: column;
-  
 }
 
 .checkbox-label {
