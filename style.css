@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  align-items: center;
+  justify-content:space-between;
+}
+
+.trybewarts-login {
+  width: 450px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
