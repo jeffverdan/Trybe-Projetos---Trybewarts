@@ -1,5 +1,4 @@
 const btnEnter = document.getElementById('btnEntrar');
-console.log(btnEnter);
 
 btnEnter.addEventListener('click', () => {
   const inputEmail = document.getElementById('email');
@@ -9,5 +8,16 @@ btnEnter.addEventListener('click', () => {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
+  }
+});
+
+const checkboxAgreement = document.getElementById('agreement');
+
+checkboxAgreement.addEventListener('click', () => {
+  const btnEnviar = document.getElementById('submit-btn');
+  if (checkboxAgreement.checked !== true) {
+    btnEnviar.disabled = true;
+  } else {
+    btnEnviar.disabled = false;
   }
 });
