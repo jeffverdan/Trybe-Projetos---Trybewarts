@@ -9,3 +9,9 @@ btnSubmit.addEventListener('click', (event) => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const checkbox = document.getElementById('agreement');
+checkbox.addEventListener('change', () => {
+  const btnSubmitForm = document.getElementById('submit-btn');
+  btnSubmitForm.removeAttribute('disabled');
+});
