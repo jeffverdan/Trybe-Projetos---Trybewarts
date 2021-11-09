@@ -13,3 +13,18 @@ function loginCorreto(event) {
 }
 
 botao.addEventListener('click', loginCorreto);
+
+let input = document.querySelector('#agreement');
+let button = document.querySelector('#submit-btn');
+
+button.disabled = true;
+
+input.addEventListener('change', verificaAceite);
+
+function verificaAceite() {
+  if (document.querySelector("#agreement").value === "") {
+    button.disabled = true; 
+  } else {
+    button.disabled = false;
+  }
+}

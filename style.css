@@ -51,7 +51,7 @@
 
 main {
   display: flex;
-  background-color: #f0f8ff;
+  background-color: aliceblue;
   width: 80%;
   margin: auto;
 }
@@ -107,9 +107,8 @@ input {
 }
 
 #submit-btn {
-  background-color: #4b0082;
+  background-color: indigo;
   color: white;
-  font-weight: 600px;
 }
 
 footer {
