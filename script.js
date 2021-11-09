@@ -11,3 +11,13 @@ loginButton.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const agreetment = document.getElementById('agreement');
+const submmitButton = document.getElementById('submit-btn');
+agreetment.addEventListener('change', () => {
+  if (agreetment.checked) {
+    submmitButton.disabled = false;
+  } else {
+    submmitButton.disabled = true;
+  }
+});
