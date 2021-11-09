@@ -39,6 +39,12 @@ main {
   width: 675px;
 }
 
+#evaluation-title {
+  text-align: center;
+  padding: 36px;
+  font-size: 32px;
+}
+
 #trybewarts-forms-logo {
   display: flex;
   height: 500px;
@@ -52,4 +58,9 @@ main {
   margin-right: 5px;
   margin-bottom: 12px;
   width: 316px;
+}
+
+.evaluation-trybe {
+  display: flex;
+  flex-direction: row;
 }
