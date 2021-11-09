@@ -13,11 +13,10 @@ loginButton.addEventListener('click', () => {
 });
 
 // counter para text area
-textarea.addEventListener('input', () =>{
-	let count = 500 - textarea.value.length;
-	document.getElementById('counter').innerText = count;
+textarea.addEventListener('input', () => {
+  const count = 500 - textarea.value.length;
+  document.getElementById('counter').innerText = count;
 });
-
 
 // HABILITA BOTAO ENVIAR SOMENTE AO SELECIONAR O CHECKBOX
 submitButton.disabled = true;
