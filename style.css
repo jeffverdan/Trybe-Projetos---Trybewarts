@@ -48,5 +48,18 @@ main {
 
 .full-name{
     display: flex;
-    
+}
+.radio-checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+.radio-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-btn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
 }
