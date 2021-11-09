@@ -26,3 +26,11 @@ main , #evaluation-form {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.container {
+  display: flex;
+}
+
+#input-name , #input-lastname , #input-email , #house {
+  width: 50%;
+}
