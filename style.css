@@ -37,6 +37,15 @@ main , #evaluation-form {
   width: 675px;
 }
 
+.first-form {
+  width: 675px;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
 /* MAIN IMAGE */
 #trybewarts-forms-logo {
   height: 500px;
