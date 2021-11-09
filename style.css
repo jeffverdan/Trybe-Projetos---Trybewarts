@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  margin: 0.000000000001px;
+  margin: 1e-12px;
 }
 
 .header {
