@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
   <title>Trybewarts</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <header class="header">
     <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="logo trybewarts">
@@ -19,11 +17,23 @@
       <button id="btn-header">Entrar</button>
     </form>
   </header>
-
   <main>
     <form action="" method="get" id="evaluation-form">
-      
-    </form>
+      <div class="container-ns"> 
+      <input type="text" id="input-name" placeholder="Nome">
+      <input type="text" id="input-lastname" placeholder="Sobrenome">
+      </div>
+      <input type="text" id="input-email" placeholder="Email">
+      <select name="" id="house">
+        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+        <option value="Corvinode" id="corvinode-house">Corvinode</option>
+        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+      </select>
+
+     </form>
+    <img src="images/trybewarts-colored.svg" alt="logo trybewarts" id="trybewarts-forms-logo">
+
   </main>
 </body>
 <script src="script.js"></script>
