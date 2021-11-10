@@ -69,10 +69,10 @@ main {
 }
 
 #nomeSobrenome {
-    display: flex;
+  display: flex;
 }
 
-.login  {
+.login   {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -122,11 +122,14 @@ footer {
 .form2Line {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-items: justify-content;
 }
 
 .form2Line2 {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #form2Left {
