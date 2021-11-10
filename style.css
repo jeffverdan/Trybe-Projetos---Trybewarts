@@ -13,10 +13,14 @@ header {
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
   color: azure;
-  padding: 10px;
-  align-items: center;
+  padding: 10px;  
   height: 5%;
-  font-size: 18px;    
+  font-size: 18px; 
+  align-items: center;  
+   
+}
+.trybewarts-login {
+  display: flex;
 }
 
 .trybewarts-header-logo {
@@ -29,23 +33,22 @@ header {
   font-weight: bold;
   border-radius: 7px;
   border: none;
-  width: 10rem;
-  height: 40px;
-  padding: 0% 2%;    
+  width: 100px;
+  height: 30px;
+  
 }
 
 input {
   border-radius: 7px;
   border: none;
-  width: 10rem;
-  height: 2rem;
+  width: 200px;
+  height: 30px;
   padding: 0% 2%;
-  margin-bottom: 10px;    
+  margin-right: 5px;
 }
 
 main {
-  display: flex;
-  justify-content: space-around;
+  display: flex;  
   padding: 2%;
 }
 
@@ -53,6 +56,25 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
+}
+
+#inputName {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+#homeSelect {
+  margin-bottom: 25px;
+}
+
+#label-content {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#label_family {
+  margin-bottom: 10px;
 }
 
 #trybewarts-forms-logo {
@@ -63,37 +85,23 @@ main {
   margin-bottom: 10px;
 }
 
-#evalution-form div {
-  width: 600px;
-}
-
 #evalution-form input {
   width: 250px;
 }
 
-#house {
-  border: none;
-  background-color: white;
-  border-radius: 7px;
-  width: 250px;
-  height: 40px;
-}
-section {
+#rateLabel {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 25px 0px;
 }
 
-#label_family div {
-  display: flex;
-  margin-top: 15px;
-  flex-direction: column;
+#labelInfos {
+  margin: 25px 0px;
+  align-items: center;
+  text-align: center;
 }
 
-#label-content {
-  display: grid;
-  height: 50%;
-  margin-top: 15px;
-
-}
 footer {
   background-color: gray;
   text-align: center;
