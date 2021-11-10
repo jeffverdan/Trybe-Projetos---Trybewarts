@@ -43,6 +43,7 @@
 .name-lastname {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
 }
 
 #evaluation-form {
@@ -53,12 +54,12 @@
   width: 675px;
 }
 
-#evaluation-form input {
+.name-lastname input {
   height: 30px;
   width: 40%;
 }
 
-#evaluation-form select {
+.name-lastname select {
   height: 30px;
   width: 35%;
 }
@@ -69,8 +70,18 @@
   border: 2px solid red;
 }
 
+<<<<<<< HEAD
 #rodape {
   text-align: center;
   margin: 2% 0;
   font-size: 20px;
 }
+=======
+.container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+}
+
+>>>>>>> bad7bba332bcbd6f71bd1bdff1056fa1de452298
