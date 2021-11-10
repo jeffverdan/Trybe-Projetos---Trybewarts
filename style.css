@@ -52,7 +52,7 @@ main {
   padding: 2%;
 }
 
-#evalution-form {
+#evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
@@ -73,7 +73,7 @@ main {
   margin-bottom: 10px;
 }
 
-#label_family {
+#label-family {
   margin-bottom: 10px;
 }
 
@@ -81,11 +81,11 @@ main {
   height: 500px;
 }
 
-#evalution-form h1 {
+#evaluation-form h1 {
   margin-bottom: 10px;
 }
 
-#evalution-form input {
+#evaluation-form input {
   width: 250px;
 }
 

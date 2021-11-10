@@ -14,13 +14,13 @@
         <img src="images/trybewarts-header-logo.svg" alt="trybewarts" class="trybewarts-header-logo">
         <h1 id="trybewarts-header-title">Trybewarts</h1>
         <form action="" class="trybewarts-login">
-            <input type="text" name="email" placeholder="Email" />
-            <input type="password" name="password" placeholder="Senha" />
-            <button type="submit">Entrar</button>
+            <input id='email' type="text" name="email" placeholder="Email" />
+            <input id="password" type="password" name="password" placeholder="Senha" />
+            <button type="submit" id="loginBtn">Entrar</button>
         </form>
     </header>
     <main>
-        <form action="" id="evalution-form">
+        <form id="evaluation-form">
             <h1>Formulário de Avaliação</h1>
             <section>
                 <div id="inputName">
@@ -39,7 +39,7 @@
                  </div>
             </section>
             <!-- Conteudo Radio Select             -->            
-                <label id="label_family">Qual a sua família?</label>                
+                <label id="label-family">Qual sua família?</label>                
                     <div>
                         <input type="radio" name="family" value="Frontend">Frontend
                     </div>
@@ -47,7 +47,7 @@
                         <input type="radio" name="family" value="Backend">Backend
                     </div>
                     <div>
-                        <input type="radio" name="family" value="Fullstack">Fullstack
+                        <input type="radio" name="family" value="FullStack">Fullstack
                     </div>
                 
             <!-- Conteudo Checkboxes             -->            
@@ -89,7 +89,7 @@
             
                 <label class="textarea">Deixe seu comentário:</label>
                 <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
-                <p id="counter"></p>
+                <span id="counter" class="counter">500</span> caracteres restantes.
             
             <!-- Checkbox agree             -->
             <section id="labelInfos">
@@ -100,7 +100,7 @@
         </form>
         <img src="images/trybewarts-colored.svg" alt="Escudo Trybewarts" id="trybewarts-forms-logo">
     </main>
-    <footer>Direitos reservados à Trybewarts</footer>
+    <footer>Direitos reservados à Trybewarts©</footer>
     <script src="script.js"></script>
 </body>
 
