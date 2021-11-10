@@ -1,5 +1,5 @@
 const btnLogin = document.getElementById("btn-login");
-const btnEnviar = document.getElementById("submit-btn").disable = true;
+let btnEnviar = document.getElementById("submit-btn");
 const checkBox = document.getElementById("agreement");
 
 function validaLogin() {
@@ -12,12 +12,13 @@ function validaLogin() {
   }
 }
 
-function btnAtivar() {
-  if (checkBox.disable === false) {
-    btnEnviar.disable = false;
-  } else if (checkBox.disable === true) {
-    btnEnviar.disable = true;
+function btnAtivar(elem) {
+  if (elem.checked === true) {
+    btnEnviar.disabled = false;
+  } else {
+    btnEnviar.disabled = true;
   }
 }
+
 btnLogin.addEventListener("click", validaLogin);
 btnEnviar.addEventListener("click", btnAtivar);
