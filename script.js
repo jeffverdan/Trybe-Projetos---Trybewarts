@@ -15,9 +15,9 @@ function valLogin() {
 }
 loginBtn.addEventListener('click', valLogin);
 
-// Função que trava e destrava Botão de Eviar de acordo com checkbox
+// Função que trava e destrava Botão de Eviar de acordo com checkbox (referencia www.w3schools.com/jsref/prop_pushbutton_disabled.asp)
 const send = document.getElementById('submit-btn');
-send.disabled = true;  // referencia www.w3schools.com/jsref/prop_pushbutton_disabled.asp
+send.disabled = true;
 const agreement = document.getElementById('agreement');
 
 function destravaBtn(e) {
