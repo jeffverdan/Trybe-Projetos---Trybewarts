@@ -18,12 +18,14 @@ function login() {
 
 function ativaBtnEnviar() {
   if (checkBox.disbaled === false) {
-    btnEnviar.disabled === false;
+    btnEnviar.disbaled = true;
+    btnEnviar.style.backgroundColor = 'grey';
   } else {
-    btnEnviar.disabled === true;
     btnEnviar.style.backgroundColor = 'purple';
+    btnEnviar.disbaled = false;
   }
 }
+
 btnLogin.addEventListener('click', login);
 checkBox.addEventListener('click', ativaBtnEnviar);
 console.log(checkBox.checked);
