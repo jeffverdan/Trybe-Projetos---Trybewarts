@@ -45,8 +45,20 @@ function createTextArea() {
   textArea.maxLength = 500;
   evaluationForm.appendChild(textArea);
 }
+// Req 16 - criar checkbox
+function createCheckBox() {
+  const elementLabel = document.createElement('label');
+  elementLabel.id = 'label-infos';
+  elementLabel.innerText = 'Você concorda com o uso das informações acima?';
+  const elementInput = document.createElement('input');
+  elementInput.type = 'checkbox';
+  elementInput.id = 'agreement';
+  evaluationForm.appendChild(elementLabel);
+  evaluationForm.appendChild(elementInput);
+}
+createCheckBox();
 createTextArea();
-// Req 17 (pulei o 16)
+// Req 17
 function createSubmitBtn() {
   const submitBtn = document.createElement('button');
   submitBtn.id = 'submit-btn';
