@@ -21,6 +21,20 @@ function checkBtn() {
 checkBtn();
 checkbox.addEventListener('click', checkBtn);
 
+// Requisito 20 - Requisito realizado através da consulta na seguinte documentação: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/keyup_event
+
+const textArea = document.getElementById('textarea');
+const countOutput = document.getElementById('counter');
+
+function countCaracther() {
+  const contador = textArea.value.length;
+  countOutput.innerText = 500 - contador;
+}
+
+textArea.addEventListener('keyup', countCaracther);
+
+/* Requisito 21 */
+
 const nome = document.getElementById('name');
 const firstName = document.getElementById('input-name');
 const lastName = document.getElementById('input-lastname');
@@ -35,7 +49,6 @@ const sub = document.querySelectorAll('.subject');
 const rate = document.getElementById('rate-text');
 const rateRadio = document.getElementById('rate-radio');
 const obs = document.getElementById('obs');
-const textArea = document.getElementById('textarea');
 
 function rateCheck() {
   for (let i = 0; i < rateRadio.children.length; i += 1) {
@@ -54,7 +67,7 @@ function showInfos() {
       subjects.innerText += ` ${sub[i].value},`;
     }
   }
-  const str = subjects.innerText.replace(/,\s*$/, '');
+  const str = subjects.innerText.replace(/,*$/, ''); /* Source: https://stackoverflow.com/questions/17720264/remove-last-comma-from-a-string */
   subjects.innerText = str;
   rateCheck();
   obs.innerText += ` ${textArea.value}`;
