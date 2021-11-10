@@ -18,3 +18,4 @@ inputagry.addEventListener('click', () => {
     bntEnviar.disabled = true;
   }
 });
+console.log('eu sou foda');
