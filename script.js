@@ -2,7 +2,6 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const loginBtn = document.getElementById('loginBtn');
 
-
 // Função para validar login
 function valLogin() {
   const e = email.value;
