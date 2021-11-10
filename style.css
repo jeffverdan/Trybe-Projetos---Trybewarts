@@ -5,31 +5,49 @@
 }
 
 .header {
-    background-color: rgb(50, 167, 145);
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
+
 .trybewarts-login {
-    display: flex;
+  display: flex;
 }
-main, form {
-    display: flex;
+
+main , form {
+  display: flex;
 }
 
 .evaluation {
-    width: 675px;
-    
-}
-#evaluation-form{
-    flex-direction: column;
+  width: 675px;
 }
 
+#evaluation-form {
+  flex-direction: column;
+}
 
 #trybewarts-forms-logo {
-    height: 500px;
+  height: 500px;
 }
 
-.space{
-    height: 400px;
+.space {
+  height: 400px;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
+#frontend {
+  display: inline;
+}
+
+label {
+  display: inline;
+}
+
+.avalia {
+  display: flex;
 }
