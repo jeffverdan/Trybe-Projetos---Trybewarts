@@ -8,5 +8,22 @@ function logIn() {
   }
 }
 
+function enableSend() {
+  if(agreement.checked) {
+    document.getElementById("submit-btn").disabled = false;
+  } else {
+    document.getElementById("submit-btn").disabled = true;
+  }
+}
+
+function counterChars(chars) {
+  let textLenght = chars.length;
+  counter.innerText = 500 - textLenght;
+}
+
 const buttonLogIn = document.getElementById('login');
+const agreement = document.getElementById('agreement');
+const counter = document.getElementById('counter');
+
 buttonLogIn.addEventListener('click', logIn);
+agreement.addEventListener('change', enableSend);
