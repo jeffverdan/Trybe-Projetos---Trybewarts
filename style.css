@@ -50,6 +50,7 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
 .section-1 {
   display: flex;
 }
@@ -59,11 +60,11 @@ main {
   flex-direction: row;
 }
 
-.section-2 input {
+div .filhos {
   margin: 2px;
 }
 
-.section-1 input {
+div .filhos2 {
   display: flex;
   margin: 2px;
 }
