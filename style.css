@@ -4,8 +4,9 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
 }
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
