@@ -22,6 +22,7 @@ padding: 0;
 .trybewarts-login {
     height: 20px;
     margin: 20px;
+    display: flex;
 }
 
 #evaluation-form {
