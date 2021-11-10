@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 
 .trybewarts-header-logo {
@@ -26,6 +27,13 @@ main {
   justify-content: center;
 }
 
+h1 {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -40,8 +48,54 @@ form {
   height: 500px;
 }
 
-.row {
+.row1 {
   display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.row1 input {
+  display: flex;
+  padding: 8px 0;
+  margin-right: 5px;
+  width: 45%;
+  align-self: center;
+}
+
+.row1 label {
+  margin-right: 5px;
+}
+
+.row1 select {
+  display: flex;
+  padding: 8px 0;
+  width: 45%;
+  align-self: stretch;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#content-row {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+}
+
+#content-row label, .family label {
+  padding-left: 6px;
+  padding-right: 15px;
+}
+
+.family-row {
+  padding: 5px 15px 5px 6px;
+}
+
+hr {
+  margin: 20px 0;
 }
 
 .family {
@@ -52,4 +106,8 @@ form {
 .content {
   display: flex;
   flex-direction: column;
+}
+
+#label-rate {
+  margin-right: 15px;
 }
