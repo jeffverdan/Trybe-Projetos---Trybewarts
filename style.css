@@ -1,111 +1,102 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;    
 }
 
 body {
-    background-color: rgb(210, 250, 240);
+  background-color: rgb(210, 250, 240);
 }
 
-
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(50, 167, 145);
-    color: azure;
-    padding: 10px;
-    align-items: center;
-    height: 5%;
-    font-size: 18px;
-    
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  color: azure;
+  padding: 10px;
+  align-items: center;
+  height: 5%;
+  font-size: 18px;    
 }
 
 .trybewarts-header-logo {
-    height: 3rem;
+  height: 3rem;
 }
 
-/* .trybewarts-login {   
-     
-} */
-
 .trybewarts-login button {
-    background-color: rgb(55, 0, 66);  
-    color: white;  
-    font-weight: bold; 
-    border-radius: 7px;
-    border: none;
-    width: 10rem;
-    height: 40px;  
-    padding: 0% 2%;  
-    
+  background-color: rgb(55, 0, 66);
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  border: none;
+  width: 10rem;
+  height: 40px;
+  padding: 0% 2%;    
 }
 
 input {
-    border-radius: 7px;
-    border: none;
-    width: 10rem;
-    height: 2rem;  
-    padding: 0% 2%; 
-    margin-bottom: 10px;     
-    
+  border-radius: 7px;
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  padding: 0% 2%;
+  margin-bottom: 10px;    
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
 }
 
 #evalution-form {
-    display: flex;
-    flex-direction: column;
-    width: 675px;    
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 }
 
-#trybewarts-forms-logo{
-    height: 500px;
+#trybewarts-forms-logo {
+  height: 500px;
 }
 
 #evalution-form h1 {
-    margin-bottom: 10px;        
+  margin-bottom: 10px;
 }
 
 #evalution-form div {
-    width: 600px;
+  width: 600px;
 }
 
 #evalution-form input {
-    width: 250px;
+  width: 250px;
 }
 
 #house {
-    border: none;
-    background-color: white;    
-    border-radius: 7px;
-    width: 250px;
-    height: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 7px;
+  width: 250px;
+  height: 40px;
 }
 section {
-    display: flex;
+  display: flex;
 }
 
 #label_family div {
-    display: flex;
-    margin-top: 15px;
-    flex-direction: column;
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
 }
 
 #label-content {
-    display: grid;
-    height: 50%;
-    margin-top: 15px;
+  display: grid;
+  height: 50%;
+  margin-top: 15px;
 
 }
 footer {
-    background-color: gray;
-    text-align: center;
-    color: white;
-    padding: 1%;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  padding: 1%;
 }
