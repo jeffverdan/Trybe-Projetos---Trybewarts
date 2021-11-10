@@ -12,3 +12,33 @@ function entrar() {
 }
 
 entrar();
+
+// function condicao() {
+//   const botao = document.querySelector('#submit-btn')
+//   const checkbox = document.querySelector('#agreement')
+//   checkbox.addEventListener('click', () => {
+//     checkbox.value = 'checked'
+//   })
+//   botao.addEventListener('click', () => {
+//     if (checkbox.value === checked) {
+//       botao.disabled = false
+//     }
+//     else {
+//       botao.disabled = true
+//     }
+//   })
+// }
+
+// const check = document.querySelector('#agreement')
+// function condicao() {
+//   const botao = document.querySelector('#submit-btn')
+//   check.addEventListener('click', () => {
+//     if (document.querySelector('#agreement', ':selected') === true){
+//     botao.disabled = false
+//     }
+//     else {
+//       botao.disabled = true
+//     }
+//   })
+//   }
+// condicao()
