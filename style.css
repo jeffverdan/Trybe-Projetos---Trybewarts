@@ -61,9 +61,7 @@ main {
 #evalution-form {
     display: flex;
     flex-direction: column;
-    width: 675px;
-    text-align: center;
-    align-items: center;
+    width: 675px;    
 }
 
 #trybewarts-forms-logo{
@@ -89,7 +87,22 @@ main {
     width: 250px;
     height: 40px;
 }
+section {
+    display: flex;
+}
 
+#label_family div {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+}
+
+#label-content {
+    display: grid;
+    height: 50%;
+    margin-top: 15px;
+
+}
 footer {
     background-color: gray;
     text-align: center;

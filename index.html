@@ -35,11 +35,77 @@
                         <option value="Pytherina" type="text" id="pytherina-house">Pytherina</option>
                     </select>
             </div>
+<!-- Conteudo Radio Select             -->
+            <section>                
+                <label id="label_family">Qual a sua família?</label>
+                <div class="labelFamily">
+                    <label for="">
+                        <input type="radio" name="family" value="Frontend">Frontend
+                    </label>
+                    <label for="">
+                        <input type="radio" name="family" value="Backend">Backend
+                    </label>
+                    <label for="">
+                        <input type="radio" name="family" value="Fullstack">Fullstack
+                    </label>
+                </div>
+            </section>
+<!-- Conteudo Checkboxes             -->
+            <section>
+                    <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <div>
+                        <label for="">
+                            <input type="checkbox" value="HoFs">HoFs
+                        </label>
+                        <label for="">
+                            <input type="checkbox" value="Jest">Jest
+                        </label>
+                        <label for="">
+                            <input type="checkbox" value="Promises">Promises
+                        </label>
+                        <label for="">
+                            <input type="checkbox" value="React">React
+                        </label>
+                        <label for="">
+                            <input type="checkbox" value="SQL">SQL
+                        </label>
+                        <label for="">
+                            <input type="checkbox" value="Python">Python
+                        </label>
+                    </div>
+            </section>
+<!-- Conteudo avaliação Trybe -->
+            <section>
+                <label id="label-rate">Como você avalia a Trybewarts?</label>
+                <div>
+                    <input type="radio" name="rate" value="1"> 1
+                    <input type="radio" name="rate" value="2"> 2
+                    <input type="radio" name="rate" value="3"> 3
+                    <input type="radio" name="rate" value="4"> 4
+                    <input type="radio" name="rate" value="5"> 5
+                    <input type="radio" name="rate" value="6"> 6
+                    <input type="radio" name="rate" value="7"> 7
+                    <input type="radio" name="rate" value="8"> 8
+                    <input type="radio" name="rate" value="9"> 9
+                    <input type="radio" name="rate" value="10"> 10
+                </div>
+            </section>
+<!-- Text area para comentários             -->
+            <section>
+                <label class="textarea">Deixe seu comentário:</label>
+                <textarea name="" id="textarea" maxlength="500"></textarea>
+                <label id="counter"></label>
+            </section>
+<!-- Checkbox agree             -->
+            <section>
+                <label id="label-infos">Você concorda com o uso das informações acima?</label>
+                <input type="checkbox" id="agreement">
+                <button type="submit" id="submit-btn">Enviar</button>
+            </section>
         </form>
         <img src="images/trybewarts-colored.svg" alt="Escudo Trybewarts" id="trybewarts-forms-logo">
     </main>
     <footer>Direitos reservados à Trybewarts</footer>
     <script src="script.js"></script>
 </body>
-
 </html>
