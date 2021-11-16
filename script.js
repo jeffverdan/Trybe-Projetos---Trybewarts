@@ -27,3 +27,12 @@ function destravaBtn(e) {
   }
 }
 agreement.addEventListener('click', destravaBtn);
+
+// Contador de caracteres dinâmico
+const textarea = document.getElementById('textarea');
+textarea.addEventListener('keyup', () => {
+  const textareaContent = document.getElementById('textarea').value;
+  const spanCounter = document.getElementById('counter');
+  const counter = 500 - textareaContent.length;
+  spanCounter.innerHTML = counter;
+});
